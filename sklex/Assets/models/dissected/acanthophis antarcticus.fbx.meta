@@ -1,0 +1,639 @@
+fileFormatVersion: 2
+guid: e5f61d26fc9430646b9fd2fe7d005a6b
+timeCreated: 1509030322
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Acanthophis antarcticus ZMB 38581 skull
+    100004: Acanthophis antarcticus ZMB 38581 skull.005
+    100006: Acanthophis antarcticus ZMB 38581 skull.006
+    100008: Acanthophis antarcticus ZMB 38581 skull.008
+    100010: Acanthophis antarcticus ZMB 38581 skull.009
+    100012: Acanthophis antarcticus ZMB 38581 skull.011
+    100014: Acanthophis antarcticus ZMB 38581 skull.012
+    100016: Acanthophis antarcticus ZMB 38581 skull.013
+    100018: Acanthophis antarcticus ZMB 38581 skull.014
+    100020: Acanthophis antarcticus ZMB 38581 skull.015
+    100022: Acanthophis antarcticus ZMB 38581 skull.016
+    100024: Acanthophis antarcticus ZMB 38581 skull.017
+    100026: Acanthophis antarcticus ZMB 38581 skull.018
+    100028: Acanthophis antarcticus ZMB 38581 skull.019
+    100030: Acanthophis antarcticus ZMB 38581 skull.020
+    100032: Acanthophis antarcticus ZMB 38581 skull.021
+    100034: Acanthophis antarcticus ZMB 38581 skull.022
+    100036: Acanthophis antarcticus ZMB 38581 skull.023
+    100038: Acanthophis antarcticus ZMB 38581 skull.024
+    100040: Acanthophis antarcticus ZMB 38581 skull.025
+    100042: Acanthophis antarcticus ZMB 38581 skull.026
+    100044: Acanthophis antarcticus ZMB 38581 skull.027
+    100046: Acanthophis antarcticus ZMB 38581 skull.028
+    100048: Acanthophis antarcticus ZMB 38581 skull.029
+    100050: Acanthophis antarcticus ZMB 38581 skull.030
+    100052: Acanthophis antarcticus ZMB 38581 skull.031
+    100054: Acanthophis antarcticus ZMB 38581 skull.032
+    100056: Acanthophis antarcticus ZMB 38581 skull.033
+    100058: Acanthophis antarcticus ZMB 38581 skull.034
+    100060: Acanthophis antarcticus ZMB 38581 skull.035
+    100062: Acanthophis antarcticus ZMB 38581 skull.036
+    100064: Acanthophis antarcticus ZMB 38581 skull.037
+    100066: Acanthophis antarcticus ZMB 38581 skull.038
+    100068: Acanthophis antarcticus ZMB 38581 skull.039
+    100070: Acanthophis antarcticus ZMB 38581 skull.040
+    100072: Acanthophis antarcticus ZMB 38581 skull.041
+    100074: Acanthophis antarcticus ZMB 38581 skull.042
+    100076: Acanthophis antarcticus ZMB 38581 skull.043
+    100078: Acanthophis antarcticus ZMB 38581 skull.044
+    100080: Acanthophis antarcticus ZMB 38581 skull.045
+    100082: Acanthophis antarcticus ZMB 38581 skull.046
+    100084: Acanthophis antarcticus ZMB 38581 skull.047
+    100086: Acanthophis antarcticus ZMB 38581 skull.048
+    100088: Acanthophis antarcticus ZMB 38581 skull.049
+    100090: Acanthophis antarcticus ZMB 38581 skull.050
+    100092: Acanthophis antarcticus ZMB 38581 skull.051
+    100094: Acanthophis antarcticus ZMB 38581 skull.052
+    100096: Acanthophis antarcticus ZMB 38581 skull.053
+    100098: Acanthophis antarcticus ZMB 38581 skull.054
+    100100: Acanthophis antarcticus ZMB 38581 skull.055
+    100102: Acanthophis antarcticus ZMB 38581 skull.056
+    100104: Acanthophis antarcticus ZMB 38581 skull.057
+    100106: Acanthophis antarcticus ZMB 38581 skull.058
+    100108: Acanthophis antarcticus ZMB 38581 skull.059
+    100110: Acanthophis antarcticus ZMB 38581 skull.060
+    100112: Acanthophis antarcticus ZMB 38581 skull.061
+    100114: Acanthophis antarcticus ZMB 38581 skull.062
+    100116: Acanthophis antarcticus ZMB 38581 skull.063
+    100118: Acanthophis antarcticus ZMB 38581 skull.064
+    100120: Acanthophis antarcticus ZMB 38581 skull.065
+    100122: Acanthophis antarcticus ZMB 38581 skull.066
+    100124: Acanthophis antarcticus ZMB 38581 skull.067
+    100126: Acanthophis antarcticus ZMB 38581 skull.068
+    100128: Acanthophis antarcticus ZMB 38581 skull.069
+    100130: Acanthophis antarcticus ZMB 38581 skull.070
+    100132: Acanthophis antarcticus ZMB 38581 skull.071
+    100134: Acanthophis antarcticus ZMB 38581 skull.072
+    100136: Acanthophis antarcticus ZMB 38581 skull.073
+    100138: Acanthophis antarcticus ZMB 38581 skull.074
+    100140: Acanthophis antarcticus ZMB 38581 skull.075
+    100142: Acanthophis antarcticus ZMB 38581 skull.076
+    100144: Acanthophis antarcticus ZMB 38581 skull.077
+    100146: Acanthophis antarcticus ZMB 38581 skull.078
+    100148: Acanthophis antarcticus ZMB 38581 skull.079
+    100150: Acanthophis antarcticus ZMB 38581 skull.080
+    100152: Acanthophis antarcticus ZMB 38581 skull.081
+    100154: Acanthophis antarcticus ZMB 38581 skull.082
+    100156: hinten oben links
+    100158: oberkiefer links
+    100160: oberkiefer links_MeshPart0
+    100162: oberkiefer links_MeshPart1
+    100164: oberkiefer rechts
+    100166: oberkiefer rechts_MeshPart0
+    100168: oberkiefer rechts_MeshPart1
+    100170: schaedel
+    100172: schaedel_MeshPart0
+    100174: schaedel_MeshPart1
+    100176: schaedel_MeshPart10
+    100178: schaedel_MeshPart11
+    100180: schaedel_MeshPart12
+    100182: schaedel_MeshPart13
+    100184: schaedel_MeshPart14
+    100186: schaedel_MeshPart15
+    100188: schaedel_MeshPart16
+    100190: schaedel_MeshPart17
+    100192: schaedel_MeshPart2
+    100194: schaedel_MeshPart3
+    100196: schaedel_MeshPart4
+    100198: schaedel_MeshPart5
+    100200: schaedel_MeshPart6
+    100202: schaedel_MeshPart7
+    100204: schaedel_MeshPart8
+    100206: schaedel_MeshPart9
+    100208: unterkiefer links
+    100210: unterkiefer links_MeshPart0
+    100212: unterkiefer links_MeshPart1
+    100214: unterkiefer links_MeshPart2
+    100216: unterkiefer rechts
+    100218: unterkiefer rechts_MeshPart0
+    100220: unterkiefer rechts_MeshPart1
+    100222: unterkiefer rechts_MeshPart2
+    100224: unterkiefer rechts_MeshPart3
+    100226: zaehne
+    400000: //RootNode
+    400002: Acanthophis antarcticus ZMB 38581 skull
+    400004: Acanthophis antarcticus ZMB 38581 skull.005
+    400006: Acanthophis antarcticus ZMB 38581 skull.006
+    400008: Acanthophis antarcticus ZMB 38581 skull.008
+    400010: Acanthophis antarcticus ZMB 38581 skull.009
+    400012: Acanthophis antarcticus ZMB 38581 skull.011
+    400014: Acanthophis antarcticus ZMB 38581 skull.012
+    400016: Acanthophis antarcticus ZMB 38581 skull.013
+    400018: Acanthophis antarcticus ZMB 38581 skull.014
+    400020: Acanthophis antarcticus ZMB 38581 skull.015
+    400022: Acanthophis antarcticus ZMB 38581 skull.016
+    400024: Acanthophis antarcticus ZMB 38581 skull.017
+    400026: Acanthophis antarcticus ZMB 38581 skull.018
+    400028: Acanthophis antarcticus ZMB 38581 skull.019
+    400030: Acanthophis antarcticus ZMB 38581 skull.020
+    400032: Acanthophis antarcticus ZMB 38581 skull.021
+    400034: Acanthophis antarcticus ZMB 38581 skull.022
+    400036: Acanthophis antarcticus ZMB 38581 skull.023
+    400038: Acanthophis antarcticus ZMB 38581 skull.024
+    400040: Acanthophis antarcticus ZMB 38581 skull.025
+    400042: Acanthophis antarcticus ZMB 38581 skull.026
+    400044: Acanthophis antarcticus ZMB 38581 skull.027
+    400046: Acanthophis antarcticus ZMB 38581 skull.028
+    400048: Acanthophis antarcticus ZMB 38581 skull.029
+    400050: Acanthophis antarcticus ZMB 38581 skull.030
+    400052: Acanthophis antarcticus ZMB 38581 skull.031
+    400054: Acanthophis antarcticus ZMB 38581 skull.032
+    400056: Acanthophis antarcticus ZMB 38581 skull.033
+    400058: Acanthophis antarcticus ZMB 38581 skull.034
+    400060: Acanthophis antarcticus ZMB 38581 skull.035
+    400062: Acanthophis antarcticus ZMB 38581 skull.036
+    400064: Acanthophis antarcticus ZMB 38581 skull.037
+    400066: Acanthophis antarcticus ZMB 38581 skull.038
+    400068: Acanthophis antarcticus ZMB 38581 skull.039
+    400070: Acanthophis antarcticus ZMB 38581 skull.040
+    400072: Acanthophis antarcticus ZMB 38581 skull.041
+    400074: Acanthophis antarcticus ZMB 38581 skull.042
+    400076: Acanthophis antarcticus ZMB 38581 skull.043
+    400078: Acanthophis antarcticus ZMB 38581 skull.044
+    400080: Acanthophis antarcticus ZMB 38581 skull.045
+    400082: Acanthophis antarcticus ZMB 38581 skull.046
+    400084: Acanthophis antarcticus ZMB 38581 skull.047
+    400086: Acanthophis antarcticus ZMB 38581 skull.048
+    400088: Acanthophis antarcticus ZMB 38581 skull.049
+    400090: Acanthophis antarcticus ZMB 38581 skull.050
+    400092: Acanthophis antarcticus ZMB 38581 skull.051
+    400094: Acanthophis antarcticus ZMB 38581 skull.052
+    400096: Acanthophis antarcticus ZMB 38581 skull.053
+    400098: Acanthophis antarcticus ZMB 38581 skull.054
+    400100: Acanthophis antarcticus ZMB 38581 skull.055
+    400102: Acanthophis antarcticus ZMB 38581 skull.056
+    400104: Acanthophis antarcticus ZMB 38581 skull.057
+    400106: Acanthophis antarcticus ZMB 38581 skull.058
+    400108: Acanthophis antarcticus ZMB 38581 skull.059
+    400110: Acanthophis antarcticus ZMB 38581 skull.060
+    400112: Acanthophis antarcticus ZMB 38581 skull.061
+    400114: Acanthophis antarcticus ZMB 38581 skull.062
+    400116: Acanthophis antarcticus ZMB 38581 skull.063
+    400118: Acanthophis antarcticus ZMB 38581 skull.064
+    400120: Acanthophis antarcticus ZMB 38581 skull.065
+    400122: Acanthophis antarcticus ZMB 38581 skull.066
+    400124: Acanthophis antarcticus ZMB 38581 skull.067
+    400126: Acanthophis antarcticus ZMB 38581 skull.068
+    400128: Acanthophis antarcticus ZMB 38581 skull.069
+    400130: Acanthophis antarcticus ZMB 38581 skull.070
+    400132: Acanthophis antarcticus ZMB 38581 skull.071
+    400134: Acanthophis antarcticus ZMB 38581 skull.072
+    400136: Acanthophis antarcticus ZMB 38581 skull.073
+    400138: Acanthophis antarcticus ZMB 38581 skull.074
+    400140: Acanthophis antarcticus ZMB 38581 skull.075
+    400142: Acanthophis antarcticus ZMB 38581 skull.076
+    400144: Acanthophis antarcticus ZMB 38581 skull.077
+    400146: Acanthophis antarcticus ZMB 38581 skull.078
+    400148: Acanthophis antarcticus ZMB 38581 skull.079
+    400150: Acanthophis antarcticus ZMB 38581 skull.080
+    400152: Acanthophis antarcticus ZMB 38581 skull.081
+    400154: Acanthophis antarcticus ZMB 38581 skull.082
+    400156: hinten oben links
+    400158: oberkiefer links
+    400160: oberkiefer links_MeshPart0
+    400162: oberkiefer links_MeshPart1
+    400164: oberkiefer rechts
+    400166: oberkiefer rechts_MeshPart0
+    400168: oberkiefer rechts_MeshPart1
+    400170: schaedel
+    400172: schaedel_MeshPart0
+    400174: schaedel_MeshPart1
+    400176: schaedel_MeshPart10
+    400178: schaedel_MeshPart11
+    400180: schaedel_MeshPart12
+    400182: schaedel_MeshPart13
+    400184: schaedel_MeshPart14
+    400186: schaedel_MeshPart15
+    400188: schaedel_MeshPart16
+    400190: schaedel_MeshPart17
+    400192: schaedel_MeshPart2
+    400194: schaedel_MeshPart3
+    400196: schaedel_MeshPart4
+    400198: schaedel_MeshPart5
+    400200: schaedel_MeshPart6
+    400202: schaedel_MeshPart7
+    400204: schaedel_MeshPart8
+    400206: schaedel_MeshPart9
+    400208: unterkiefer links
+    400210: unterkiefer links_MeshPart0
+    400212: unterkiefer links_MeshPart1
+    400214: unterkiefer links_MeshPart2
+    400216: unterkiefer rechts
+    400218: unterkiefer rechts_MeshPart0
+    400220: unterkiefer rechts_MeshPart1
+    400222: unterkiefer rechts_MeshPart2
+    400224: unterkiefer rechts_MeshPart3
+    400226: zaehne
+    2300000: Acanthophis antarcticus ZMB 38581 skull
+    2300002: Acanthophis antarcticus ZMB 38581 skull.005
+    2300004: Acanthophis antarcticus ZMB 38581 skull.006
+    2300006: Acanthophis antarcticus ZMB 38581 skull.008
+    2300008: Acanthophis antarcticus ZMB 38581 skull.009
+    2300010: Acanthophis antarcticus ZMB 38581 skull.011
+    2300012: Acanthophis antarcticus ZMB 38581 skull.012
+    2300014: Acanthophis antarcticus ZMB 38581 skull.013
+    2300016: Acanthophis antarcticus ZMB 38581 skull.014
+    2300018: Acanthophis antarcticus ZMB 38581 skull.015
+    2300020: Acanthophis antarcticus ZMB 38581 skull.016
+    2300022: Acanthophis antarcticus ZMB 38581 skull.017
+    2300024: Acanthophis antarcticus ZMB 38581 skull.018
+    2300026: Acanthophis antarcticus ZMB 38581 skull.019
+    2300028: Acanthophis antarcticus ZMB 38581 skull.020
+    2300030: Acanthophis antarcticus ZMB 38581 skull.021
+    2300032: Acanthophis antarcticus ZMB 38581 skull.022
+    2300034: Acanthophis antarcticus ZMB 38581 skull.023
+    2300036: Acanthophis antarcticus ZMB 38581 skull.024
+    2300038: Acanthophis antarcticus ZMB 38581 skull.025
+    2300040: Acanthophis antarcticus ZMB 38581 skull.026
+    2300042: Acanthophis antarcticus ZMB 38581 skull.027
+    2300044: Acanthophis antarcticus ZMB 38581 skull.028
+    2300046: Acanthophis antarcticus ZMB 38581 skull.029
+    2300048: Acanthophis antarcticus ZMB 38581 skull.030
+    2300050: Acanthophis antarcticus ZMB 38581 skull.031
+    2300052: Acanthophis antarcticus ZMB 38581 skull.032
+    2300054: Acanthophis antarcticus ZMB 38581 skull.033
+    2300056: Acanthophis antarcticus ZMB 38581 skull.034
+    2300058: Acanthophis antarcticus ZMB 38581 skull.035
+    2300060: Acanthophis antarcticus ZMB 38581 skull.036
+    2300062: Acanthophis antarcticus ZMB 38581 skull.037
+    2300064: Acanthophis antarcticus ZMB 38581 skull.038
+    2300066: Acanthophis antarcticus ZMB 38581 skull.039
+    2300068: Acanthophis antarcticus ZMB 38581 skull.040
+    2300070: Acanthophis antarcticus ZMB 38581 skull.041
+    2300072: Acanthophis antarcticus ZMB 38581 skull.042
+    2300074: Acanthophis antarcticus ZMB 38581 skull.043
+    2300076: Acanthophis antarcticus ZMB 38581 skull.044
+    2300078: Acanthophis antarcticus ZMB 38581 skull.045
+    2300080: Acanthophis antarcticus ZMB 38581 skull.046
+    2300082: Acanthophis antarcticus ZMB 38581 skull.047
+    2300084: Acanthophis antarcticus ZMB 38581 skull.048
+    2300086: Acanthophis antarcticus ZMB 38581 skull.049
+    2300088: Acanthophis antarcticus ZMB 38581 skull.050
+    2300090: Acanthophis antarcticus ZMB 38581 skull.051
+    2300092: Acanthophis antarcticus ZMB 38581 skull.052
+    2300094: Acanthophis antarcticus ZMB 38581 skull.053
+    2300096: Acanthophis antarcticus ZMB 38581 skull.054
+    2300098: Acanthophis antarcticus ZMB 38581 skull.055
+    2300100: Acanthophis antarcticus ZMB 38581 skull.056
+    2300102: Acanthophis antarcticus ZMB 38581 skull.057
+    2300104: Acanthophis antarcticus ZMB 38581 skull.058
+    2300106: Acanthophis antarcticus ZMB 38581 skull.059
+    2300108: Acanthophis antarcticus ZMB 38581 skull.060
+    2300110: Acanthophis antarcticus ZMB 38581 skull.061
+    2300112: Acanthophis antarcticus ZMB 38581 skull.062
+    2300114: Acanthophis antarcticus ZMB 38581 skull.063
+    2300116: Acanthophis antarcticus ZMB 38581 skull.064
+    2300118: Acanthophis antarcticus ZMB 38581 skull.065
+    2300120: Acanthophis antarcticus ZMB 38581 skull.066
+    2300122: Acanthophis antarcticus ZMB 38581 skull.067
+    2300124: Acanthophis antarcticus ZMB 38581 skull.068
+    2300126: Acanthophis antarcticus ZMB 38581 skull.069
+    2300128: Acanthophis antarcticus ZMB 38581 skull.070
+    2300130: Acanthophis antarcticus ZMB 38581 skull.071
+    2300132: Acanthophis antarcticus ZMB 38581 skull.072
+    2300134: Acanthophis antarcticus ZMB 38581 skull.073
+    2300136: Acanthophis antarcticus ZMB 38581 skull.074
+    2300138: Acanthophis antarcticus ZMB 38581 skull.075
+    2300140: Acanthophis antarcticus ZMB 38581 skull.076
+    2300142: Acanthophis antarcticus ZMB 38581 skull.077
+    2300144: Acanthophis antarcticus ZMB 38581 skull.078
+    2300146: Acanthophis antarcticus ZMB 38581 skull.079
+    2300148: Acanthophis antarcticus ZMB 38581 skull.080
+    2300150: Acanthophis antarcticus ZMB 38581 skull.081
+    2300152: Acanthophis antarcticus ZMB 38581 skull.082
+    2300154: hinten oben links
+    2300156: oberkiefer links_MeshPart0
+    2300158: oberkiefer links_MeshPart1
+    2300160: oberkiefer rechts_MeshPart0
+    2300162: oberkiefer rechts_MeshPart1
+    2300164: schaedel_MeshPart0
+    2300166: schaedel_MeshPart1
+    2300168: schaedel_MeshPart10
+    2300170: schaedel_MeshPart11
+    2300172: schaedel_MeshPart12
+    2300174: schaedel_MeshPart13
+    2300176: schaedel_MeshPart14
+    2300178: schaedel_MeshPart15
+    2300180: schaedel_MeshPart16
+    2300182: schaedel_MeshPart17
+    2300184: schaedel_MeshPart2
+    2300186: schaedel_MeshPart3
+    2300188: schaedel_MeshPart4
+    2300190: schaedel_MeshPart5
+    2300192: schaedel_MeshPart6
+    2300194: schaedel_MeshPart7
+    2300196: schaedel_MeshPart8
+    2300198: schaedel_MeshPart9
+    2300200: unterkiefer links_MeshPart0
+    2300202: unterkiefer links_MeshPart1
+    2300204: unterkiefer links_MeshPart2
+    2300206: unterkiefer rechts_MeshPart0
+    2300208: unterkiefer rechts_MeshPart1
+    2300210: unterkiefer rechts_MeshPart2
+    2300212: unterkiefer rechts_MeshPart3
+    3300000: Acanthophis antarcticus ZMB 38581 skull
+    3300002: Acanthophis antarcticus ZMB 38581 skull.005
+    3300004: Acanthophis antarcticus ZMB 38581 skull.006
+    3300006: Acanthophis antarcticus ZMB 38581 skull.008
+    3300008: Acanthophis antarcticus ZMB 38581 skull.009
+    3300010: Acanthophis antarcticus ZMB 38581 skull.011
+    3300012: Acanthophis antarcticus ZMB 38581 skull.012
+    3300014: Acanthophis antarcticus ZMB 38581 skull.013
+    3300016: Acanthophis antarcticus ZMB 38581 skull.014
+    3300018: Acanthophis antarcticus ZMB 38581 skull.015
+    3300020: Acanthophis antarcticus ZMB 38581 skull.016
+    3300022: Acanthophis antarcticus ZMB 38581 skull.017
+    3300024: Acanthophis antarcticus ZMB 38581 skull.018
+    3300026: Acanthophis antarcticus ZMB 38581 skull.019
+    3300028: Acanthophis antarcticus ZMB 38581 skull.020
+    3300030: Acanthophis antarcticus ZMB 38581 skull.021
+    3300032: Acanthophis antarcticus ZMB 38581 skull.022
+    3300034: Acanthophis antarcticus ZMB 38581 skull.023
+    3300036: Acanthophis antarcticus ZMB 38581 skull.024
+    3300038: Acanthophis antarcticus ZMB 38581 skull.025
+    3300040: Acanthophis antarcticus ZMB 38581 skull.026
+    3300042: Acanthophis antarcticus ZMB 38581 skull.027
+    3300044: Acanthophis antarcticus ZMB 38581 skull.028
+    3300046: Acanthophis antarcticus ZMB 38581 skull.029
+    3300048: Acanthophis antarcticus ZMB 38581 skull.030
+    3300050: Acanthophis antarcticus ZMB 38581 skull.031
+    3300052: Acanthophis antarcticus ZMB 38581 skull.032
+    3300054: Acanthophis antarcticus ZMB 38581 skull.033
+    3300056: Acanthophis antarcticus ZMB 38581 skull.034
+    3300058: Acanthophis antarcticus ZMB 38581 skull.035
+    3300060: Acanthophis antarcticus ZMB 38581 skull.036
+    3300062: Acanthophis antarcticus ZMB 38581 skull.037
+    3300064: Acanthophis antarcticus ZMB 38581 skull.038
+    3300066: Acanthophis antarcticus ZMB 38581 skull.039
+    3300068: Acanthophis antarcticus ZMB 38581 skull.040
+    3300070: Acanthophis antarcticus ZMB 38581 skull.041
+    3300072: Acanthophis antarcticus ZMB 38581 skull.042
+    3300074: Acanthophis antarcticus ZMB 38581 skull.043
+    3300076: Acanthophis antarcticus ZMB 38581 skull.044
+    3300078: Acanthophis antarcticus ZMB 38581 skull.045
+    3300080: Acanthophis antarcticus ZMB 38581 skull.046
+    3300082: Acanthophis antarcticus ZMB 38581 skull.047
+    3300084: Acanthophis antarcticus ZMB 38581 skull.048
+    3300086: Acanthophis antarcticus ZMB 38581 skull.049
+    3300088: Acanthophis antarcticus ZMB 38581 skull.050
+    3300090: Acanthophis antarcticus ZMB 38581 skull.051
+    3300092: Acanthophis antarcticus ZMB 38581 skull.052
+    3300094: Acanthophis antarcticus ZMB 38581 skull.053
+    3300096: Acanthophis antarcticus ZMB 38581 skull.054
+    3300098: Acanthophis antarcticus ZMB 38581 skull.055
+    3300100: Acanthophis antarcticus ZMB 38581 skull.056
+    3300102: Acanthophis antarcticus ZMB 38581 skull.057
+    3300104: Acanthophis antarcticus ZMB 38581 skull.058
+    3300106: Acanthophis antarcticus ZMB 38581 skull.059
+    3300108: Acanthophis antarcticus ZMB 38581 skull.060
+    3300110: Acanthophis antarcticus ZMB 38581 skull.061
+    3300112: Acanthophis antarcticus ZMB 38581 skull.062
+    3300114: Acanthophis antarcticus ZMB 38581 skull.063
+    3300116: Acanthophis antarcticus ZMB 38581 skull.064
+    3300118: Acanthophis antarcticus ZMB 38581 skull.065
+    3300120: Acanthophis antarcticus ZMB 38581 skull.066
+    3300122: Acanthophis antarcticus ZMB 38581 skull.067
+    3300124: Acanthophis antarcticus ZMB 38581 skull.068
+    3300126: Acanthophis antarcticus ZMB 38581 skull.069
+    3300128: Acanthophis antarcticus ZMB 38581 skull.070
+    3300130: Acanthophis antarcticus ZMB 38581 skull.071
+    3300132: Acanthophis antarcticus ZMB 38581 skull.072
+    3300134: Acanthophis antarcticus ZMB 38581 skull.073
+    3300136: Acanthophis antarcticus ZMB 38581 skull.074
+    3300138: Acanthophis antarcticus ZMB 38581 skull.075
+    3300140: Acanthophis antarcticus ZMB 38581 skull.076
+    3300142: Acanthophis antarcticus ZMB 38581 skull.077
+    3300144: Acanthophis antarcticus ZMB 38581 skull.078
+    3300146: Acanthophis antarcticus ZMB 38581 skull.079
+    3300148: Acanthophis antarcticus ZMB 38581 skull.080
+    3300150: Acanthophis antarcticus ZMB 38581 skull.081
+    3300152: Acanthophis antarcticus ZMB 38581 skull.082
+    3300154: hinten oben links
+    3300156: oberkiefer links_MeshPart0
+    3300158: oberkiefer links_MeshPart1
+    3300160: oberkiefer rechts_MeshPart0
+    3300162: oberkiefer rechts_MeshPart1
+    3300164: schaedel_MeshPart0
+    3300166: schaedel_MeshPart1
+    3300168: schaedel_MeshPart10
+    3300170: schaedel_MeshPart11
+    3300172: schaedel_MeshPart12
+    3300174: schaedel_MeshPart13
+    3300176: schaedel_MeshPart14
+    3300178: schaedel_MeshPart15
+    3300180: schaedel_MeshPart16
+    3300182: schaedel_MeshPart17
+    3300184: schaedel_MeshPart2
+    3300186: schaedel_MeshPart3
+    3300188: schaedel_MeshPart4
+    3300190: schaedel_MeshPart5
+    3300192: schaedel_MeshPart6
+    3300194: schaedel_MeshPart7
+    3300196: schaedel_MeshPart8
+    3300198: schaedel_MeshPart9
+    3300200: unterkiefer links_MeshPart0
+    3300202: unterkiefer links_MeshPart1
+    3300204: unterkiefer links_MeshPart2
+    3300206: unterkiefer rechts_MeshPart0
+    3300208: unterkiefer rechts_MeshPart1
+    3300210: unterkiefer rechts_MeshPart2
+    3300212: unterkiefer rechts_MeshPart3
+    4300000: Acanthophis antarcticus ZMB 38581 skull.082
+    4300002: Acanthophis antarcticus ZMB 38581 skull.081
+    4300004: Acanthophis antarcticus ZMB 38581 skull.080
+    4300006: Acanthophis antarcticus ZMB 38581 skull.079
+    4300008: Acanthophis antarcticus ZMB 38581 skull.078
+    4300010: Acanthophis antarcticus ZMB 38581 skull.077
+    4300012: Acanthophis antarcticus ZMB 38581 skull.076
+    4300014: Acanthophis antarcticus ZMB 38581 skull.075
+    4300016: Acanthophis antarcticus ZMB 38581 skull.074
+    4300018: Acanthophis antarcticus ZMB 38581 skull.073
+    4300020: Acanthophis antarcticus ZMB 38581 skull.072
+    4300022: Acanthophis antarcticus ZMB 38581 skull.071
+    4300024: Acanthophis antarcticus ZMB 38581 skull.070
+    4300026: Acanthophis antarcticus ZMB 38581 skull.069
+    4300028: Acanthophis antarcticus ZMB 38581 skull.068
+    4300030: Acanthophis antarcticus ZMB 38581 skull.067
+    4300032: Acanthophis antarcticus ZMB 38581 skull.066
+    4300034: Acanthophis antarcticus ZMB 38581 skull.065
+    4300036: Acanthophis antarcticus ZMB 38581 skull.064
+    4300038: Acanthophis antarcticus ZMB 38581 skull.063
+    4300040: Acanthophis antarcticus ZMB 38581 skull.062
+    4300042: Acanthophis antarcticus ZMB 38581 skull.061
+    4300044: Acanthophis antarcticus ZMB 38581 skull.060
+    4300046: Acanthophis antarcticus ZMB 38581 skull.059
+    4300048: Acanthophis antarcticus ZMB 38581 skull.058
+    4300050: Acanthophis antarcticus ZMB 38581 skull.057
+    4300052: Acanthophis antarcticus ZMB 38581 skull.056
+    4300054: Acanthophis antarcticus ZMB 38581 skull.055
+    4300056: Acanthophis antarcticus ZMB 38581 skull.054
+    4300058: Acanthophis antarcticus ZMB 38581 skull.053
+    4300060: Acanthophis antarcticus ZMB 38581 skull.052
+    4300062: Acanthophis antarcticus ZMB 38581 skull.051
+    4300064: Acanthophis antarcticus ZMB 38581 skull.050
+    4300066: Acanthophis antarcticus ZMB 38581 skull.049
+    4300068: Acanthophis antarcticus ZMB 38581 skull.048
+    4300070: Acanthophis antarcticus ZMB 38581 skull.047
+    4300072: Acanthophis antarcticus ZMB 38581 skull.046
+    4300074: Acanthophis antarcticus ZMB 38581 skull.045
+    4300076: Acanthophis antarcticus ZMB 38581 skull.044
+    4300078: Acanthophis antarcticus ZMB 38581 skull.043
+    4300080: Acanthophis antarcticus ZMB 38581 skull.042
+    4300082: Acanthophis antarcticus ZMB 38581 skull.041
+    4300084: Acanthophis antarcticus ZMB 38581 skull.040
+    4300086: Acanthophis antarcticus ZMB 38581 skull.039
+    4300088: Acanthophis antarcticus ZMB 38581 skull.038
+    4300090: Acanthophis antarcticus ZMB 38581 skull.037
+    4300092: Acanthophis antarcticus ZMB 38581 skull.036
+    4300094: Acanthophis antarcticus ZMB 38581 skull.035
+    4300096: Acanthophis antarcticus ZMB 38581 skull.034
+    4300098: Acanthophis antarcticus ZMB 38581 skull.033
+    4300100: Acanthophis antarcticus ZMB 38581 skull.032
+    4300102: Acanthophis antarcticus ZMB 38581 skull.031
+    4300104: Acanthophis antarcticus ZMB 38581 skull.030
+    4300106: Acanthophis antarcticus ZMB 38581 skull.029
+    4300108: Acanthophis antarcticus ZMB 38581 skull.028
+    4300110: Acanthophis antarcticus ZMB 38581 skull.027
+    4300112: Acanthophis antarcticus ZMB 38581 skull.026
+    4300114: Acanthophis antarcticus ZMB 38581 skull.025
+    4300116: Acanthophis antarcticus ZMB 38581 skull.024
+    4300118: Acanthophis antarcticus ZMB 38581 skull.023
+    4300120: Acanthophis antarcticus ZMB 38581 skull.022
+    4300122: Acanthophis antarcticus ZMB 38581 skull.021
+    4300124: Acanthophis antarcticus ZMB 38581 skull.020
+    4300126: Acanthophis antarcticus ZMB 38581 skull.019
+    4300128: Acanthophis antarcticus ZMB 38581 skull.018
+    4300130: Acanthophis antarcticus ZMB 38581 skull.017
+    4300132: Acanthophis antarcticus ZMB 38581 skull.016
+    4300134: Acanthophis antarcticus ZMB 38581 skull.015
+    4300136: Acanthophis antarcticus ZMB 38581 skull.014
+    4300138: Acanthophis antarcticus ZMB 38581 skull.013
+    4300140: Acanthophis antarcticus ZMB 38581 skull.012
+    4300142: Acanthophis antarcticus ZMB 38581 skull.011
+    4300144: Acanthophis antarcticus ZMB 38581 skull.009
+    4300146: Acanthophis antarcticus ZMB 38581 skull.008
+    4300148: Acanthophis antarcticus ZMB 38581 skull.006
+    4300150: Acanthophis antarcticus ZMB 38581 skull.005
+    4300152: Acanthophis antarcticus ZMB 38581 skull
+    4300154: hinten oben links
+    4300156: oberkiefer rechts_MeshPart0
+    4300158: oberkiefer rechts_MeshPart1
+    4300160: unterkiefer rechts_MeshPart0
+    4300162: unterkiefer rechts_MeshPart1
+    4300164: unterkiefer rechts_MeshPart2
+    4300166: unterkiefer rechts_MeshPart3
+    4300168: schaedel_MeshPart0
+    4300170: schaedel_MeshPart1
+    4300172: schaedel_MeshPart2
+    4300174: schaedel_MeshPart3
+    4300176: schaedel_MeshPart4
+    4300178: schaedel_MeshPart5
+    4300180: schaedel_MeshPart6
+    4300182: schaedel_MeshPart7
+    4300184: schaedel_MeshPart8
+    4300186: schaedel_MeshPart9
+    4300188: schaedel_MeshPart10
+    4300190: schaedel_MeshPart11
+    4300192: schaedel_MeshPart12
+    4300194: schaedel_MeshPart13
+    4300196: schaedel_MeshPart14
+    4300198: schaedel_MeshPart15
+    4300200: schaedel_MeshPart16
+    4300202: schaedel_MeshPart17
+    4300204: oberkiefer links_MeshPart0
+    4300206: oberkiefer links_MeshPart1
+    4300208: unterkiefer links_MeshPart0
+    4300210: unterkiefer links_MeshPart1
+    4300212: unterkiefer links_MeshPart2
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 05ca9fe08ee568a48a3e73b1618dfa3f, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
