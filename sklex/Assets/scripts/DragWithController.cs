@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DragWithController : MonoBehaviour {
-
+public class DragWithController : MonoBehaviour
+{
     private SteamVR_TrackedController _controller;
     public GameObject DraggableGameObject;
 
