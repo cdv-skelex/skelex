@@ -5,9 +5,8 @@ using UnityEngine;
 public class Scaling : MonoBehaviour
 {
     public GameObject CombinedPivot;
-    public GameObject LeftPivot;
-    public GameObject RightPivot;
-
+    public GameObject FirstPivot;
+    public GameObject SecondPivot;
 
     public GameObject FirstControllerGameObject;
     public GameObject SecondControllerGameObject;
@@ -17,6 +16,11 @@ public class Scaling : MonoBehaviour
 
     private bool _firstGripped = false;
     private bool _secondGripped = false;
+
+    private bool _scalingActive = false;
+    private float _startingDistance;
+    private Vector3 _startingScale;
+
 
     private void OnEnable()
     {
@@ -37,14 +41,34 @@ public class Scaling : MonoBehaviour
     {
         transform.parent = null;
         if (_firstGripped)
-            transform.parent = LeftPivot.transform;
+            transform.parent = FirstPivot.transform;
         if (_secondGripped)
-            transform.parent = RightPivot.transform;
+            transform.parent = SecondPivot.transform;
         if (_firstGripped && _secondGripped)
+        {
             transform.parent = CombinedPivot.transform;
+
+            if (!_scalingActive)
+            {
+                _scalingActive = true;
+                _startingDistance = ControllerDistance();
+                _startingScale = transform.localScale;
+            }
+        }
+        else
+            _scalingActive = false;
+    }
+
+    private float ControllerDistance()
+    {
+        return Vector3.Distance(FirstControllerGameObject.transform.position,
+            SecondControllerGameObject.transform.position);
     }
 
     void Update () {
-		
+        if (_scalingActive)
+        {
+            transform.localScale = _startingScale * (ControllerDistance() / _startingDistance);
+        }
 	}
 }
