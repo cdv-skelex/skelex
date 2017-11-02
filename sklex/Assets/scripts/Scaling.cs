@@ -32,9 +32,6 @@ public class Scaling : MonoBehaviour
 
         _firstController.Ungripped += (sender, args) => { _firstGripped = false; HandleGripping(); };
         _secondController.Ungripped += (sender, args) => { _secondGripped = false; HandleGripping(); };
-
-        //_controller.TriggerClicked += HandleTriggerClicked;
-        //_controller.TriggerUnclicked += HandleTriggerUnclicked;
     }
 
     private void HandleGripping()
