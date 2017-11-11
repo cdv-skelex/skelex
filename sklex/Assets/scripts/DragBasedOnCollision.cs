@@ -31,6 +31,12 @@ public class DragBasedOnCollision : MonoBehaviour
             _dragging = false;
             _activeCollider.transform.parent = Model.transform;
         };
+
+        _controller.PadClicked += (sender, args) =>
+        {
+            _activeCollider.transform.position = Model.transform.position;
+            _activeCollider.transform.rotation = Model.transform.rotation * Quaternion.Euler(new Vector3(-90, 0, 0));
+        };
     }
 	
 	// Update is called once per frame
