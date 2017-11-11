@@ -11,7 +11,7 @@ public class DragBasedOnCollision : MonoBehaviour
 
     private SteamVR_TrackedController _controller;
 
-    private List<GameObject> _collidees = new List<GameObject>();
+    private GameObject _activeCollider;
 
     private bool _dragging;
 
@@ -23,25 +23,13 @@ public class DragBasedOnCollision : MonoBehaviour
         _controller.TriggerClicked += (sender, args) =>
         {
             _dragging = true;
-            foreach (var collidee in _collidees)
-            {
-                collidee.transform.parent = gameObject.transform;
-            }
+            _activeCollider.transform.parent = gameObject.transform;
         };
 
         _controller.TriggerUnclicked += (sender, args) =>
         {
             _dragging = false;
-            foreach (var collidee in _collidees)
-            {
-                collidee.transform.parent = Model.transform;
-                foreach (var meshRenderer in collidee.GetComponentsInChildren<MeshRenderer>())
-                {
-                    meshRenderer.material = IdleMaterial;
-                }
-            }
- 
-            _collidees = new List<GameObject>();
+            _activeCollider.transform.parent = Model.transform;
         };
     }
 	
@@ -51,37 +39,42 @@ public class DragBasedOnCollision : MonoBehaviour
 
     void OnCollisionEnter(Collision col)
     {
+        if (_dragging)
+            return;
         if (col.collider.gameObject.transform.parent.parent.gameObject != Model)
             return;
 
-
-        if (_dragging)
-            return;
-
-        _collidees.Add(col.collider.gameObject.transform.parent.gameObject);
-        foreach (var meshRenderer in rendererForCollision(col))
+        if (_activeCollider != null)
         {
-            meshRenderer.material = CollisionMaterial;
+            setMaterial(_activeCollider, IdleMaterial);
         }
+
+        _activeCollider = parentForCollision(col);
+
+        setMaterial(_activeCollider, CollisionMaterial);
     }
 
     void OnCollisionExit(Collision col)
     {
-        if (col.collider.gameObject.transform.parent.parent.gameObject != Model)
-            return;
-
         if (_dragging)
             return;
-
-        _collidees.Remove(col.collider.gameObject.transform.parent.gameObject);
-        foreach (var meshRenderer in rendererForCollision(col))
+        if (_activeCollider == parentForCollision(col))
         {
-            meshRenderer.material = IdleMaterial;
+            setMaterial(parentForCollision(col), IdleMaterial);
+            _activeCollider = null;
         }
     }
 
-    MeshRenderer[] rendererForCollision(Collision col)
+    GameObject parentForCollision(Collision col)
     {
-        return col.collider.gameObject.transform.parent.gameObject.GetComponentsInChildren<MeshRenderer>();
+        return col.collider.gameObject.transform.parent.gameObject;
+    }
+
+    void setMaterial(GameObject obj, Material material)
+    {
+        foreach (var meshRenderer in obj.GetComponentsInChildren<MeshRenderer>())
+        {
+            meshRenderer.material = material;
+        }
     }
 }
