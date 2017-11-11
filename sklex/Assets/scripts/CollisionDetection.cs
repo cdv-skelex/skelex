@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class CollisionDetection : MonoBehaviour
 {
-    public Material Material;
+    public Material IdleMaterial;
+    public Material CollisionMaterial;
 
 	// Use this for initialization
 	void Start () {
-	    //Material.shader = Shader.Find("Specular");
-	    Material.SetColor("_SpecColor", Color.white);
     }
 	
 	// Update is called once per frame
@@ -19,11 +18,22 @@ public class CollisionDetection : MonoBehaviour
 
     void OnCollisionEnter(Collision col)
     {
-        Material.SetColor("_SpecColor", Color.green);
+        foreach (var meshRenderer in rendererForCollision(col))
+        {
+            meshRenderer.material = CollisionMaterial;
+        }
     }
 
     void OnCollisionExit(Collision col)
     {
-        Material.SetColor("_SpecColor", Color.white);
+        foreach (var meshRenderer in rendererForCollision(col))
+        {
+            meshRenderer.material = IdleMaterial;
+        }
+    }
+
+    MeshRenderer[] rendererForCollision(Collision col)
+    {
+        return col.collider.gameObject.transform.parent.gameObject.GetComponentsInChildren<MeshRenderer>();
     }
 }
