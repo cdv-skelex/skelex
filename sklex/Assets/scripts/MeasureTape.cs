@@ -8,6 +8,7 @@ public class MeasureTape : MonoBehaviour
     public GameObject Skeleton;
 
     public GameObject ControllerLeft;
+    private SteamVR_TrackedController _trackedLeftController;
     public GameObject ControllerRight;
 
     public GameObject TapeContainer;
@@ -21,11 +22,14 @@ public class MeasureTape : MonoBehaviour
 	    _textMesh = Text.GetComponent<TextMesh>();
 	    Text.transform.parent = ControllerLeft.transform;
 	    _material = GetComponent<MeshRenderer>().material;
+	    _trackedLeftController = ControllerLeft.GetComponent<SteamVR_TrackedController>();
 
+	    _trackedLeftController.PadClicked += (sender, args) => { enabled = true; };
+	    _trackedLeftController.PadUnclicked += (sender, args) => { enabled = false; };
 	}
-	
-	// Update is called once per frame
-	void Update ()
+
+    // Update is called once per frame
+    void Update ()
 	{
 	    var left = ControllerLeft.transform.position;
 	    var right = ControllerRight.transform.position;
