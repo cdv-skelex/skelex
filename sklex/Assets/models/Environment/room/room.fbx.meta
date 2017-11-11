@@ -1,0 +1,254 @@
+fileFormatVersion: 2
+guid: e9c00aa35033d5c4e83a3cc8978dfa11
+timeCreated: 1510437863
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: nodes_2
+    100002: nodes_3
+    100004: nodes_3.001
+    100006: nodes_3.002
+    100008: nodes_3.003
+    100010: nodes_3.004
+    100012: nodes_3.005
+    100014: nodes_3.006
+    100016: nodes_3.007
+    100018: nodes_3.008
+    100020: nodes_3.009
+    100022: nodes_3.010
+    100024: nodes_3.011
+    100026: nodes_3.012
+    100028: nodes_3.013
+    100030: nodes_3.014
+    100032: nodes_3.015
+    100034: nodes_3.016
+    100036: //RootNode
+    400000: nodes_2
+    400002: nodes_3
+    400004: nodes_3.001
+    400006: nodes_3.002
+    400008: nodes_3.003
+    400010: nodes_3.004
+    400012: nodes_3.005
+    400014: nodes_3.006
+    400016: nodes_3.007
+    400018: nodes_3.008
+    400020: nodes_3.009
+    400022: nodes_3.010
+    400024: nodes_3.011
+    400026: nodes_3.012
+    400028: nodes_3.013
+    400030: nodes_3.014
+    400032: nodes_3.015
+    400034: nodes_3.016
+    400036: //RootNode
+    2300000: nodes_3
+    2300002: nodes_3.001
+    2300004: nodes_3.002
+    2300006: nodes_3.003
+    2300008: nodes_3.004
+    2300010: nodes_3.005
+    2300012: nodes_3.006
+    2300014: nodes_3.007
+    2300016: nodes_3.008
+    2300018: nodes_3.009
+    2300020: nodes_3.010
+    2300022: nodes_3.011
+    2300024: nodes_3.012
+    2300026: nodes_3.013
+    2300028: nodes_3.014
+    2300030: nodes_3.015
+    2300032: nodes_3.016
+    3300000: nodes_3
+    3300002: nodes_3.001
+    3300004: nodes_3.002
+    3300006: nodes_3.003
+    3300008: nodes_3.004
+    3300010: nodes_3.005
+    3300012: nodes_3.006
+    3300014: nodes_3.007
+    3300016: nodes_3.008
+    3300018: nodes_3.009
+    3300020: nodes_3.010
+    3300022: nodes_3.011
+    3300024: nodes_3.012
+    3300026: nodes_3.013
+    3300028: nodes_3.014
+    3300030: nodes_3.015
+    3300032: nodes_3.016
+    4300000: nodes_3.016
+    4300002: nodes_3.015
+    4300004: nodes_3.014
+    4300006: nodes_3.013
+    4300008: nodes_3.012
+    4300010: nodes_3.011
+    4300012: nodes_3.010
+    4300014: nodes_3.009
+    4300016: nodes_3.008
+    4300018: nodes_3.007
+    4300020: nodes_3.006
+    4300022: nodes_3.005
+    4300024: nodes_3.004
+    4300026: nodes_3.003
+    4300028: nodes_3.002
+    4300030: nodes_3.001
+    4300032: nodes_3
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 572c3183d815dd146bd98ae7786752d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_001
+    second: {fileID: 2100000, guid: 09111ebb5ca46ea458831cb5402c4ea3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_002
+    second: {fileID: 2100000, guid: 97081cd18c3b4944588924d9efd392ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_003
+    second: {fileID: 2100000, guid: 630e2df9a83a9704ea43b3d6ba6e64ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_004
+    second: {fileID: 2100000, guid: c6ba7ea936753f84d8666e55f7d5a9ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_005
+    second: {fileID: 2100000, guid: b578dc8406d743343a8fd1707d90f180, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_006
+    second: {fileID: 2100000, guid: 7492a5be166d01a4cbbf97b8b39b7e29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: krzeslo_1
+    second: {fileID: 2100000, guid: 7d44f3178d320884a9f5f28a675c75a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: krzeslo_okno
+    second: {fileID: 2100000, guid: 4d337fa44283f0a499d31ca6a59095d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: krzeslo_prawe
+    second: {fileID: 2100000, guid: 459d1b11052bfb94c9f0a49141b10f56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: krzeslo_srodek
+    second: {fileID: 2100000, guid: bf39a96812ce6f44a83a0381674ad292, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mata
+    second: {fileID: 2100000, guid: fc1e31854f872874a8c4826a6b39bba1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: podloga
+    second: {fileID: 2100000, guid: 8e94148513d7c2c4bb892072eebc86fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sciana_okno
+    second: {fileID: 2100000, guid: 10ee2e5d5f128314aa1c901184cb879d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stolik
+    second: {fileID: 2100000, guid: 11943291179891f4eb02858de9376aff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stolik_001
+    second: {fileID: 2100000, guid: b61496d303a548f4ea3c139ff468a02b, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
