@@ -1,0 +1,192 @@
+fileFormatVersion: 2
+guid: e73120e19a55e2141a68fe840f75fa46
+timeCreated: 1510527736
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: DIPROTODONT cranium_MeshPart0
+    100004: DIPROTODONT cranium_MeshPart1
+    100006: DIPROTODONT cranium_MeshPart10
+    100008: DIPROTODONT cranium_MeshPart11
+    100010: DIPROTODONT cranium_MeshPart12
+    100012: DIPROTODONT cranium_MeshPart13
+    100014: DIPROTODONT cranium_MeshPart14
+    100016: DIPROTODONT cranium_MeshPart15
+    100018: DIPROTODONT cranium_MeshPart16
+    100020: DIPROTODONT cranium_MeshPart17
+    100022: DIPROTODONT cranium_MeshPart18
+    100024: DIPROTODONT cranium_MeshPart19
+    100026: DIPROTODONT cranium_MeshPart2
+    100028: DIPROTODONT cranium_MeshPart3
+    100030: DIPROTODONT cranium_MeshPart4
+    100032: DIPROTODONT cranium_MeshPart5
+    100034: DIPROTODONT cranium_MeshPart6
+    100036: DIPROTODONT cranium_MeshPart7
+    100038: DIPROTODONT cranium_MeshPart8
+    100040: DIPROTODONT cranium_MeshPart9
+    400000: //RootNode
+    400002: DIPROTODONT cranium_MeshPart0
+    400004: DIPROTODONT cranium_MeshPart1
+    400006: DIPROTODONT cranium_MeshPart10
+    400008: DIPROTODONT cranium_MeshPart11
+    400010: DIPROTODONT cranium_MeshPart12
+    400012: DIPROTODONT cranium_MeshPart13
+    400014: DIPROTODONT cranium_MeshPart14
+    400016: DIPROTODONT cranium_MeshPart15
+    400018: DIPROTODONT cranium_MeshPart16
+    400020: DIPROTODONT cranium_MeshPart17
+    400022: DIPROTODONT cranium_MeshPart18
+    400024: DIPROTODONT cranium_MeshPart19
+    400026: DIPROTODONT cranium_MeshPart2
+    400028: DIPROTODONT cranium_MeshPart3
+    400030: DIPROTODONT cranium_MeshPart4
+    400032: DIPROTODONT cranium_MeshPart5
+    400034: DIPROTODONT cranium_MeshPart6
+    400036: DIPROTODONT cranium_MeshPart7
+    400038: DIPROTODONT cranium_MeshPart8
+    400040: DIPROTODONT cranium_MeshPart9
+    2300000: DIPROTODONT cranium_MeshPart0
+    2300002: DIPROTODONT cranium_MeshPart1
+    2300004: DIPROTODONT cranium_MeshPart10
+    2300006: DIPROTODONT cranium_MeshPart11
+    2300008: DIPROTODONT cranium_MeshPart12
+    2300010: DIPROTODONT cranium_MeshPart13
+    2300012: DIPROTODONT cranium_MeshPart14
+    2300014: DIPROTODONT cranium_MeshPart15
+    2300016: DIPROTODONT cranium_MeshPart16
+    2300018: DIPROTODONT cranium_MeshPart17
+    2300020: DIPROTODONT cranium_MeshPart18
+    2300022: DIPROTODONT cranium_MeshPart19
+    2300024: DIPROTODONT cranium_MeshPart2
+    2300026: DIPROTODONT cranium_MeshPart3
+    2300028: DIPROTODONT cranium_MeshPart4
+    2300030: DIPROTODONT cranium_MeshPart5
+    2300032: DIPROTODONT cranium_MeshPart6
+    2300034: DIPROTODONT cranium_MeshPart7
+    2300036: DIPROTODONT cranium_MeshPart8
+    2300038: DIPROTODONT cranium_MeshPart9
+    3300000: DIPROTODONT cranium_MeshPart0
+    3300002: DIPROTODONT cranium_MeshPart1
+    3300004: DIPROTODONT cranium_MeshPart10
+    3300006: DIPROTODONT cranium_MeshPart11
+    3300008: DIPROTODONT cranium_MeshPart12
+    3300010: DIPROTODONT cranium_MeshPart13
+    3300012: DIPROTODONT cranium_MeshPart14
+    3300014: DIPROTODONT cranium_MeshPart15
+    3300016: DIPROTODONT cranium_MeshPart16
+    3300018: DIPROTODONT cranium_MeshPart17
+    3300020: DIPROTODONT cranium_MeshPart18
+    3300022: DIPROTODONT cranium_MeshPart19
+    3300024: DIPROTODONT cranium_MeshPart2
+    3300026: DIPROTODONT cranium_MeshPart3
+    3300028: DIPROTODONT cranium_MeshPart4
+    3300030: DIPROTODONT cranium_MeshPart5
+    3300032: DIPROTODONT cranium_MeshPart6
+    3300034: DIPROTODONT cranium_MeshPart7
+    3300036: DIPROTODONT cranium_MeshPart8
+    3300038: DIPROTODONT cranium_MeshPart9
+    4300000: DIPROTODONT cranium_MeshPart0
+    4300002: DIPROTODONT cranium_MeshPart1
+    4300004: DIPROTODONT cranium_MeshPart2
+    4300006: DIPROTODONT cranium_MeshPart3
+    4300008: DIPROTODONT cranium_MeshPart4
+    4300010: DIPROTODONT cranium_MeshPart5
+    4300012: DIPROTODONT cranium_MeshPart6
+    4300014: DIPROTODONT cranium_MeshPart7
+    4300016: DIPROTODONT cranium_MeshPart8
+    4300018: DIPROTODONT cranium_MeshPart9
+    4300020: DIPROTODONT cranium_MeshPart10
+    4300022: DIPROTODONT cranium_MeshPart11
+    4300024: DIPROTODONT cranium_MeshPart12
+    4300026: DIPROTODONT cranium_MeshPart13
+    4300028: DIPROTODONT cranium_MeshPart14
+    4300030: DIPROTODONT cranium_MeshPart15
+    4300032: DIPROTODONT cranium_MeshPart16
+    4300034: DIPROTODONT cranium_MeshPart17
+    4300036: DIPROTODONT cranium_MeshPart18
+    4300038: DIPROTODONT cranium_MeshPart19
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: b8cd0f06ac05d204a8c9fc0362c11820, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

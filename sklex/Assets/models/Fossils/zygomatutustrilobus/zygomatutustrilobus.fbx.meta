@@ -1,0 +1,282 @@
+fileFormatVersion: 2
+guid: 0da5dccb7c6096642b76dafbc5683b19
+timeCreated: 1510527402
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Zygo Full Model simple_MeshPart0
+    100002: Zygo Full Model simple_MeshPart1
+    100004: Zygo Full Model simple_MeshPart10
+    100006: Zygo Full Model simple_MeshPart11
+    100008: Zygo Full Model simple_MeshPart12
+    100010: Zygo Full Model simple_MeshPart13
+    100012: Zygo Full Model simple_MeshPart14
+    100014: Zygo Full Model simple_MeshPart15
+    100016: Zygo Full Model simple_MeshPart16
+    100018: Zygo Full Model simple_MeshPart17
+    100020: Zygo Full Model simple_MeshPart18
+    100022: Zygo Full Model simple_MeshPart19
+    100024: Zygo Full Model simple_MeshPart2
+    100026: Zygo Full Model simple_MeshPart20
+    100028: Zygo Full Model simple_MeshPart21
+    100030: Zygo Full Model simple_MeshPart22
+    100032: Zygo Full Model simple_MeshPart23
+    100034: Zygo Full Model simple_MeshPart24
+    100036: Zygo Full Model simple_MeshPart25
+    100038: Zygo Full Model simple_MeshPart26
+    100040: Zygo Full Model simple_MeshPart27
+    100042: Zygo Full Model simple_MeshPart28
+    100044: Zygo Full Model simple_MeshPart29
+    100046: Zygo Full Model simple_MeshPart3
+    100048: Zygo Full Model simple_MeshPart30
+    100050: Zygo Full Model simple_MeshPart31
+    100052: Zygo Full Model simple_MeshPart32
+    100054: Zygo Full Model simple_MeshPart33
+    100056: Zygo Full Model simple_MeshPart34
+    100058: Zygo Full Model simple_MeshPart35
+    100060: Zygo Full Model simple_MeshPart36
+    100062: Zygo Full Model simple_MeshPart37
+    100064: Zygo Full Model simple_MeshPart4
+    100066: Zygo Full Model simple_MeshPart5
+    100068: Zygo Full Model simple_MeshPart6
+    100070: Zygo Full Model simple_MeshPart7
+    100072: Zygo Full Model simple_MeshPart8
+    100074: Zygo Full Model simple_MeshPart9
+    100076: //RootNode
+    400000: Zygo Full Model simple_MeshPart0
+    400002: Zygo Full Model simple_MeshPart1
+    400004: Zygo Full Model simple_MeshPart10
+    400006: Zygo Full Model simple_MeshPart11
+    400008: Zygo Full Model simple_MeshPart12
+    400010: Zygo Full Model simple_MeshPart13
+    400012: Zygo Full Model simple_MeshPart14
+    400014: Zygo Full Model simple_MeshPart15
+    400016: Zygo Full Model simple_MeshPart16
+    400018: Zygo Full Model simple_MeshPart17
+    400020: Zygo Full Model simple_MeshPart18
+    400022: Zygo Full Model simple_MeshPart19
+    400024: Zygo Full Model simple_MeshPart2
+    400026: Zygo Full Model simple_MeshPart20
+    400028: Zygo Full Model simple_MeshPart21
+    400030: Zygo Full Model simple_MeshPart22
+    400032: Zygo Full Model simple_MeshPart23
+    400034: Zygo Full Model simple_MeshPart24
+    400036: Zygo Full Model simple_MeshPart25
+    400038: Zygo Full Model simple_MeshPart26
+    400040: Zygo Full Model simple_MeshPart27
+    400042: Zygo Full Model simple_MeshPart28
+    400044: Zygo Full Model simple_MeshPart29
+    400046: Zygo Full Model simple_MeshPart3
+    400048: Zygo Full Model simple_MeshPart30
+    400050: Zygo Full Model simple_MeshPart31
+    400052: Zygo Full Model simple_MeshPart32
+    400054: Zygo Full Model simple_MeshPart33
+    400056: Zygo Full Model simple_MeshPart34
+    400058: Zygo Full Model simple_MeshPart35
+    400060: Zygo Full Model simple_MeshPart36
+    400062: Zygo Full Model simple_MeshPart37
+    400064: Zygo Full Model simple_MeshPart4
+    400066: Zygo Full Model simple_MeshPart5
+    400068: Zygo Full Model simple_MeshPart6
+    400070: Zygo Full Model simple_MeshPart7
+    400072: Zygo Full Model simple_MeshPart8
+    400074: Zygo Full Model simple_MeshPart9
+    400076: //RootNode
+    2300000: Zygo Full Model simple_MeshPart0
+    2300002: Zygo Full Model simple_MeshPart1
+    2300004: Zygo Full Model simple_MeshPart10
+    2300006: Zygo Full Model simple_MeshPart11
+    2300008: Zygo Full Model simple_MeshPart12
+    2300010: Zygo Full Model simple_MeshPart13
+    2300012: Zygo Full Model simple_MeshPart14
+    2300014: Zygo Full Model simple_MeshPart15
+    2300016: Zygo Full Model simple_MeshPart16
+    2300018: Zygo Full Model simple_MeshPart17
+    2300020: Zygo Full Model simple_MeshPart18
+    2300022: Zygo Full Model simple_MeshPart19
+    2300024: Zygo Full Model simple_MeshPart2
+    2300026: Zygo Full Model simple_MeshPart20
+    2300028: Zygo Full Model simple_MeshPart21
+    2300030: Zygo Full Model simple_MeshPart22
+    2300032: Zygo Full Model simple_MeshPart23
+    2300034: Zygo Full Model simple_MeshPart24
+    2300036: Zygo Full Model simple_MeshPart25
+    2300038: Zygo Full Model simple_MeshPart26
+    2300040: Zygo Full Model simple_MeshPart27
+    2300042: Zygo Full Model simple_MeshPart28
+    2300044: Zygo Full Model simple_MeshPart29
+    2300046: Zygo Full Model simple_MeshPart3
+    2300048: Zygo Full Model simple_MeshPart30
+    2300050: Zygo Full Model simple_MeshPart31
+    2300052: Zygo Full Model simple_MeshPart32
+    2300054: Zygo Full Model simple_MeshPart33
+    2300056: Zygo Full Model simple_MeshPart34
+    2300058: Zygo Full Model simple_MeshPart35
+    2300060: Zygo Full Model simple_MeshPart36
+    2300062: Zygo Full Model simple_MeshPart37
+    2300064: Zygo Full Model simple_MeshPart4
+    2300066: Zygo Full Model simple_MeshPart5
+    2300068: Zygo Full Model simple_MeshPart6
+    2300070: Zygo Full Model simple_MeshPart7
+    2300072: Zygo Full Model simple_MeshPart8
+    2300074: Zygo Full Model simple_MeshPart9
+    3300000: Zygo Full Model simple_MeshPart0
+    3300002: Zygo Full Model simple_MeshPart1
+    3300004: Zygo Full Model simple_MeshPart10
+    3300006: Zygo Full Model simple_MeshPart11
+    3300008: Zygo Full Model simple_MeshPart12
+    3300010: Zygo Full Model simple_MeshPart13
+    3300012: Zygo Full Model simple_MeshPart14
+    3300014: Zygo Full Model simple_MeshPart15
+    3300016: Zygo Full Model simple_MeshPart16
+    3300018: Zygo Full Model simple_MeshPart17
+    3300020: Zygo Full Model simple_MeshPart18
+    3300022: Zygo Full Model simple_MeshPart19
+    3300024: Zygo Full Model simple_MeshPart2
+    3300026: Zygo Full Model simple_MeshPart20
+    3300028: Zygo Full Model simple_MeshPart21
+    3300030: Zygo Full Model simple_MeshPart22
+    3300032: Zygo Full Model simple_MeshPart23
+    3300034: Zygo Full Model simple_MeshPart24
+    3300036: Zygo Full Model simple_MeshPart25
+    3300038: Zygo Full Model simple_MeshPart26
+    3300040: Zygo Full Model simple_MeshPart27
+    3300042: Zygo Full Model simple_MeshPart28
+    3300044: Zygo Full Model simple_MeshPart29
+    3300046: Zygo Full Model simple_MeshPart3
+    3300048: Zygo Full Model simple_MeshPart30
+    3300050: Zygo Full Model simple_MeshPart31
+    3300052: Zygo Full Model simple_MeshPart32
+    3300054: Zygo Full Model simple_MeshPart33
+    3300056: Zygo Full Model simple_MeshPart34
+    3300058: Zygo Full Model simple_MeshPart35
+    3300060: Zygo Full Model simple_MeshPart36
+    3300062: Zygo Full Model simple_MeshPart37
+    3300064: Zygo Full Model simple_MeshPart4
+    3300066: Zygo Full Model simple_MeshPart5
+    3300068: Zygo Full Model simple_MeshPart6
+    3300070: Zygo Full Model simple_MeshPart7
+    3300072: Zygo Full Model simple_MeshPart8
+    3300074: Zygo Full Model simple_MeshPart9
+    4300000: Zygo Full Model simple_MeshPart0
+    4300002: Zygo Full Model simple_MeshPart1
+    4300004: Zygo Full Model simple_MeshPart2
+    4300006: Zygo Full Model simple_MeshPart3
+    4300008: Zygo Full Model simple_MeshPart4
+    4300010: Zygo Full Model simple_MeshPart5
+    4300012: Zygo Full Model simple_MeshPart6
+    4300014: Zygo Full Model simple_MeshPart7
+    4300016: Zygo Full Model simple_MeshPart8
+    4300018: Zygo Full Model simple_MeshPart9
+    4300020: Zygo Full Model simple_MeshPart10
+    4300022: Zygo Full Model simple_MeshPart11
+    4300024: Zygo Full Model simple_MeshPart12
+    4300026: Zygo Full Model simple_MeshPart13
+    4300028: Zygo Full Model simple_MeshPart14
+    4300030: Zygo Full Model simple_MeshPart15
+    4300032: Zygo Full Model simple_MeshPart16
+    4300034: Zygo Full Model simple_MeshPart17
+    4300036: Zygo Full Model simple_MeshPart18
+    4300038: Zygo Full Model simple_MeshPart19
+    4300040: Zygo Full Model simple_MeshPart20
+    4300042: Zygo Full Model simple_MeshPart21
+    4300044: Zygo Full Model simple_MeshPart22
+    4300046: Zygo Full Model simple_MeshPart23
+    4300048: Zygo Full Model simple_MeshPart24
+    4300050: Zygo Full Model simple_MeshPart25
+    4300052: Zygo Full Model simple_MeshPart26
+    4300054: Zygo Full Model simple_MeshPart27
+    4300056: Zygo Full Model simple_MeshPart28
+    4300058: Zygo Full Model simple_MeshPart29
+    4300060: Zygo Full Model simple_MeshPart30
+    4300062: Zygo Full Model simple_MeshPart31
+    4300064: Zygo Full Model simple_MeshPart32
+    4300066: Zygo Full Model simple_MeshPart33
+    4300068: Zygo Full Model simple_MeshPart34
+    4300070: Zygo Full Model simple_MeshPart35
+    4300072: Zygo Full Model simple_MeshPart36
+    4300074: Zygo Full Model simple_MeshPart37
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: b8cd0f06ac05d204a8c9fc0362c11820, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
