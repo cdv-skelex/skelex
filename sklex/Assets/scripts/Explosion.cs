@@ -1,13 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Valve.VR;
 
 public class Explosion : MonoBehaviour
 {
     public SteamVR_TrackedController Controller;
+    public GameObject HMD;
 
     private GameObject[] _children;
     private Vector3[] _center;
+    private TextMesh[] _label;
 
     private bool _exploded;
     private float _animationEndTime;
@@ -17,10 +20,12 @@ public class Explosion : MonoBehaviour
 	{
 	    _children = new GameObject[transform.childCount];
 	    _center = new Vector3[transform.childCount];
+        _label = new TextMesh[transform.childCount];
 
 	    for (int i = 0; i < transform.childCount; i++)
 	    {
 	        _children[i] = transform.GetChild(i).gameObject;
+	        _label[i] = _children[i].GetComponentInChildren<TextMesh>();
             CalculateCenter(i);
 	    }
 
@@ -36,6 +41,7 @@ public class Explosion : MonoBehaviour
         {
             min = Vector3.Min(min, meshRenderer.bounds.min);
             max = Vector3.Max(max, meshRenderer.bounds.max);
+            break;
         }
 
         _center[index] = ((min + max) / 2) - (transform.position * 0.5f);
@@ -47,6 +53,10 @@ public class Explosion : MonoBehaviour
 	    for (int i = 0; i < transform.childCount; i++)
 	    {
 	        Explode(i);
+	        //_label[i].transform.rotation = Quaternion.LookRotation(_children[i].transform.position - HMD.transform.position);
+	        _label[i].text = "lorem";
+	        _label[i].gameObject.transform.rotation =
+	            Quaternion.LookRotation(_label[i].gameObject.transform.position - HMD.transform.position);
 	    }
     }
 
@@ -55,7 +65,7 @@ public class Explosion : MonoBehaviour
         var factor = _exploded ? 1f : -1f;
 
         if (_animationEndTime - Time.time > 0)
-            _children[index].transform.position = _children[index].transform.position + factor * 1.5f * _center[index] * Time.deltaTime;
+            _children[index].transform.position = transform.rotation * (Quaternion.Inverse(transform.rotation) * _children[index].transform.position + (factor * 5f * _center[index] * Time.deltaTime * transform.localScale.x));
     }
 
     void ToggleExplosion()
