@@ -4,33 +4,65 @@ using UnityEngine;
 
 public class Explosion : MonoBehaviour
 {
-    private Vector3 _center;
-    private GameObject _model;
+    public SteamVR_TrackedController Controller;
+
+    private GameObject[] _children;
+    private Vector3[] _center;
+
+    private bool _exploded;
+    private float _animationEndTime;
 
 	// Use this for initialization
 	void Start ()
 	{
-	    var min = new Vector3();
-	    var max = new Vector3();
+	    _children = new GameObject[transform.childCount];
+	    _center = new Vector3[transform.childCount];
 
-	    foreach (var meshRenderer in GetComponentsInChildren<MeshRenderer>())
+	    for (int i = 0; i < transform.childCount; i++)
 	    {
-	        min = Vector3.Min(min, meshRenderer.bounds.min);
-	        max = Vector3.Max(max, meshRenderer.bounds.max);
+	        _children[i] = transform.GetChild(i).gameObject;
+            CalculateCenter(i);
 	    }
 
-	    _model = gameObject.transform.parent.gameObject;
-
-	    _center = ((min + max) / 2) - (_model.transform.position * 0.5f);
+	    Controller.PadClicked += (sender, args) => ToggleExplosion();
 	}
+
+    private void CalculateCenter(int index)
+    {
+        var min = new Vector3();
+        var max = new Vector3();
+
+        foreach (var meshRenderer in _children[index].GetComponentsInChildren<MeshRenderer>())
+        {
+            min = Vector3.Min(min, meshRenderer.bounds.min);
+            max = Vector3.Max(max, meshRenderer.bounds.max);
+        }
+
+        _center[index] = ((min + max) / 2) - (transform.position * 0.5f);
+    }
 	
 	// Update is called once per frame
 	void Update ()
 	{
-        if (Time.time < 2)
-	        transform.position = transform.position + _center * Time.deltaTime;
+	    for (int i = 0; i < transform.childCount; i++)
+	    {
+	        Explode(i);
+	    }
+    }
 
-        if (Time.time > 5 && Time.time < 7)
-            transform.position = transform.position - _center * Time.deltaTime;
+    void Explode(int index)
+    {
+        var factor = _exploded ? 1f : -1f;
+
+        if (_animationEndTime - Time.time > 0)
+            _children[index].transform.position = _children[index].transform.position + factor * 1.5f * _center[index] * Time.deltaTime;
+    }
+
+    void ToggleExplosion()
+    {
+        if (_animationEndTime - Time.time > 0)
+            return;
+        _exploded = !_exploded;
+        _animationEndTime = Time.time + 2;
     }
 }
