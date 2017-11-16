@@ -54,7 +54,6 @@ public class Explosion : MonoBehaviour
 	    {
 	        Explode(i);
 	        //_label[i].transform.rotation = Quaternion.LookRotation(_children[i].transform.position - HMD.transform.position);
-	        _label[i].text = "lorem";
 	        _label[i].gameObject.transform.rotation =
 	            Quaternion.LookRotation(_label[i].gameObject.transform.position - HMD.transform.position);
 

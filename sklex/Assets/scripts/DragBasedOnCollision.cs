@@ -78,7 +78,7 @@ public class DragBasedOnCollision : MonoBehaviour
 
     void setMaterial(GameObject obj, Material material)
     {
-        foreach (var meshRenderer in obj.GetComponentsInChildren<MeshRenderer>())
+        foreach (var meshRenderer in obj.transform.GetChild(0).gameObject.GetComponentsInChildren<MeshRenderer>())
         {
             meshRenderer.material = material;
         }
