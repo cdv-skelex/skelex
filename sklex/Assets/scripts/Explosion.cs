@@ -57,29 +57,37 @@ public class Explosion : MonoBehaviour
 	        _label[i].gameObject.transform.rotation =
 	            Quaternion.LookRotation(_label[i].gameObject.transform.position - HMD.transform.position);
 
+	        var tm = _label[i].GetComponent<TextMesh>();
+	        var c = tm.color;
 
-	        if (!_exploded)
-	        {
-	            //_label[i].GetComponent<MeshRenderer>().enabled = false;
-	            var tm = _label[i].GetComponent<TextMesh>();
-	            tm.color = new Color(1f, 1f, 1f, Mathf.Min(1f, (_animationEndTime - Time.time) / 2f));
-	        }
-	        else
-	        {
-	            //var mr = _label[i].GetComponent<MeshRenderer>();
-	            //mr.enabled = true;
-	            var tm = _label[i].GetComponent<TextMesh>();
-	            tm.color = new Color(1f, 1f, 1f, Mathf.Min(1f, 1f - (_animationEndTime + 2f - Time.time) / 2f));
-	        }
-	    }
+            c.a = _exploded ? Mathf.Min(1f, 1f - (_animationEndTime + 2f - Time.time) / 2f) : 0f;
+
+	        tm.color = c;
+        }
     }
 
     void Explode(int index)
     {
-        var factor = _exploded ? 1f : -1f;
+        //var factor = _exploded ? 1f : -1f;
 
-        if (_animationEndTime - Time.time > 0)
-            _children[index].transform.position = transform.rotation * (Quaternion.Inverse(transform.rotation) * _children[index].transform.position + (factor * 5f * _center[index] * Time.deltaTime * transform.localScale.x));
+        if (_exploded)
+        {
+            if (_animationEndTime - Time.time > 0)
+                _children[index].transform.position = transform.rotation *
+                                                      (Quaternion.Inverse(transform.rotation) *
+                                                       _children[index].transform.position +
+                                                       (5f * _center[index] * Time.deltaTime *
+                                                        transform.localScale.x));
+        }
+        else
+        {
+            if (_animationEndTime - Time.time > 0)
+            {
+                _children[index].transform.position = transform.position;
+                _children[index].transform.rotation = transform.rotation * Quaternion.Euler(new Vector3(-90f, 0f, 0f));
+            }
+        }
+
     }
 
     void ToggleExplosion()
