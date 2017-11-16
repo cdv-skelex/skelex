@@ -57,6 +57,21 @@ public class Explosion : MonoBehaviour
 	        _label[i].text = "lorem";
 	        _label[i].gameObject.transform.rotation =
 	            Quaternion.LookRotation(_label[i].gameObject.transform.position - HMD.transform.position);
+
+
+	        if (!_exploded)
+	        {
+	            //_label[i].GetComponent<MeshRenderer>().enabled = false;
+	            var tm = _label[i].GetComponent<TextMesh>();
+	            tm.color = new Color(1f, 1f, 1f, Mathf.Min(1f, (_animationEndTime - Time.time) / 2f));
+	        }
+	        else
+	        {
+	            //var mr = _label[i].GetComponent<MeshRenderer>();
+	            //mr.enabled = true;
+	            var tm = _label[i].GetComponent<TextMesh>();
+	            tm.color = new Color(1f, 1f, 1f, Mathf.Min(1f, 1f - (_animationEndTime + 2f - Time.time) / 2f));
+	        }
 	    }
     }
 
