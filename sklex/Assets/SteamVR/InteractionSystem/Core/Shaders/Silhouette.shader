@@ -163,7 +163,7 @@ Shader "Valve/VR/Silhouette"
 		Pass
 		{
 			Tags { "LightMode" = "Always" }
-			Cull Off
+			Cull On
 			ZWrite On
 			Stencil
 			{
