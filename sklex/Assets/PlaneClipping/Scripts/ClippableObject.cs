@@ -81,49 +81,56 @@ public class ClippableObject : MonoBehaviour
     //Ideally the planes do not need to be updated every frame, but we'll just keep the logic here for simplicity purposes.
     public void Update()
     {
+        UpdateMaterial(IdleMaterial);
+        UpdateMaterial(CollisionMaterial);
+    }
+
+    void UpdateMaterial(Material m)
+    {
         //Only should enable one keyword. If you want to enable any one of them, you actually need to disable the others. 
         //This may be a bug...
-        switch (clipPlanes) {
+        switch (clipPlanes)
+        {
             case 0:
-                IdleMaterial.DisableKeyword("CLIP_ONE");
-                IdleMaterial.DisableKeyword("CLIP_TWO");
-                IdleMaterial.DisableKeyword("CLIP_THREE");
+                m.DisableKeyword("CLIP_ONE");
+                m.DisableKeyword("CLIP_TWO");
+                m.DisableKeyword("CLIP_THREE");
                 break;
             case 1:
-                IdleMaterial.EnableKeyword("CLIP_ONE");
-                IdleMaterial.DisableKeyword("CLIP_TWO");
-                IdleMaterial.DisableKeyword("CLIP_THREE");
+                m.EnableKeyword("CLIP_ONE");
+                m.DisableKeyword("CLIP_TWO");
+                m.DisableKeyword("CLIP_THREE");
                 break;
             case 2:
-                IdleMaterial.DisableKeyword("CLIP_ONE");
-                IdleMaterial.EnableKeyword("CLIP_TWO");
-                IdleMaterial.DisableKeyword("CLIP_THREE");
+                m.DisableKeyword("CLIP_ONE");
+                m.EnableKeyword("CLIP_TWO");
+                m.DisableKeyword("CLIP_THREE");
                 break;
             case 3:
-                IdleMaterial.DisableKeyword("CLIP_ONE");
-                IdleMaterial.DisableKeyword("CLIP_TWO");
-                IdleMaterial.EnableKeyword("CLIP_THREE");
+                m.DisableKeyword("CLIP_ONE");
+                m.DisableKeyword("CLIP_TWO");
+                m.EnableKeyword("CLIP_THREE");
                 break;
         }
 
         //pass the planes to the shader if necessary.
         if (clipPlanes >= 1)
         {
-            IdleMaterial.SetVector("_planePos", plane1Position);
+            m.SetVector("_planePos", plane1Position);
             //plane normal vector is the rotated 'up' vector.
-            IdleMaterial.SetVector("_planeNorm", Quaternion.Euler(plane1Rotation) * Vector3.up);
+            m.SetVector("_planeNorm", Quaternion.Euler(plane1Rotation) * Vector3.up);
         }
 
         if (clipPlanes >= 2)
         {
-            IdleMaterial.SetVector("_planePos2", plane2Position);
-            IdleMaterial.SetVector("_planeNorm2", Quaternion.Euler(plane2Rotation) * Vector3.up);
+            m.SetVector("_planePos2", plane2Position);
+            m.SetVector("_planeNorm2", Quaternion.Euler(plane2Rotation) * Vector3.up);
         }
 
         if (clipPlanes >= 3)
         {
-            IdleMaterial.SetVector("_planePos3", plane3Position);
-            IdleMaterial.SetVector("_planeNorm3", Quaternion.Euler(plane3Rotation) * Vector3.up);
+            m.SetVector("_planePos3", plane3Position);
+            m.SetVector("_planeNorm3", Quaternion.Euler(plane3Rotation) * Vector3.up);
         }
     }
 }
