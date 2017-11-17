@@ -141,7 +141,7 @@ Shader "Valve/VR/Silhouette"
 		{
 			Tags { "LightMode" = "Always" }
 			ColorMask 0
-			Cull Off
+			Cull On
 			ZWrite Off
 			Stencil
 			{

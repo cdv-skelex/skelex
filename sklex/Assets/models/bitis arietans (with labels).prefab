@@ -253,7 +253,7 @@ GameObject:
   - component: {fileID: 114587232115752628}
   - component: {fileID: 114780688293108782}
   m_Layer: 0
-  m_Name: bitis arietans 1
+  m_Name: bitis arietans (with labels)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

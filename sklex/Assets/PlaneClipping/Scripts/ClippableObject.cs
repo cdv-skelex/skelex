@@ -5,13 +5,15 @@ using System.Linq;
 [ExecuteInEditMode]
 public class ClippableObject : MonoBehaviour
 {
-    public Material sharedMaterial;
+    public Material IdleMaterial;
+    public Material CollisionMaterial;
 
     public void OnEnable() {
         //let's just create a new material instance.
-        sharedMaterial = new Material(Shader.Find("Custom/StandardClippable")) {
+        /*IdleMaterial = new Material(Shader.Find("Custom/StandardClippable")) {
             hideFlags = HideFlags.HideAndDontSave
-        };
+        };*/
+        //IdleMaterial.color = Color.blue;
 
         for (int i = 0; i < transform.childCount; i++)
         {
@@ -19,7 +21,7 @@ public class ClippableObject : MonoBehaviour
             var model = child.transform.GetChild(0);
             foreach (var mr in model.GetComponentsInChildren<MeshRenderer>())
             {
-                mr.sharedMaterial = sharedMaterial;
+                //mr.sharedMaterial = IdleMaterial;
             }
         }
     }
@@ -83,45 +85,45 @@ public class ClippableObject : MonoBehaviour
         //This may be a bug...
         switch (clipPlanes) {
             case 0:
-                sharedMaterial.DisableKeyword("CLIP_ONE");
-                sharedMaterial.DisableKeyword("CLIP_TWO");
-                sharedMaterial.DisableKeyword("CLIP_THREE");
+                IdleMaterial.DisableKeyword("CLIP_ONE");
+                IdleMaterial.DisableKeyword("CLIP_TWO");
+                IdleMaterial.DisableKeyword("CLIP_THREE");
                 break;
             case 1:
-                sharedMaterial.EnableKeyword("CLIP_ONE");
-                sharedMaterial.DisableKeyword("CLIP_TWO");
-                sharedMaterial.DisableKeyword("CLIP_THREE");
+                IdleMaterial.EnableKeyword("CLIP_ONE");
+                IdleMaterial.DisableKeyword("CLIP_TWO");
+                IdleMaterial.DisableKeyword("CLIP_THREE");
                 break;
             case 2:
-                sharedMaterial.DisableKeyword("CLIP_ONE");
-                sharedMaterial.EnableKeyword("CLIP_TWO");
-                sharedMaterial.DisableKeyword("CLIP_THREE");
+                IdleMaterial.DisableKeyword("CLIP_ONE");
+                IdleMaterial.EnableKeyword("CLIP_TWO");
+                IdleMaterial.DisableKeyword("CLIP_THREE");
                 break;
             case 3:
-                sharedMaterial.DisableKeyword("CLIP_ONE");
-                sharedMaterial.DisableKeyword("CLIP_TWO");
-                sharedMaterial.EnableKeyword("CLIP_THREE");
+                IdleMaterial.DisableKeyword("CLIP_ONE");
+                IdleMaterial.DisableKeyword("CLIP_TWO");
+                IdleMaterial.EnableKeyword("CLIP_THREE");
                 break;
         }
 
         //pass the planes to the shader if necessary.
         if (clipPlanes >= 1)
         {
-            sharedMaterial.SetVector("_planePos", plane1Position);
+            IdleMaterial.SetVector("_planePos", plane1Position);
             //plane normal vector is the rotated 'up' vector.
-            sharedMaterial.SetVector("_planeNorm", Quaternion.Euler(plane1Rotation) * Vector3.up);
+            IdleMaterial.SetVector("_planeNorm", Quaternion.Euler(plane1Rotation) * Vector3.up);
         }
 
         if (clipPlanes >= 2)
         {
-            sharedMaterial.SetVector("_planePos2", plane2Position);
-            sharedMaterial.SetVector("_planeNorm2", Quaternion.Euler(plane2Rotation) * Vector3.up);
+            IdleMaterial.SetVector("_planePos2", plane2Position);
+            IdleMaterial.SetVector("_planeNorm2", Quaternion.Euler(plane2Rotation) * Vector3.up);
         }
 
         if (clipPlanes >= 3)
         {
-            sharedMaterial.SetVector("_planePos3", plane3Position);
-            sharedMaterial.SetVector("_planeNorm3", Quaternion.Euler(plane3Rotation) * Vector3.up);
+            IdleMaterial.SetVector("_planePos3", plane3Position);
+            IdleMaterial.SetVector("_planeNorm3", Quaternion.Euler(plane3Rotation) * Vector3.up);
         }
     }
 }
