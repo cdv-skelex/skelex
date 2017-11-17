@@ -142,6 +142,7 @@ ModelImporter:
     2300084: Hemachatus haemachatus ZMB 31144a skull_MeshPart7
     2300086: Hemachatus haemachatus ZMB 31144a skull_MeshPart8
     2300088: Hemachatus haemachatus ZMB 31144a skull_MeshPart9
+    2300090: //RootNode
     3300000: Hemachatus haemachatus ZMB 31144a skull_MeshPart0
     3300002: Hemachatus haemachatus ZMB 31144a skull_MeshPart1
     3300004: Hemachatus haemachatus ZMB 31144a skull_MeshPart10
@@ -187,6 +188,7 @@ ModelImporter:
     3300084: Hemachatus haemachatus ZMB 31144a skull_MeshPart7
     3300086: Hemachatus haemachatus ZMB 31144a skull_MeshPart8
     3300088: Hemachatus haemachatus ZMB 31144a skull_MeshPart9
+    3300090: //RootNode
     4300000: Hemachatus haemachatus ZMB 31144a skull_MeshPart0
     4300002: Hemachatus haemachatus ZMB 31144a skull_MeshPart1
     4300004: Hemachatus haemachatus ZMB 31144a skull_MeshPart2
@@ -232,6 +234,7 @@ ModelImporter:
     4300084: Hemachatus haemachatus ZMB 31144a skull_MeshPart42
     4300086: Hemachatus haemachatus ZMB 31144a skull_MeshPart43
     4300088: Hemachatus haemachatus ZMB 31144a skull_MeshPart44
+    4300090: Hemachatus haemachatus ZMB 31144a skull
   externalObjects:
   - first:
       type: UnityEngine:Material
