@@ -15,6 +15,8 @@ public class Explosion : MonoBehaviour
     private bool _exploded;
     private float _animationEndTime;
 
+    private const float AnimationTime = 6f;
+
 	// Use this for initialization
 	void Start ()
 	{
@@ -44,7 +46,8 @@ public class Explosion : MonoBehaviour
             break;
         }
 
-        _center[index] = ((min + max) / 2) - (transform.position * 0.5f);
+        _center[index] = (((min + max) / 2) - (transform.position * 0.5f));
+        _center[index].Scale(new Vector3(1f, 4f, 1f));
     }
 	
 	// Update is called once per frame
@@ -60,7 +63,7 @@ public class Explosion : MonoBehaviour
 	        var tm = _label[i].GetComponent<TextMesh>();
 	        var c = tm.color;
 
-            c.a = _exploded ? Mathf.Min(1f, 1f - (_animationEndTime + 2f - Time.time) / 2f) : 0f;
+            c.a = _exploded ? Mathf.Min(1f, 1f - (_animationEndTime + AnimationTime - Time.time) / AnimationTime) : 0f;
 
 	        tm.color = c;
         }
