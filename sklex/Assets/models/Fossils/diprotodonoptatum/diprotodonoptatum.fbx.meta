@@ -67,6 +67,7 @@ ModelImporter:
     2300034: DIPROTODONT cranium_MeshPart7
     2300036: DIPROTODONT cranium_MeshPart8
     2300038: DIPROTODONT cranium_MeshPart9
+    2300040: //RootNode
     3300000: DIPROTODONT cranium_MeshPart0
     3300002: DIPROTODONT cranium_MeshPart1
     3300004: DIPROTODONT cranium_MeshPart10
@@ -87,6 +88,7 @@ ModelImporter:
     3300034: DIPROTODONT cranium_MeshPart7
     3300036: DIPROTODONT cranium_MeshPart8
     3300038: DIPROTODONT cranium_MeshPart9
+    3300040: //RootNode
     4300000: DIPROTODONT cranium_MeshPart0
     4300002: DIPROTODONT cranium_MeshPart1
     4300004: DIPROTODONT cranium_MeshPart2
@@ -107,6 +109,7 @@ ModelImporter:
     4300034: DIPROTODONT cranium_MeshPart17
     4300036: DIPROTODONT cranium_MeshPart18
     4300038: DIPROTODONT cranium_MeshPart19
+    4300040: DIPROTODONT cranium
   externalObjects:
   - first:
       type: UnityEngine:Material

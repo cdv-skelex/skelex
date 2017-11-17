@@ -121,6 +121,7 @@ ModelImporter:
     2300070: Zygo Full Model simple_MeshPart7
     2300072: Zygo Full Model simple_MeshPart8
     2300074: Zygo Full Model simple_MeshPart9
+    2300076: //RootNode
     3300000: Zygo Full Model simple_MeshPart0
     3300002: Zygo Full Model simple_MeshPart1
     3300004: Zygo Full Model simple_MeshPart10
@@ -159,6 +160,7 @@ ModelImporter:
     3300070: Zygo Full Model simple_MeshPart7
     3300072: Zygo Full Model simple_MeshPart8
     3300074: Zygo Full Model simple_MeshPart9
+    3300076: //RootNode
     4300000: Zygo Full Model simple_MeshPart0
     4300002: Zygo Full Model simple_MeshPart1
     4300004: Zygo Full Model simple_MeshPart2
@@ -197,6 +199,7 @@ ModelImporter:
     4300070: Zygo Full Model simple_MeshPart35
     4300072: Zygo Full Model simple_MeshPart36
     4300074: Zygo Full Model simple_MeshPart37
+    4300076: Zygo Full Model simple
   externalObjects:
   - first:
       type: UnityEngine:Material

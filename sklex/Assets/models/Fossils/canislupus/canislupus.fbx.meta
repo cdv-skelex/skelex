@@ -37,6 +37,7 @@ ModelImporter:
     2300014: Canis lupus LACM23010_MeshPart7
     2300016: Canis lupus LACM23010_MeshPart8
     2300018: Canis lupus LACM23010_MeshPart9
+    2300020: //RootNode
     3300000: Canis lupus LACM23010_MeshPart0
     3300002: Canis lupus LACM23010_MeshPart1
     3300004: Canis lupus LACM23010_MeshPart2
@@ -47,6 +48,7 @@ ModelImporter:
     3300014: Canis lupus LACM23010_MeshPart7
     3300016: Canis lupus LACM23010_MeshPart8
     3300018: Canis lupus LACM23010_MeshPart9
+    3300020: //RootNode
     4300000: Canis lupus LACM23010_MeshPart0
     4300002: Canis lupus LACM23010_MeshPart1
     4300004: Canis lupus LACM23010_MeshPart2
@@ -57,6 +59,7 @@ ModelImporter:
     4300014: Canis lupus LACM23010_MeshPart7
     4300016: Canis lupus LACM23010_MeshPart8
     4300018: Canis lupus LACM23010_MeshPart9
+    4300020: Canis lupus LACM23010
   externalObjects:
   - first:
       type: UnityEngine:Material

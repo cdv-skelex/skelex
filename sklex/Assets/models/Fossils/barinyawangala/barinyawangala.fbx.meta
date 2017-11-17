@@ -49,6 +49,7 @@ ModelImporter:
     2300022: Barinya wangala QMF31408_MeshPart7
     2300024: Barinya wangala QMF31408_MeshPart8
     2300026: Barinya wangala QMF31408_MeshPart9
+    2300028: //RootNode
     3300000: Barinya wangala QMF31408_MeshPart0
     3300002: Barinya wangala QMF31408_MeshPart1
     3300004: Barinya wangala QMF31408_MeshPart10
@@ -63,6 +64,7 @@ ModelImporter:
     3300022: Barinya wangala QMF31408_MeshPart7
     3300024: Barinya wangala QMF31408_MeshPart8
     3300026: Barinya wangala QMF31408_MeshPart9
+    3300028: //RootNode
     4300000: Barinya wangala QMF31408_MeshPart0
     4300002: Barinya wangala QMF31408_MeshPart1
     4300004: Barinya wangala QMF31408_MeshPart2
@@ -77,6 +79,7 @@ ModelImporter:
     4300022: Barinya wangala QMF31408_MeshPart11
     4300024: Barinya wangala QMF31408_MeshPart12
     4300026: Barinya wangala QMF31408_MeshPart13
+    4300028: Barinya wangala QMF31408
   externalObjects:
   - first:
       type: UnityEngine:Material
