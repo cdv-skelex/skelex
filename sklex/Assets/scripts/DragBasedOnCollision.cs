@@ -51,13 +51,11 @@ public class DragBasedOnCollision : MonoBehaviour
             return;
 
         if (_activeCollider != null)
-        {
-            setMaterial(_activeCollider, IdleMaterial);
-        }
+            setMaterial(_activeCollider, false);
 
         _activeCollider = parentForCollision(col);
 
-        setMaterial(_activeCollider, CollisionMaterial);
+        setMaterial(_activeCollider, true);
     }
 
     void OnCollisionExit(Collision col)
@@ -66,7 +64,7 @@ public class DragBasedOnCollision : MonoBehaviour
             return;
         if (_activeCollider == parentForCollision(col))
         {
-            setMaterial(parentForCollision(col), IdleMaterial);
+            setMaterial(parentForCollision(col), false);
             _activeCollider = null;
         }
     }
@@ -76,11 +74,23 @@ public class DragBasedOnCollision : MonoBehaviour
         return col.collider.gameObject.transform.parent.gameObject;
     }
 
-    void setMaterial(GameObject obj, Material material)
+    void setMaterial(GameObject obj, bool collision)
     {
-        foreach (var meshRenderer in obj.GetComponentsInChildren<MeshRenderer>())
+        var material = collision ? CollisionMaterial : IdleMaterial;
+
+        foreach (var meshRenderer in obj.transform.GetChild(0).gameObject.GetComponentsInChildren<MeshRenderer>())
         {
             meshRenderer.material = material;
         }
+        var tm = obj.transform.GetChild(2).GetComponent<TextMesh>();
+        var c = tm.color;
+
+        var collisionColor = new Color(255f/255f, 0f, 122/255f);
+        var idleColor = Color.white;
+
+        var textColor = collision ? collisionColor : idleColor;
+        textColor.a = c.a;
+
+        tm.color = textColor;
     }
 }
