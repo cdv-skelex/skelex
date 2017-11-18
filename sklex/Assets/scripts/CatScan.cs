@@ -11,6 +11,7 @@ public class CatScan : MonoBehaviour
     public GameObject StudioSkull;
     public GameObject StudioCamera;
     private Camera _camera;
+    private List<GameObject[]> _matchingBones; // will always be GameObject[2]
 
     private bool _active;
 
@@ -21,23 +22,28 @@ public class CatScan : MonoBehaviour
 	    ReferencePlane.GetComponent<MeshRenderer>().enabled = _active;
 
 	    _camera = StudioCamera.GetComponent<Camera>();
+
+	    for (var i = 0; i < ReferenceSkull.transform.childCount; i++)
+        {
+            var reference = ReferenceSkull.transform.GetChild(i).gameObject;
+            var studio = StudioSkull.transform.GetChild(i).gameObject;
+            if(reference == null)
+                Debug.Log("r", i);
+            var pair = new[]{reference, studio};
+            _matchingBones.Add(pair);
+
+            //studio.transform.rotation = reference.transform.rotation;
+            //studio.transform.position = StudioSkull.transform.position + ((reference.transform.position - ReferenceSkull.transform.position) * (StudioSkull.transform.localScale.x / ReferenceSkull.transform.localScale.x));
+        }
 	}
-	
-	// Update is called once per frame
-	void Update ()
+
+    // Update is called once per frame
+    void Update ()
 	{
 	    if (!_active)
 	        return;
 
 	    StudioSkull.transform.rotation = ReferenceSkull.transform.rotation;
-
-	    /* for (var i = 0; i < ReferenceSkull.transform.childCount; i++)
-	    {
-	        var reference = ReferenceSkull.transform.GetChild(i);
-	        var studio = StudioSkull.transform.GetChild(i);
-	        studio.rotation = reference.rotation;
-	        studio.position = StudioSkull.transform.position + ((reference.position - ReferenceSkull.transform.position) * (StudioSkull.transform.localScale.x / ReferenceSkull.transform.localScale.x));
-	    }*/
 
         var offset = (ReferencePlane.transform.position - ReferenceSkull.transform.position) / ReferenceSkull.transform.localScale.x;
 
