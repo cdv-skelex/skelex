@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.UIElements;
 
 public class CatScan : MonoBehaviour
 {
@@ -15,8 +16,9 @@ public class CatScan : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
-	    Controller.MenuButtonClicked += (sender, args) => { _active = !_active; };
-	}
+	    Controller.MenuButtonClicked += (sender, args) => { Toggle(); };
+	    ReferencePlane.GetComponent<MeshRenderer>().enabled = _active;
+    }
 	
 	// Update is called once per frame
 	void Update ()
@@ -28,4 +30,10 @@ public class CatScan : MonoBehaviour
 	        
 	    }
 	}
+
+    void Toggle()
+    {
+        _active = !_active;
+        ReferencePlane.GetComponent<MeshRenderer>().enabled = _active;
+    }
 }
