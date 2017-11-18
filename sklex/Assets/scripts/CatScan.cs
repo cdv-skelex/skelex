@@ -9,7 +9,7 @@ public class CatScan : MonoBehaviour
     public GameObject ReferenceSkull;
     public GameObject ReferencePlane;
     public GameObject StudioSkull;
-    public GameObject StudioCamera;
+    public Camera StudioCamera;
 
     private bool _active;
 
@@ -23,17 +23,27 @@ public class CatScan : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
+	    if (!_active)
+	        return;
+
 	    StudioSkull.transform.rotation = ReferenceSkull.transform.rotation * Quaternion.Inverse(ReferencePlane.transform.rotation * Quaternion.Euler(90f, 0f, 0f));
 
-	    if (_active)
-	    {
-	        
-	    }
-	}
+	    var dist = Vector3.Distance(ReferencePlane.transform.position, ReferenceSkull.transform.position) /
+	               ReferenceSkull.transform.localScale.x;
+
+        StudioCamera.nearClipPlane = dist - 0.05f;
+	    StudioCamera.farClipPlane = dist + 0.05f;
+    }
 
     void Toggle()
     {
         _active = !_active;
         ReferencePlane.GetComponent<MeshRenderer>().enabled = _active;
+
+        if (!_active)
+        {
+            StudioCamera.nearClipPlane = 1000000f;
+            StudioCamera.farClipPlane = 1000001f;
+        }
     }
 }
