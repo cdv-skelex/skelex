@@ -4,22 +4,28 @@ using UnityEngine;
 
 public class CatScan : MonoBehaviour
 {
+    public SteamVR_TrackedController Controller;
+    public GameObject ReferenceSkull;
+    public GameObject ReferencePlane;
+    public GameObject StudioSkull;
+    public GameObject StudioCamera;
 
-    public GameObject Plane;
-    private ClippableObject _clippable;
+    private bool _active;
 
 	// Use this for initialization
 	void Start ()
 	{
-	    _clippable = GetComponent<ClippableObject>();
+	    Controller.MenuButtonClicked += (sender, args) => { _active = !_active; };
 	}
 	
 	// Update is called once per frame
 	void Update ()
 	{
-	    _clippable.plane1Position = Plane.transform.position - new Vector3(0f, Plane.transform.localScale.y, 0f);
-	    _clippable.plane2Position = Plane.transform.position + new Vector3(0f, Plane.transform.localScale.y, 0f);
-        _clippable.plane1Rotation = Plane.transform.rotation.eulerAngles;
-	    _clippable.plane2Rotation = Plane.transform.rotation.eulerAngles;
-    }
+	    StudioSkull.transform.rotation = ReferenceSkull.transform.rotation * Quaternion.Inverse(ReferencePlane.transform.rotation * Quaternion.Euler(90f, 0f, 0f));
+
+	    if (_active)
+	    {
+	        
+	    }
+	}
 }
