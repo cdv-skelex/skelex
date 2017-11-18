@@ -9,7 +9,8 @@ public class CatScan : MonoBehaviour
     public GameObject ReferenceSkull;
     public GameObject ReferencePlane;
     public GameObject StudioSkull;
-    public Camera StudioCamera;
+    public GameObject StudioCamera;
+    private Camera _camera;
 
     private bool _active;
 
@@ -18,7 +19,9 @@ public class CatScan : MonoBehaviour
 	{
 	    Controller.MenuButtonClicked += (sender, args) => { Toggle(); };
 	    ReferencePlane.GetComponent<MeshRenderer>().enabled = _active;
-    }
+
+	    _camera = StudioCamera.GetComponent<Camera>();
+	}
 	
 	// Update is called once per frame
 	void Update ()
@@ -26,13 +29,15 @@ public class CatScan : MonoBehaviour
 	    if (!_active)
 	        return;
 
-	    StudioSkull.transform.rotation = ReferenceSkull.transform.rotation * Quaternion.Inverse(ReferencePlane.transform.rotation * Quaternion.Euler(90f, 0f, 0f));
+	    StudioSkull.transform.rotation = ReferenceSkull.transform.rotation;
 
-	    var dist = Vector3.Distance(ReferencePlane.transform.position, ReferenceSkull.transform.position) /
-	               ReferenceSkull.transform.localScale.x;
+	    var offset = (ReferencePlane.transform.position - ReferenceSkull.transform.position) / ReferenceSkull.transform.localScale.x;
 
-        StudioCamera.nearClipPlane = dist - 0.05f;
-	    StudioCamera.farClipPlane = dist + 0.05f;
+	    StudioCamera.transform.position = StudioSkull.transform.position + offset / StudioSkull.transform.localScale.x;
+	    StudioCamera.transform.rotation = ReferencePlane.transform.rotation * Quaternion.Euler(90f, 0f, 0f);
+
+        _camera.nearClipPlane = 0.1f;
+	    _camera.farClipPlane = 0.3f;
     }
 
     void Toggle()
@@ -42,8 +47,8 @@ public class CatScan : MonoBehaviour
 
         if (!_active)
         {
-            StudioCamera.nearClipPlane = 1000000f;
-            StudioCamera.farClipPlane = 1000001f;
+            _camera.nearClipPlane = 1000000f;
+            _camera.farClipPlane = 1000001f;
         }
     }
 }
