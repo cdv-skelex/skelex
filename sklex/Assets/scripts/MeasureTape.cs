@@ -33,7 +33,11 @@ public class MeasureTape : MonoBehaviour
 
 	    _meshRenderer.enabled = false;
 	    _textMesh.text = "";
-	    _trackedLeftController.PadClicked += (sender, args) => { _meshRenderer.enabled = !_meshRenderer.enabled; };
+	    _trackedLeftController.PadClicked += (sender, args) =>
+	    {
+            if (-args.padX > Math.Abs(args.padY) && args.padX < 0f)
+	            _meshRenderer.enabled = !_meshRenderer.enabled;
+	    };
 	    //_trackedLeftController.PadUnclicked += (sender, args) => { _meshRenderer.enabled = false; };
 	}
 
