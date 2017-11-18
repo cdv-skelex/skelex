@@ -27,8 +27,11 @@ public class CatScan : MonoBehaviour
         {
             var reference = ReferenceSkull.transform.GetChild(i).gameObject;
             var studio = StudioSkull.transform.GetChild(i).gameObject;
-            var pair = new GameObject[2]{ reference, studio };
+            if(reference == null)
+                Debug.Log("r", i);
+            var pair = new[]{reference, studio};
             _matchingBones.Add(pair);
+
             //studio.transform.rotation = reference.transform.rotation;
             //studio.transform.position = StudioSkull.transform.position + ((reference.transform.position - ReferenceSkull.transform.position) * (StudioSkull.transform.localScale.x / ReferenceSkull.transform.localScale.x));
         }
