@@ -33,8 +33,8 @@ public class MeasureTape : MonoBehaviour
 
 	    _meshRenderer.enabled = false;
 	    _textMesh.text = "";
-	    _trackedLeftController.PadClicked += (sender, args) => { _meshRenderer.enabled = true; };
-	    _trackedLeftController.PadUnclicked += (sender, args) => { _meshRenderer.enabled = false; };
+	    _trackedLeftController.PadClicked += (sender, args) => { _meshRenderer.enabled = !_meshRenderer.enabled; };
+	    //_trackedLeftController.PadUnclicked += (sender, args) => { _meshRenderer.enabled = false; };
 	}
 
     // Update is called once per frame
@@ -49,7 +49,7 @@ public class MeasureTape : MonoBehaviour
 	    gameObject.transform.localScale = new Vector3(0.0001f, 0.02f, scale);
 
 	    var s = (scale / Skeleton.transform.localScale.x).ToString();
-        _textMesh.text = _trackedLeftController.padPressed ? s.Substring(0, Math.Min(4, s.Length)) + "cm" : "";
+        _textMesh.text = _meshRenderer.enabled ? s.Substring(0, Math.Min(4, s.Length)) + "cm" : "";
 
         _material.mainTextureScale = new Vector2(scale * 10, 1);
 	}

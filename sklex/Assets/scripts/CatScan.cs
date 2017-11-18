@@ -31,7 +31,15 @@ public class CatScan : MonoBehaviour
 
 	    StudioSkull.transform.rotation = ReferenceSkull.transform.rotation;
 
-	    var offset = (ReferencePlane.transform.position - ReferenceSkull.transform.position) / ReferenceSkull.transform.localScale.x;
+	    /* for (var i = 0; i < ReferenceSkull.transform.childCount; i++)
+	    {
+	        var reference = ReferenceSkull.transform.GetChild(i);
+	        var studio = StudioSkull.transform.GetChild(i);
+	        studio.rotation = reference.rotation;
+	        studio.position = StudioSkull.transform.position + ((reference.position - ReferenceSkull.transform.position) * (StudioSkull.transform.localScale.x / ReferenceSkull.transform.localScale.x));
+	    }*/
+
+        var offset = (ReferencePlane.transform.position - ReferenceSkull.transform.position) / ReferenceSkull.transform.localScale.x;
 
 	    StudioCamera.transform.position = StudioSkull.transform.position + offset / StudioSkull.transform.localScale.x;
 	    StudioCamera.transform.rotation = ReferencePlane.transform.rotation * Quaternion.Euler(90f, 0f, 0f);
