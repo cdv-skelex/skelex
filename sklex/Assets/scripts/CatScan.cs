@@ -11,7 +11,7 @@ public class CatScan : MonoBehaviour
     public GameObject StudioSkull;
     public GameObject StudioCamera;
     private Camera _camera;
-    private List<GameObject[]> _matchingBones; // will always be GameObject[2]
+    private List<GameObject[]> _matchingBones = new List<GameObject[]>(); // will always be GameObject[2]
 
     private bool _active;
 
@@ -27,13 +27,9 @@ public class CatScan : MonoBehaviour
         {
             var reference = ReferenceSkull.transform.GetChild(i).gameObject;
             var studio = StudioSkull.transform.GetChild(i).gameObject;
-            if(reference == null)
-                Debug.Log("r", i);
+
             var pair = new[]{reference, studio};
             _matchingBones.Add(pair);
-
-            //studio.transform.rotation = reference.transform.rotation;
-            //studio.transform.position = StudioSkull.transform.position + ((reference.transform.position - ReferenceSkull.transform.position) * (StudioSkull.transform.localScale.x / ReferenceSkull.transform.localScale.x));
         }
 	}
 
@@ -52,6 +48,17 @@ public class CatScan : MonoBehaviour
 
         _camera.nearClipPlane = 0.1f;
 	    _camera.farClipPlane = 0.3f;
+
+	    foreach (var pair in _matchingBones)
+	    {
+	        var reference = pair[0].transform;
+	        var studio = pair[1].transform;
+
+	        studio.rotation = reference.rotation;
+	        studio.position = StudioSkull.transform.position +
+	                          ((reference.position - ReferenceSkull.transform.position) /
+	                           (StudioSkull.transform.localScale.x * ReferenceSkull.transform.localScale.x));
+	    }
     }
 
     void Toggle()
