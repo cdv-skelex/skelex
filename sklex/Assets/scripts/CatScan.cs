@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Experimental.UIElements;
@@ -18,7 +19,11 @@ public class CatScan : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
-	    Controller.MenuButtonClicked += (sender, args) => { Toggle(); };
+	    Controller.PadClicked += (sender, args) =>
+	    {
+	        if (args.padY > Math.Abs(args.padX) && args.padX > 0f)
+                Toggle();
+	    };
 	    ReferencePlane.GetComponent<MeshRenderer>().enabled = _active;
 
 	    _camera = StudioCamera.GetComponent<Camera>();

@@ -20,25 +20,31 @@ public class DragBasedOnCollision : MonoBehaviour
     {
         _controller = GetComponent<SteamVR_TrackedController>();
 
-        _controller.TriggerClicked += (sender, args) =>
-        {
-            _dragging = true;
-            if (_activeCollider != null)
-                _activeCollider.transform.parent = gameObject.transform;
-        };
+        _controller.TriggerClicked += (sender, args) => StartDragging();
+        _controller.PadClicked += (sender, args) => StartDragging();
 
-        _controller.TriggerUnclicked += (sender, args) =>
-        {
-            _dragging = false;
-            if (_activeCollider != null)
-                _activeCollider.transform.parent = Model.transform;
-        };
+        _controller.TriggerUnclicked += (sender, args) => StopDragging();
+        _controller.PadUnclicked += (sender, args) => StopDragging();
 
         /*_controller.PadClicked += (sender, args) =>
         {
             _activeCollider.transform.position = Model.transform.position;
             _activeCollider.transform.rotation = Model.transform.rotation * Quaternion.Euler(new Vector3(-90, 0, 0));
         };*/
+    }
+
+    void StartDragging()
+    {
+        _dragging = true;
+        if (_activeCollider != null)
+            _activeCollider.transform.parent = gameObject.transform;
+    }
+
+    void StopDragging()
+    {
+        _dragging = false;
+        if (_activeCollider != null)
+            _activeCollider.transform.parent = Model.transform;
     }
 	
 	// Update is called once per frame

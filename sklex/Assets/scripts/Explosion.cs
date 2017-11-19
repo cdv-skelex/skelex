@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Valve.VR;
@@ -31,7 +32,11 @@ public class Explosion : MonoBehaviour
             CalculateCenter(i);
 	    }
 
-	    Controller.PadClicked += (sender, args) => ToggleExplosion();
+	    Controller.PadClicked += (sender, args) =>
+	    {
+	        if (args.padX > Math.Abs(args.padY) && args.padX > 0f)
+                ToggleExplosion();
+	    };
 	}
 
     private void CalculateCenter(int index)
