@@ -25,7 +25,7 @@ public class Explosion : MonoBehaviour
 	    _center = new Vector3[transform.childCount];
         _label = new TextMesh[transform.childCount];
 
-	    for (int i = 0; i < transform.childCount - 2 /* - 2 because of top and bottom */; i++)
+	    for (int i = 0; i < transform.childCount - 3 /* - 2 because of top and bottom */; i++)
 	    {
 	        _children[i] = transform.GetChild(i).gameObject;
 	        _label[i] = _children[i].GetComponentInChildren<TextMesh>();
