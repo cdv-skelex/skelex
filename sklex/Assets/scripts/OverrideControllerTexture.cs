@@ -1,3 +1,5 @@
+// blatantly stolen from https://steamcommunity.com/app/358720/discussions/0/357287304420388604/
+
 using UnityEngine;
 using System.Runtime.InteropServices;
 
@@ -48,7 +50,8 @@ public class OverrideControllerTexture : MonoBehaviour
     void OnControllerLoaded(SteamVR_RenderModel renderModel, bool success)
     {
         if (!success) return;
-        UpdateControllerTexture(newBodyTexture, renderModel.gameObject.transform);
+        if (gameObject == renderModel.gameObject)
+            UpdateControllerTexture(newBodyTexture, renderModel.gameObject.transform);
     }
 
 }
