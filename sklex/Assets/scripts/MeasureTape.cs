@@ -52,7 +52,7 @@ public class MeasureTape : MonoBehaviour
 	    var scale = Vector3.Distance(left, right);
 	    gameObject.transform.localScale = new Vector3(0.0001f, 0.02f, scale);
 
-	    var s = (scale / Skeleton.transform.localScale.x).ToString();
+	    var s = (10f * scale / Skeleton.transform.localScale.x).ToString();
         _textMesh.text = _meshRenderer.enabled ? s.Substring(0, Math.Min(4, s.Length)) + "cm" : "";
 
         _material.mainTextureScale = new Vector2(scale * 10, 1);
