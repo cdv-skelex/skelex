@@ -39,7 +39,13 @@ public class OverrideControllerTexture : MonoBehaviour
         modelTransform.Find("sys_button").GetComponent<MeshRenderer>().material.mainTexture = newTexture;
         modelTransform.Find("trackpad").GetComponent<MeshRenderer>().material.mainTexture = newTexture;
         modelTransform.Find("trackpad_scroll_cut").GetComponent<MeshRenderer>().material.mainTexture = newTexture;
+        //modelTransform.Find("trackpad_touch").GetComponent<MeshRenderer>().material.mainTexture = newTexture;
+        var touchpad = modelTransform.Find("trackpad_touch").GetComponent<MeshRenderer>();
+        var oldMat = touchpad.material;
+        touchpad.material = new Material(Shader.Find("Specular"));
+        //touchpad.material.CopyPropertiesFromMaterial(oldMat);
         modelTransform.Find("trackpad_touch").GetComponent<MeshRenderer>().material.mainTexture = newTexture;
+
         modelTransform.Find("trigger").GetComponent<MeshRenderer>().material.mainTexture = newTexture;
     }
 

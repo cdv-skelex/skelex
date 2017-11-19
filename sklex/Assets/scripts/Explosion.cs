@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Valve.VR;
@@ -24,14 +25,18 @@ public class Explosion : MonoBehaviour
 	    _center = new Vector3[transform.childCount];
         _label = new TextMesh[transform.childCount];
 
-	    for (int i = 0; i < transform.childCount; i++)
+	    for (int i = 0; i < transform.childCount - 3 /* - 2 because of top and bottom */; i++)
 	    {
 	        _children[i] = transform.GetChild(i).gameObject;
 	        _label[i] = _children[i].GetComponentInChildren<TextMesh>();
             CalculateCenter(i);
 	    }
 
-	    Controller.PadClicked += (sender, args) => ToggleExplosion();
+	    Controller.PadClicked += (sender, args) =>
+	    {
+	        if (args.padX > Math.Abs(args.padY) && args.padX > 0f)
+                ToggleExplosion();
+	    };
 	}
 
     private void CalculateCenter(int index)
