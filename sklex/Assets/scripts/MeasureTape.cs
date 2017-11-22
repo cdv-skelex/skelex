@@ -24,6 +24,7 @@ public class MeasureTape : MonoBehaviour
 	{
 	    _textMesh = Text.GetComponent<TextMesh>();
 	    Text.transform.parent = ControllerLeft.transform;
+	    Text.transform.position = ControllerLeft.transform.position + new Vector3(0.05f, 0f, 0.05f);
 
 	    _meshRenderer = GetComponent<MeshRenderer>();
 	    _material = _meshRenderer.material;
@@ -32,8 +33,12 @@ public class MeasureTape : MonoBehaviour
 
 	    _meshRenderer.enabled = false;
 	    _textMesh.text = "";
-	    _trackedLeftController.PadClicked += (sender, args) => { _meshRenderer.enabled = true; };
-	    _trackedLeftController.PadUnclicked += (sender, args) => { _meshRenderer.enabled = false; };
+	    _trackedLeftController.PadClicked += (sender, args) =>
+	    {
+            if (-args.padX > Math.Abs(args.padY) && args.padX < 0f)
+	            _meshRenderer.enabled = !_meshRenderer.enabled;
+	    };
+	    //_trackedLeftController.PadUnclicked += (sender, args) => { _meshRenderer.enabled = false; };
 	}
 
     // Update is called once per frame
@@ -47,8 +52,8 @@ public class MeasureTape : MonoBehaviour
 	    var scale = Vector3.Distance(left, right);
 	    gameObject.transform.localScale = new Vector3(0.0001f, 0.02f, scale);
 
-	    var s = (scale / (10 * Skeleton.transform.localScale.x)).ToString();
-        _textMesh.text = _trackedLeftController.padPressed ? s.Substring(0, Math.Min(4, s.Length)) + "cm" : "";
+	    var s = (10f * scale / Skeleton.transform.localScale.x).ToString();
+        _textMesh.text = _meshRenderer.enabled ? s.Substring(0, Math.Min(4, s.Length)) + "cm" : "";
 
         _material.mainTextureScale = new Vector2(scale * 10, 1);
 	}

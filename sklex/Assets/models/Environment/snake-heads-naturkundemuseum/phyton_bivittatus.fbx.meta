@@ -1,0 +1,537 @@
+fileFormatVersion: 2
+guid: 68d07a096d8a37a4294471738d92bcd9
+timeCreated: 1510585964
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Phyton bivittatus ZMB 30906_MeshPart0
+    100002: Phyton bivittatus ZMB 30906_MeshPart1
+    100004: Phyton bivittatus ZMB 30906_MeshPart10
+    100006: Phyton bivittatus ZMB 30906_MeshPart11
+    100008: Phyton bivittatus ZMB 30906_MeshPart12
+    100010: Phyton bivittatus ZMB 30906_MeshPart13
+    100012: Phyton bivittatus ZMB 30906_MeshPart14
+    100014: Phyton bivittatus ZMB 30906_MeshPart15
+    100016: Phyton bivittatus ZMB 30906_MeshPart16
+    100018: Phyton bivittatus ZMB 30906_MeshPart17
+    100020: Phyton bivittatus ZMB 30906_MeshPart18
+    100022: Phyton bivittatus ZMB 30906_MeshPart19
+    100024: Phyton bivittatus ZMB 30906_MeshPart2
+    100026: Phyton bivittatus ZMB 30906_MeshPart20
+    100028: Phyton bivittatus ZMB 30906_MeshPart21
+    100030: Phyton bivittatus ZMB 30906_MeshPart22
+    100032: Phyton bivittatus ZMB 30906_MeshPart23
+    100034: Phyton bivittatus ZMB 30906_MeshPart24
+    100036: Phyton bivittatus ZMB 30906_MeshPart25
+    100038: Phyton bivittatus ZMB 30906_MeshPart26
+    100040: Phyton bivittatus ZMB 30906_MeshPart27
+    100042: Phyton bivittatus ZMB 30906_MeshPart28
+    100044: Phyton bivittatus ZMB 30906_MeshPart29
+    100046: Phyton bivittatus ZMB 30906_MeshPart3
+    100048: Phyton bivittatus ZMB 30906_MeshPart30
+    100050: Phyton bivittatus ZMB 30906_MeshPart31
+    100052: Phyton bivittatus ZMB 30906_MeshPart32
+    100054: Phyton bivittatus ZMB 30906_MeshPart33
+    100056: Phyton bivittatus ZMB 30906_MeshPart34
+    100058: Phyton bivittatus ZMB 30906_MeshPart35
+    100060: Phyton bivittatus ZMB 30906_MeshPart36
+    100062: Phyton bivittatus ZMB 30906_MeshPart37
+    100064: Phyton bivittatus ZMB 30906_MeshPart38
+    100066: Phyton bivittatus ZMB 30906_MeshPart39
+    100068: Phyton bivittatus ZMB 30906_MeshPart4
+    100070: Phyton bivittatus ZMB 30906_MeshPart40
+    100072: Phyton bivittatus ZMB 30906_MeshPart41
+    100074: Phyton bivittatus ZMB 30906_MeshPart42
+    100076: Phyton bivittatus ZMB 30906_MeshPart43
+    100078: Phyton bivittatus ZMB 30906_MeshPart44
+    100080: Phyton bivittatus ZMB 30906_MeshPart45
+    100082: Phyton bivittatus ZMB 30906_MeshPart46
+    100084: Phyton bivittatus ZMB 30906_MeshPart47
+    100086: Phyton bivittatus ZMB 30906_MeshPart48
+    100088: Phyton bivittatus ZMB 30906_MeshPart49
+    100090: Phyton bivittatus ZMB 30906_MeshPart5
+    100092: Phyton bivittatus ZMB 30906_MeshPart50
+    100094: Phyton bivittatus ZMB 30906_MeshPart51
+    100096: Phyton bivittatus ZMB 30906_MeshPart52
+    100098: Phyton bivittatus ZMB 30906_MeshPart53
+    100100: Phyton bivittatus ZMB 30906_MeshPart54
+    100102: Phyton bivittatus ZMB 30906_MeshPart55
+    100104: Phyton bivittatus ZMB 30906_MeshPart56
+    100106: Phyton bivittatus ZMB 30906_MeshPart57
+    100108: Phyton bivittatus ZMB 30906_MeshPart58
+    100110: Phyton bivittatus ZMB 30906_MeshPart59
+    100112: Phyton bivittatus ZMB 30906_MeshPart6
+    100114: Phyton bivittatus ZMB 30906_MeshPart60
+    100116: Phyton bivittatus ZMB 30906_MeshPart61
+    100118: Phyton bivittatus ZMB 30906_MeshPart62
+    100120: Phyton bivittatus ZMB 30906_MeshPart63
+    100122: Phyton bivittatus ZMB 30906_MeshPart64
+    100124: Phyton bivittatus ZMB 30906_MeshPart65
+    100126: Phyton bivittatus ZMB 30906_MeshPart66
+    100128: Phyton bivittatus ZMB 30906_MeshPart67
+    100130: Phyton bivittatus ZMB 30906_MeshPart68
+    100132: Phyton bivittatus ZMB 30906_MeshPart69
+    100134: Phyton bivittatus ZMB 30906_MeshPart7
+    100136: Phyton bivittatus ZMB 30906_MeshPart70
+    100138: Phyton bivittatus ZMB 30906_MeshPart71
+    100140: Phyton bivittatus ZMB 30906_MeshPart72
+    100142: Phyton bivittatus ZMB 30906_MeshPart73
+    100144: Phyton bivittatus ZMB 30906_MeshPart74
+    100146: Phyton bivittatus ZMB 30906_MeshPart75
+    100148: Phyton bivittatus ZMB 30906_MeshPart76
+    100150: Phyton bivittatus ZMB 30906_MeshPart77
+    100152: Phyton bivittatus ZMB 30906_MeshPart78
+    100154: Phyton bivittatus ZMB 30906_MeshPart79
+    100156: Phyton bivittatus ZMB 30906_MeshPart8
+    100158: Phyton bivittatus ZMB 30906_MeshPart80
+    100160: Phyton bivittatus ZMB 30906_MeshPart81
+    100162: Phyton bivittatus ZMB 30906_MeshPart82
+    100164: Phyton bivittatus ZMB 30906_MeshPart83
+    100166: Phyton bivittatus ZMB 30906_MeshPart84
+    100168: Phyton bivittatus ZMB 30906_MeshPart85
+    100170: Phyton bivittatus ZMB 30906_MeshPart86
+    100172: Phyton bivittatus ZMB 30906_MeshPart87
+    100174: Phyton bivittatus ZMB 30906_MeshPart88
+    100176: Phyton bivittatus ZMB 30906_MeshPart9
+    100178: //RootNode
+    400000: Phyton bivittatus ZMB 30906_MeshPart0
+    400002: Phyton bivittatus ZMB 30906_MeshPart1
+    400004: Phyton bivittatus ZMB 30906_MeshPart10
+    400006: Phyton bivittatus ZMB 30906_MeshPart11
+    400008: Phyton bivittatus ZMB 30906_MeshPart12
+    400010: Phyton bivittatus ZMB 30906_MeshPart13
+    400012: Phyton bivittatus ZMB 30906_MeshPart14
+    400014: Phyton bivittatus ZMB 30906_MeshPart15
+    400016: Phyton bivittatus ZMB 30906_MeshPart16
+    400018: Phyton bivittatus ZMB 30906_MeshPart17
+    400020: Phyton bivittatus ZMB 30906_MeshPart18
+    400022: Phyton bivittatus ZMB 30906_MeshPart19
+    400024: Phyton bivittatus ZMB 30906_MeshPart2
+    400026: Phyton bivittatus ZMB 30906_MeshPart20
+    400028: Phyton bivittatus ZMB 30906_MeshPart21
+    400030: Phyton bivittatus ZMB 30906_MeshPart22
+    400032: Phyton bivittatus ZMB 30906_MeshPart23
+    400034: Phyton bivittatus ZMB 30906_MeshPart24
+    400036: Phyton bivittatus ZMB 30906_MeshPart25
+    400038: Phyton bivittatus ZMB 30906_MeshPart26
+    400040: Phyton bivittatus ZMB 30906_MeshPart27
+    400042: Phyton bivittatus ZMB 30906_MeshPart28
+    400044: Phyton bivittatus ZMB 30906_MeshPart29
+    400046: Phyton bivittatus ZMB 30906_MeshPart3
+    400048: Phyton bivittatus ZMB 30906_MeshPart30
+    400050: Phyton bivittatus ZMB 30906_MeshPart31
+    400052: Phyton bivittatus ZMB 30906_MeshPart32
+    400054: Phyton bivittatus ZMB 30906_MeshPart33
+    400056: Phyton bivittatus ZMB 30906_MeshPart34
+    400058: Phyton bivittatus ZMB 30906_MeshPart35
+    400060: Phyton bivittatus ZMB 30906_MeshPart36
+    400062: Phyton bivittatus ZMB 30906_MeshPart37
+    400064: Phyton bivittatus ZMB 30906_MeshPart38
+    400066: Phyton bivittatus ZMB 30906_MeshPart39
+    400068: Phyton bivittatus ZMB 30906_MeshPart4
+    400070: Phyton bivittatus ZMB 30906_MeshPart40
+    400072: Phyton bivittatus ZMB 30906_MeshPart41
+    400074: Phyton bivittatus ZMB 30906_MeshPart42
+    400076: Phyton bivittatus ZMB 30906_MeshPart43
+    400078: Phyton bivittatus ZMB 30906_MeshPart44
+    400080: Phyton bivittatus ZMB 30906_MeshPart45
+    400082: Phyton bivittatus ZMB 30906_MeshPart46
+    400084: Phyton bivittatus ZMB 30906_MeshPart47
+    400086: Phyton bivittatus ZMB 30906_MeshPart48
+    400088: Phyton bivittatus ZMB 30906_MeshPart49
+    400090: Phyton bivittatus ZMB 30906_MeshPart5
+    400092: Phyton bivittatus ZMB 30906_MeshPart50
+    400094: Phyton bivittatus ZMB 30906_MeshPart51
+    400096: Phyton bivittatus ZMB 30906_MeshPart52
+    400098: Phyton bivittatus ZMB 30906_MeshPart53
+    400100: Phyton bivittatus ZMB 30906_MeshPart54
+    400102: Phyton bivittatus ZMB 30906_MeshPart55
+    400104: Phyton bivittatus ZMB 30906_MeshPart56
+    400106: Phyton bivittatus ZMB 30906_MeshPart57
+    400108: Phyton bivittatus ZMB 30906_MeshPart58
+    400110: Phyton bivittatus ZMB 30906_MeshPart59
+    400112: Phyton bivittatus ZMB 30906_MeshPart6
+    400114: Phyton bivittatus ZMB 30906_MeshPart60
+    400116: Phyton bivittatus ZMB 30906_MeshPart61
+    400118: Phyton bivittatus ZMB 30906_MeshPart62
+    400120: Phyton bivittatus ZMB 30906_MeshPart63
+    400122: Phyton bivittatus ZMB 30906_MeshPart64
+    400124: Phyton bivittatus ZMB 30906_MeshPart65
+    400126: Phyton bivittatus ZMB 30906_MeshPart66
+    400128: Phyton bivittatus ZMB 30906_MeshPart67
+    400130: Phyton bivittatus ZMB 30906_MeshPart68
+    400132: Phyton bivittatus ZMB 30906_MeshPart69
+    400134: Phyton bivittatus ZMB 30906_MeshPart7
+    400136: Phyton bivittatus ZMB 30906_MeshPart70
+    400138: Phyton bivittatus ZMB 30906_MeshPart71
+    400140: Phyton bivittatus ZMB 30906_MeshPart72
+    400142: Phyton bivittatus ZMB 30906_MeshPart73
+    400144: Phyton bivittatus ZMB 30906_MeshPart74
+    400146: Phyton bivittatus ZMB 30906_MeshPart75
+    400148: Phyton bivittatus ZMB 30906_MeshPart76
+    400150: Phyton bivittatus ZMB 30906_MeshPart77
+    400152: Phyton bivittatus ZMB 30906_MeshPart78
+    400154: Phyton bivittatus ZMB 30906_MeshPart79
+    400156: Phyton bivittatus ZMB 30906_MeshPart8
+    400158: Phyton bivittatus ZMB 30906_MeshPart80
+    400160: Phyton bivittatus ZMB 30906_MeshPart81
+    400162: Phyton bivittatus ZMB 30906_MeshPart82
+    400164: Phyton bivittatus ZMB 30906_MeshPart83
+    400166: Phyton bivittatus ZMB 30906_MeshPart84
+    400168: Phyton bivittatus ZMB 30906_MeshPart85
+    400170: Phyton bivittatus ZMB 30906_MeshPart86
+    400172: Phyton bivittatus ZMB 30906_MeshPart87
+    400174: Phyton bivittatus ZMB 30906_MeshPart88
+    400176: Phyton bivittatus ZMB 30906_MeshPart9
+    400178: //RootNode
+    2300000: Phyton bivittatus ZMB 30906_MeshPart0
+    2300002: Phyton bivittatus ZMB 30906_MeshPart1
+    2300004: Phyton bivittatus ZMB 30906_MeshPart10
+    2300006: Phyton bivittatus ZMB 30906_MeshPart11
+    2300008: Phyton bivittatus ZMB 30906_MeshPart12
+    2300010: Phyton bivittatus ZMB 30906_MeshPart13
+    2300012: Phyton bivittatus ZMB 30906_MeshPart14
+    2300014: Phyton bivittatus ZMB 30906_MeshPart15
+    2300016: Phyton bivittatus ZMB 30906_MeshPart16
+    2300018: Phyton bivittatus ZMB 30906_MeshPart17
+    2300020: Phyton bivittatus ZMB 30906_MeshPart18
+    2300022: Phyton bivittatus ZMB 30906_MeshPart19
+    2300024: Phyton bivittatus ZMB 30906_MeshPart2
+    2300026: Phyton bivittatus ZMB 30906_MeshPart20
+    2300028: Phyton bivittatus ZMB 30906_MeshPart21
+    2300030: Phyton bivittatus ZMB 30906_MeshPart22
+    2300032: Phyton bivittatus ZMB 30906_MeshPart23
+    2300034: Phyton bivittatus ZMB 30906_MeshPart24
+    2300036: Phyton bivittatus ZMB 30906_MeshPart25
+    2300038: Phyton bivittatus ZMB 30906_MeshPart26
+    2300040: Phyton bivittatus ZMB 30906_MeshPart27
+    2300042: Phyton bivittatus ZMB 30906_MeshPart28
+    2300044: Phyton bivittatus ZMB 30906_MeshPart29
+    2300046: Phyton bivittatus ZMB 30906_MeshPart3
+    2300048: Phyton bivittatus ZMB 30906_MeshPart30
+    2300050: Phyton bivittatus ZMB 30906_MeshPart31
+    2300052: Phyton bivittatus ZMB 30906_MeshPart32
+    2300054: Phyton bivittatus ZMB 30906_MeshPart33
+    2300056: Phyton bivittatus ZMB 30906_MeshPart34
+    2300058: Phyton bivittatus ZMB 30906_MeshPart35
+    2300060: Phyton bivittatus ZMB 30906_MeshPart36
+    2300062: Phyton bivittatus ZMB 30906_MeshPart37
+    2300064: Phyton bivittatus ZMB 30906_MeshPart38
+    2300066: Phyton bivittatus ZMB 30906_MeshPart39
+    2300068: Phyton bivittatus ZMB 30906_MeshPart4
+    2300070: Phyton bivittatus ZMB 30906_MeshPart40
+    2300072: Phyton bivittatus ZMB 30906_MeshPart41
+    2300074: Phyton bivittatus ZMB 30906_MeshPart42
+    2300076: Phyton bivittatus ZMB 30906_MeshPart43
+    2300078: Phyton bivittatus ZMB 30906_MeshPart44
+    2300080: Phyton bivittatus ZMB 30906_MeshPart45
+    2300082: Phyton bivittatus ZMB 30906_MeshPart46
+    2300084: Phyton bivittatus ZMB 30906_MeshPart47
+    2300086: Phyton bivittatus ZMB 30906_MeshPart48
+    2300088: Phyton bivittatus ZMB 30906_MeshPart49
+    2300090: Phyton bivittatus ZMB 30906_MeshPart5
+    2300092: Phyton bivittatus ZMB 30906_MeshPart50
+    2300094: Phyton bivittatus ZMB 30906_MeshPart51
+    2300096: Phyton bivittatus ZMB 30906_MeshPart52
+    2300098: Phyton bivittatus ZMB 30906_MeshPart53
+    2300100: Phyton bivittatus ZMB 30906_MeshPart54
+    2300102: Phyton bivittatus ZMB 30906_MeshPart55
+    2300104: Phyton bivittatus ZMB 30906_MeshPart56
+    2300106: Phyton bivittatus ZMB 30906_MeshPart57
+    2300108: Phyton bivittatus ZMB 30906_MeshPart58
+    2300110: Phyton bivittatus ZMB 30906_MeshPart59
+    2300112: Phyton bivittatus ZMB 30906_MeshPart6
+    2300114: Phyton bivittatus ZMB 30906_MeshPart60
+    2300116: Phyton bivittatus ZMB 30906_MeshPart61
+    2300118: Phyton bivittatus ZMB 30906_MeshPart62
+    2300120: Phyton bivittatus ZMB 30906_MeshPart63
+    2300122: Phyton bivittatus ZMB 30906_MeshPart64
+    2300124: Phyton bivittatus ZMB 30906_MeshPart65
+    2300126: Phyton bivittatus ZMB 30906_MeshPart66
+    2300128: Phyton bivittatus ZMB 30906_MeshPart67
+    2300130: Phyton bivittatus ZMB 30906_MeshPart68
+    2300132: Phyton bivittatus ZMB 30906_MeshPart69
+    2300134: Phyton bivittatus ZMB 30906_MeshPart7
+    2300136: Phyton bivittatus ZMB 30906_MeshPart70
+    2300138: Phyton bivittatus ZMB 30906_MeshPart71
+    2300140: Phyton bivittatus ZMB 30906_MeshPart72
+    2300142: Phyton bivittatus ZMB 30906_MeshPart73
+    2300144: Phyton bivittatus ZMB 30906_MeshPart74
+    2300146: Phyton bivittatus ZMB 30906_MeshPart75
+    2300148: Phyton bivittatus ZMB 30906_MeshPart76
+    2300150: Phyton bivittatus ZMB 30906_MeshPart77
+    2300152: Phyton bivittatus ZMB 30906_MeshPart78
+    2300154: Phyton bivittatus ZMB 30906_MeshPart79
+    2300156: Phyton bivittatus ZMB 30906_MeshPart8
+    2300158: Phyton bivittatus ZMB 30906_MeshPart80
+    2300160: Phyton bivittatus ZMB 30906_MeshPart81
+    2300162: Phyton bivittatus ZMB 30906_MeshPart82
+    2300164: Phyton bivittatus ZMB 30906_MeshPart83
+    2300166: Phyton bivittatus ZMB 30906_MeshPart84
+    2300168: Phyton bivittatus ZMB 30906_MeshPart85
+    2300170: Phyton bivittatus ZMB 30906_MeshPart86
+    2300172: Phyton bivittatus ZMB 30906_MeshPart87
+    2300174: Phyton bivittatus ZMB 30906_MeshPart88
+    2300176: Phyton bivittatus ZMB 30906_MeshPart9
+    3300000: Phyton bivittatus ZMB 30906_MeshPart0
+    3300002: Phyton bivittatus ZMB 30906_MeshPart1
+    3300004: Phyton bivittatus ZMB 30906_MeshPart10
+    3300006: Phyton bivittatus ZMB 30906_MeshPart11
+    3300008: Phyton bivittatus ZMB 30906_MeshPart12
+    3300010: Phyton bivittatus ZMB 30906_MeshPart13
+    3300012: Phyton bivittatus ZMB 30906_MeshPart14
+    3300014: Phyton bivittatus ZMB 30906_MeshPart15
+    3300016: Phyton bivittatus ZMB 30906_MeshPart16
+    3300018: Phyton bivittatus ZMB 30906_MeshPart17
+    3300020: Phyton bivittatus ZMB 30906_MeshPart18
+    3300022: Phyton bivittatus ZMB 30906_MeshPart19
+    3300024: Phyton bivittatus ZMB 30906_MeshPart2
+    3300026: Phyton bivittatus ZMB 30906_MeshPart20
+    3300028: Phyton bivittatus ZMB 30906_MeshPart21
+    3300030: Phyton bivittatus ZMB 30906_MeshPart22
+    3300032: Phyton bivittatus ZMB 30906_MeshPart23
+    3300034: Phyton bivittatus ZMB 30906_MeshPart24
+    3300036: Phyton bivittatus ZMB 30906_MeshPart25
+    3300038: Phyton bivittatus ZMB 30906_MeshPart26
+    3300040: Phyton bivittatus ZMB 30906_MeshPart27
+    3300042: Phyton bivittatus ZMB 30906_MeshPart28
+    3300044: Phyton bivittatus ZMB 30906_MeshPart29
+    3300046: Phyton bivittatus ZMB 30906_MeshPart3
+    3300048: Phyton bivittatus ZMB 30906_MeshPart30
+    3300050: Phyton bivittatus ZMB 30906_MeshPart31
+    3300052: Phyton bivittatus ZMB 30906_MeshPart32
+    3300054: Phyton bivittatus ZMB 30906_MeshPart33
+    3300056: Phyton bivittatus ZMB 30906_MeshPart34
+    3300058: Phyton bivittatus ZMB 30906_MeshPart35
+    3300060: Phyton bivittatus ZMB 30906_MeshPart36
+    3300062: Phyton bivittatus ZMB 30906_MeshPart37
+    3300064: Phyton bivittatus ZMB 30906_MeshPart38
+    3300066: Phyton bivittatus ZMB 30906_MeshPart39
+    3300068: Phyton bivittatus ZMB 30906_MeshPart4
+    3300070: Phyton bivittatus ZMB 30906_MeshPart40
+    3300072: Phyton bivittatus ZMB 30906_MeshPart41
+    3300074: Phyton bivittatus ZMB 30906_MeshPart42
+    3300076: Phyton bivittatus ZMB 30906_MeshPart43
+    3300078: Phyton bivittatus ZMB 30906_MeshPart44
+    3300080: Phyton bivittatus ZMB 30906_MeshPart45
+    3300082: Phyton bivittatus ZMB 30906_MeshPart46
+    3300084: Phyton bivittatus ZMB 30906_MeshPart47
+    3300086: Phyton bivittatus ZMB 30906_MeshPart48
+    3300088: Phyton bivittatus ZMB 30906_MeshPart49
+    3300090: Phyton bivittatus ZMB 30906_MeshPart5
+    3300092: Phyton bivittatus ZMB 30906_MeshPart50
+    3300094: Phyton bivittatus ZMB 30906_MeshPart51
+    3300096: Phyton bivittatus ZMB 30906_MeshPart52
+    3300098: Phyton bivittatus ZMB 30906_MeshPart53
+    3300100: Phyton bivittatus ZMB 30906_MeshPart54
+    3300102: Phyton bivittatus ZMB 30906_MeshPart55
+    3300104: Phyton bivittatus ZMB 30906_MeshPart56
+    3300106: Phyton bivittatus ZMB 30906_MeshPart57
+    3300108: Phyton bivittatus ZMB 30906_MeshPart58
+    3300110: Phyton bivittatus ZMB 30906_MeshPart59
+    3300112: Phyton bivittatus ZMB 30906_MeshPart6
+    3300114: Phyton bivittatus ZMB 30906_MeshPart60
+    3300116: Phyton bivittatus ZMB 30906_MeshPart61
+    3300118: Phyton bivittatus ZMB 30906_MeshPart62
+    3300120: Phyton bivittatus ZMB 30906_MeshPart63
+    3300122: Phyton bivittatus ZMB 30906_MeshPart64
+    3300124: Phyton bivittatus ZMB 30906_MeshPart65
+    3300126: Phyton bivittatus ZMB 30906_MeshPart66
+    3300128: Phyton bivittatus ZMB 30906_MeshPart67
+    3300130: Phyton bivittatus ZMB 30906_MeshPart68
+    3300132: Phyton bivittatus ZMB 30906_MeshPart69
+    3300134: Phyton bivittatus ZMB 30906_MeshPart7
+    3300136: Phyton bivittatus ZMB 30906_MeshPart70
+    3300138: Phyton bivittatus ZMB 30906_MeshPart71
+    3300140: Phyton bivittatus ZMB 30906_MeshPart72
+    3300142: Phyton bivittatus ZMB 30906_MeshPart73
+    3300144: Phyton bivittatus ZMB 30906_MeshPart74
+    3300146: Phyton bivittatus ZMB 30906_MeshPart75
+    3300148: Phyton bivittatus ZMB 30906_MeshPart76
+    3300150: Phyton bivittatus ZMB 30906_MeshPart77
+    3300152: Phyton bivittatus ZMB 30906_MeshPart78
+    3300154: Phyton bivittatus ZMB 30906_MeshPart79
+    3300156: Phyton bivittatus ZMB 30906_MeshPart8
+    3300158: Phyton bivittatus ZMB 30906_MeshPart80
+    3300160: Phyton bivittatus ZMB 30906_MeshPart81
+    3300162: Phyton bivittatus ZMB 30906_MeshPart82
+    3300164: Phyton bivittatus ZMB 30906_MeshPart83
+    3300166: Phyton bivittatus ZMB 30906_MeshPart84
+    3300168: Phyton bivittatus ZMB 30906_MeshPart85
+    3300170: Phyton bivittatus ZMB 30906_MeshPart86
+    3300172: Phyton bivittatus ZMB 30906_MeshPart87
+    3300174: Phyton bivittatus ZMB 30906_MeshPart88
+    3300176: Phyton bivittatus ZMB 30906_MeshPart9
+    4300000: Phyton bivittatus ZMB 30906_MeshPart0
+    4300002: Phyton bivittatus ZMB 30906_MeshPart1
+    4300004: Phyton bivittatus ZMB 30906_MeshPart2
+    4300006: Phyton bivittatus ZMB 30906_MeshPart3
+    4300008: Phyton bivittatus ZMB 30906_MeshPart4
+    4300010: Phyton bivittatus ZMB 30906_MeshPart5
+    4300012: Phyton bivittatus ZMB 30906_MeshPart6
+    4300014: Phyton bivittatus ZMB 30906_MeshPart7
+    4300016: Phyton bivittatus ZMB 30906_MeshPart8
+    4300018: Phyton bivittatus ZMB 30906_MeshPart9
+    4300020: Phyton bivittatus ZMB 30906_MeshPart10
+    4300022: Phyton bivittatus ZMB 30906_MeshPart11
+    4300024: Phyton bivittatus ZMB 30906_MeshPart12
+    4300026: Phyton bivittatus ZMB 30906_MeshPart13
+    4300028: Phyton bivittatus ZMB 30906_MeshPart14
+    4300030: Phyton bivittatus ZMB 30906_MeshPart15
+    4300032: Phyton bivittatus ZMB 30906_MeshPart16
+    4300034: Phyton bivittatus ZMB 30906_MeshPart17
+    4300036: Phyton bivittatus ZMB 30906_MeshPart18
+    4300038: Phyton bivittatus ZMB 30906_MeshPart19
+    4300040: Phyton bivittatus ZMB 30906_MeshPart20
+    4300042: Phyton bivittatus ZMB 30906_MeshPart21
+    4300044: Phyton bivittatus ZMB 30906_MeshPart22
+    4300046: Phyton bivittatus ZMB 30906_MeshPart23
+    4300048: Phyton bivittatus ZMB 30906_MeshPart24
+    4300050: Phyton bivittatus ZMB 30906_MeshPart25
+    4300052: Phyton bivittatus ZMB 30906_MeshPart26
+    4300054: Phyton bivittatus ZMB 30906_MeshPart27
+    4300056: Phyton bivittatus ZMB 30906_MeshPart28
+    4300058: Phyton bivittatus ZMB 30906_MeshPart29
+    4300060: Phyton bivittatus ZMB 30906_MeshPart30
+    4300062: Phyton bivittatus ZMB 30906_MeshPart31
+    4300064: Phyton bivittatus ZMB 30906_MeshPart32
+    4300066: Phyton bivittatus ZMB 30906_MeshPart33
+    4300068: Phyton bivittatus ZMB 30906_MeshPart34
+    4300070: Phyton bivittatus ZMB 30906_MeshPart35
+    4300072: Phyton bivittatus ZMB 30906_MeshPart36
+    4300074: Phyton bivittatus ZMB 30906_MeshPart37
+    4300076: Phyton bivittatus ZMB 30906_MeshPart38
+    4300078: Phyton bivittatus ZMB 30906_MeshPart39
+    4300080: Phyton bivittatus ZMB 30906_MeshPart40
+    4300082: Phyton bivittatus ZMB 30906_MeshPart41
+    4300084: Phyton bivittatus ZMB 30906_MeshPart42
+    4300086: Phyton bivittatus ZMB 30906_MeshPart43
+    4300088: Phyton bivittatus ZMB 30906_MeshPart44
+    4300090: Phyton bivittatus ZMB 30906_MeshPart45
+    4300092: Phyton bivittatus ZMB 30906_MeshPart46
+    4300094: Phyton bivittatus ZMB 30906_MeshPart47
+    4300096: Phyton bivittatus ZMB 30906_MeshPart48
+    4300098: Phyton bivittatus ZMB 30906_MeshPart49
+    4300100: Phyton bivittatus ZMB 30906_MeshPart50
+    4300102: Phyton bivittatus ZMB 30906_MeshPart51
+    4300104: Phyton bivittatus ZMB 30906_MeshPart52
+    4300106: Phyton bivittatus ZMB 30906_MeshPart53
+    4300108: Phyton bivittatus ZMB 30906_MeshPart54
+    4300110: Phyton bivittatus ZMB 30906_MeshPart55
+    4300112: Phyton bivittatus ZMB 30906_MeshPart56
+    4300114: Phyton bivittatus ZMB 30906_MeshPart57
+    4300116: Phyton bivittatus ZMB 30906_MeshPart58
+    4300118: Phyton bivittatus ZMB 30906_MeshPart59
+    4300120: Phyton bivittatus ZMB 30906_MeshPart60
+    4300122: Phyton bivittatus ZMB 30906_MeshPart61
+    4300124: Phyton bivittatus ZMB 30906_MeshPart62
+    4300126: Phyton bivittatus ZMB 30906_MeshPart63
+    4300128: Phyton bivittatus ZMB 30906_MeshPart64
+    4300130: Phyton bivittatus ZMB 30906_MeshPart65
+    4300132: Phyton bivittatus ZMB 30906_MeshPart66
+    4300134: Phyton bivittatus ZMB 30906_MeshPart67
+    4300136: Phyton bivittatus ZMB 30906_MeshPart68
+    4300138: Phyton bivittatus ZMB 30906_MeshPart69
+    4300140: Phyton bivittatus ZMB 30906_MeshPart70
+    4300142: Phyton bivittatus ZMB 30906_MeshPart71
+    4300144: Phyton bivittatus ZMB 30906_MeshPart72
+    4300146: Phyton bivittatus ZMB 30906_MeshPart73
+    4300148: Phyton bivittatus ZMB 30906_MeshPart74
+    4300150: Phyton bivittatus ZMB 30906_MeshPart75
+    4300152: Phyton bivittatus ZMB 30906_MeshPart76
+    4300154: Phyton bivittatus ZMB 30906_MeshPart77
+    4300156: Phyton bivittatus ZMB 30906_MeshPart78
+    4300158: Phyton bivittatus ZMB 30906_MeshPart79
+    4300160: Phyton bivittatus ZMB 30906_MeshPart80
+    4300162: Phyton bivittatus ZMB 30906_MeshPart81
+    4300164: Phyton bivittatus ZMB 30906_MeshPart82
+    4300166: Phyton bivittatus ZMB 30906_MeshPart83
+    4300168: Phyton bivittatus ZMB 30906_MeshPart84
+    4300170: Phyton bivittatus ZMB 30906_MeshPart85
+    4300172: Phyton bivittatus ZMB 30906_MeshPart86
+    4300174: Phyton bivittatus ZMB 30906_MeshPart87
+    4300176: Phyton bivittatus ZMB 30906_MeshPart88
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: b8cd0f06ac05d204a8c9fc0362c11820, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

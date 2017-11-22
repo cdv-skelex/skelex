@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 2be0ea3660815cd45ad63c6b5d6b63e3
+timeCreated: 1510585043
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Dispholidus typus ZMB 5879 skull_MeshPart0
+    100002: Dispholidus typus ZMB 5879 skull_MeshPart1
+    100004: Dispholidus typus ZMB 5879 skull_MeshPart10
+    100006: Dispholidus typus ZMB 5879 skull_MeshPart11
+    100008: Dispholidus typus ZMB 5879 skull_MeshPart12
+    100010: Dispholidus typus ZMB 5879 skull_MeshPart13
+    100012: Dispholidus typus ZMB 5879 skull_MeshPart14
+    100014: Dispholidus typus ZMB 5879 skull_MeshPart15
+    100016: Dispholidus typus ZMB 5879 skull_MeshPart16
+    100018: Dispholidus typus ZMB 5879 skull_MeshPart17
+    100020: Dispholidus typus ZMB 5879 skull_MeshPart18
+    100022: Dispholidus typus ZMB 5879 skull_MeshPart19
+    100024: Dispholidus typus ZMB 5879 skull_MeshPart2
+    100026: Dispholidus typus ZMB 5879 skull_MeshPart20
+    100028: Dispholidus typus ZMB 5879 skull_MeshPart21
+    100030: Dispholidus typus ZMB 5879 skull_MeshPart22
+    100032: Dispholidus typus ZMB 5879 skull_MeshPart23
+    100034: Dispholidus typus ZMB 5879 skull_MeshPart24
+    100036: Dispholidus typus ZMB 5879 skull_MeshPart25
+    100038: Dispholidus typus ZMB 5879 skull_MeshPart26
+    100040: Dispholidus typus ZMB 5879 skull_MeshPart27
+    100042: Dispholidus typus ZMB 5879 skull_MeshPart28
+    100044: Dispholidus typus ZMB 5879 skull_MeshPart29
+    100046: Dispholidus typus ZMB 5879 skull_MeshPart3
+    100048: Dispholidus typus ZMB 5879 skull_MeshPart30
+    100050: Dispholidus typus ZMB 5879 skull_MeshPart31
+    100052: Dispholidus typus ZMB 5879 skull_MeshPart32
+    100054: Dispholidus typus ZMB 5879 skull_MeshPart33
+    100056: Dispholidus typus ZMB 5879 skull_MeshPart34
+    100058: Dispholidus typus ZMB 5879 skull_MeshPart35
+    100060: Dispholidus typus ZMB 5879 skull_MeshPart36
+    100062: Dispholidus typus ZMB 5879 skull_MeshPart37
+    100064: Dispholidus typus ZMB 5879 skull_MeshPart38
+    100066: Dispholidus typus ZMB 5879 skull_MeshPart39
+    100068: Dispholidus typus ZMB 5879 skull_MeshPart4
+    100070: Dispholidus typus ZMB 5879 skull_MeshPart40
+    100072: Dispholidus typus ZMB 5879 skull_MeshPart41
+    100074: Dispholidus typus ZMB 5879 skull_MeshPart42
+    100076: Dispholidus typus ZMB 5879 skull_MeshPart43
+    100078: Dispholidus typus ZMB 5879 skull_MeshPart44
+    100080: Dispholidus typus ZMB 5879 skull_MeshPart45
+    100082: Dispholidus typus ZMB 5879 skull_MeshPart46
+    100084: Dispholidus typus ZMB 5879 skull_MeshPart47
+    100086: Dispholidus typus ZMB 5879 skull_MeshPart48
+    100088: Dispholidus typus ZMB 5879 skull_MeshPart49
+    100090: Dispholidus typus ZMB 5879 skull_MeshPart5
+    100092: Dispholidus typus ZMB 5879 skull_MeshPart50
+    100094: Dispholidus typus ZMB 5879 skull_MeshPart51
+    100096: Dispholidus typus ZMB 5879 skull_MeshPart52
+    100098: Dispholidus typus ZMB 5879 skull_MeshPart53
+    100100: Dispholidus typus ZMB 5879 skull_MeshPart54
+    100102: Dispholidus typus ZMB 5879 skull_MeshPart55
+    100104: Dispholidus typus ZMB 5879 skull_MeshPart56
+    100106: Dispholidus typus ZMB 5879 skull_MeshPart57
+    100108: Dispholidus typus ZMB 5879 skull_MeshPart58
+    100110: Dispholidus typus ZMB 5879 skull_MeshPart59
+    100112: Dispholidus typus ZMB 5879 skull_MeshPart6
+    100114: Dispholidus typus ZMB 5879 skull_MeshPart60
+    100116: Dispholidus typus ZMB 5879 skull_MeshPart61
+    100118: Dispholidus typus ZMB 5879 skull_MeshPart62
+    100120: Dispholidus typus ZMB 5879 skull_MeshPart63
+    100122: Dispholidus typus ZMB 5879 skull_MeshPart64
+    100124: Dispholidus typus ZMB 5879 skull_MeshPart65
+    100126: Dispholidus typus ZMB 5879 skull_MeshPart66
+    100128: Dispholidus typus ZMB 5879 skull_MeshPart67
+    100130: Dispholidus typus ZMB 5879 skull_MeshPart68
+    100132: Dispholidus typus ZMB 5879 skull_MeshPart69
+    100134: Dispholidus typus ZMB 5879 skull_MeshPart7
+    100136: Dispholidus typus ZMB 5879 skull_MeshPart70
+    100138: Dispholidus typus ZMB 5879 skull_MeshPart71
+    100140: Dispholidus typus ZMB 5879 skull_MeshPart72
+    100142: Dispholidus typus ZMB 5879 skull_MeshPart73
+    100144: Dispholidus typus ZMB 5879 skull_MeshPart74
+    100146: Dispholidus typus ZMB 5879 skull_MeshPart75
+    100148: Dispholidus typus ZMB 5879 skull_MeshPart76
+    100150: Dispholidus typus ZMB 5879 skull_MeshPart77
+    100152: Dispholidus typus ZMB 5879 skull_MeshPart78
+    100154: Dispholidus typus ZMB 5879 skull_MeshPart79
+    100156: Dispholidus typus ZMB 5879 skull_MeshPart8
+    100158: Dispholidus typus ZMB 5879 skull_MeshPart80
+    100160: Dispholidus typus ZMB 5879 skull_MeshPart81
+    100162: Dispholidus typus ZMB 5879 skull_MeshPart82
+    100164: Dispholidus typus ZMB 5879 skull_MeshPart9
+    100166: //RootNode
+    400000: Dispholidus typus ZMB 5879 skull_MeshPart0
+    400002: Dispholidus typus ZMB 5879 skull_MeshPart1
+    400004: Dispholidus typus ZMB 5879 skull_MeshPart10
+    400006: Dispholidus typus ZMB 5879 skull_MeshPart11
+    400008: Dispholidus typus ZMB 5879 skull_MeshPart12
+    400010: Dispholidus typus ZMB 5879 skull_MeshPart13
+    400012: Dispholidus typus ZMB 5879 skull_MeshPart14
+    400014: Dispholidus typus ZMB 5879 skull_MeshPart15
+    400016: Dispholidus typus ZMB 5879 skull_MeshPart16
+    400018: Dispholidus typus ZMB 5879 skull_MeshPart17
+    400020: Dispholidus typus ZMB 5879 skull_MeshPart18
+    400022: Dispholidus typus ZMB 5879 skull_MeshPart19
+    400024: Dispholidus typus ZMB 5879 skull_MeshPart2
+    400026: Dispholidus typus ZMB 5879 skull_MeshPart20
+    400028: Dispholidus typus ZMB 5879 skull_MeshPart21
+    400030: Dispholidus typus ZMB 5879 skull_MeshPart22
+    400032: Dispholidus typus ZMB 5879 skull_MeshPart23
+    400034: Dispholidus typus ZMB 5879 skull_MeshPart24
+    400036: Dispholidus typus ZMB 5879 skull_MeshPart25
+    400038: Dispholidus typus ZMB 5879 skull_MeshPart26
+    400040: Dispholidus typus ZMB 5879 skull_MeshPart27
+    400042: Dispholidus typus ZMB 5879 skull_MeshPart28
+    400044: Dispholidus typus ZMB 5879 skull_MeshPart29
+    400046: Dispholidus typus ZMB 5879 skull_MeshPart3
+    400048: Dispholidus typus ZMB 5879 skull_MeshPart30
+    400050: Dispholidus typus ZMB 5879 skull_MeshPart31
+    400052: Dispholidus typus ZMB 5879 skull_MeshPart32
+    400054: Dispholidus typus ZMB 5879 skull_MeshPart33
+    400056: Dispholidus typus ZMB 5879 skull_MeshPart34
+    400058: Dispholidus typus ZMB 5879 skull_MeshPart35
+    400060: Dispholidus typus ZMB 5879 skull_MeshPart36
+    400062: Dispholidus typus ZMB 5879 skull_MeshPart37
+    400064: Dispholidus typus ZMB 5879 skull_MeshPart38
+    400066: Dispholidus typus ZMB 5879 skull_MeshPart39
+    400068: Dispholidus typus ZMB 5879 skull_MeshPart4
+    400070: Dispholidus typus ZMB 5879 skull_MeshPart40
+    400072: Dispholidus typus ZMB 5879 skull_MeshPart41
+    400074: Dispholidus typus ZMB 5879 skull_MeshPart42
+    400076: Dispholidus typus ZMB 5879 skull_MeshPart43
+    400078: Dispholidus typus ZMB 5879 skull_MeshPart44
+    400080: Dispholidus typus ZMB 5879 skull_MeshPart45
+    400082: Dispholidus typus ZMB 5879 skull_MeshPart46
+    400084: Dispholidus typus ZMB 5879 skull_MeshPart47
+    400086: Dispholidus typus ZMB 5879 skull_MeshPart48
+    400088: Dispholidus typus ZMB 5879 skull_MeshPart49
+    400090: Dispholidus typus ZMB 5879 skull_MeshPart5
+    400092: Dispholidus typus ZMB 5879 skull_MeshPart50
+    400094: Dispholidus typus ZMB 5879 skull_MeshPart51
+    400096: Dispholidus typus ZMB 5879 skull_MeshPart52
+    400098: Dispholidus typus ZMB 5879 skull_MeshPart53
+    400100: Dispholidus typus ZMB 5879 skull_MeshPart54
+    400102: Dispholidus typus ZMB 5879 skull_MeshPart55
+    400104: Dispholidus typus ZMB 5879 skull_MeshPart56
+    400106: Dispholidus typus ZMB 5879 skull_MeshPart57
+    400108: Dispholidus typus ZMB 5879 skull_MeshPart58
+    400110: Dispholidus typus ZMB 5879 skull_MeshPart59
+    400112: Dispholidus typus ZMB 5879 skull_MeshPart6
+    400114: Dispholidus typus ZMB 5879 skull_MeshPart60
+    400116: Dispholidus typus ZMB 5879 skull_MeshPart61
+    400118: Dispholidus typus ZMB 5879 skull_MeshPart62
+    400120: Dispholidus typus ZMB 5879 skull_MeshPart63
+    400122: Dispholidus typus ZMB 5879 skull_MeshPart64
+    400124: Dispholidus typus ZMB 5879 skull_MeshPart65
+    400126: Dispholidus typus ZMB 5879 skull_MeshPart66
+    400128: Dispholidus typus ZMB 5879 skull_MeshPart67
+    400130: Dispholidus typus ZMB 5879 skull_MeshPart68
+    400132: Dispholidus typus ZMB 5879 skull_MeshPart69
+    400134: Dispholidus typus ZMB 5879 skull_MeshPart7
+    400136: Dispholidus typus ZMB 5879 skull_MeshPart70
+    400138: Dispholidus typus ZMB 5879 skull_MeshPart71
+    400140: Dispholidus typus ZMB 5879 skull_MeshPart72
+    400142: Dispholidus typus ZMB 5879 skull_MeshPart73
+    400144: Dispholidus typus ZMB 5879 skull_MeshPart74
+    400146: Dispholidus typus ZMB 5879 skull_MeshPart75
+    400148: Dispholidus typus ZMB 5879 skull_MeshPart76
+    400150: Dispholidus typus ZMB 5879 skull_MeshPart77
+    400152: Dispholidus typus ZMB 5879 skull_MeshPart78
+    400154: Dispholidus typus ZMB 5879 skull_MeshPart79
+    400156: Dispholidus typus ZMB 5879 skull_MeshPart8
+    400158: Dispholidus typus ZMB 5879 skull_MeshPart80
+    400160: Dispholidus typus ZMB 5879 skull_MeshPart81
+    400162: Dispholidus typus ZMB 5879 skull_MeshPart82
+    400164: Dispholidus typus ZMB 5879 skull_MeshPart9
+    400166: //RootNode
+    2300000: Dispholidus typus ZMB 5879 skull_MeshPart0
+    2300002: Dispholidus typus ZMB 5879 skull_MeshPart1
+    2300004: Dispholidus typus ZMB 5879 skull_MeshPart10
+    2300006: Dispholidus typus ZMB 5879 skull_MeshPart11
+    2300008: Dispholidus typus ZMB 5879 skull_MeshPart12
+    2300010: Dispholidus typus ZMB 5879 skull_MeshPart13
+    2300012: Dispholidus typus ZMB 5879 skull_MeshPart14
+    2300014: Dispholidus typus ZMB 5879 skull_MeshPart15
+    2300016: Dispholidus typus ZMB 5879 skull_MeshPart16
+    2300018: Dispholidus typus ZMB 5879 skull_MeshPart17
+    2300020: Dispholidus typus ZMB 5879 skull_MeshPart18
+    2300022: Dispholidus typus ZMB 5879 skull_MeshPart19
+    2300024: Dispholidus typus ZMB 5879 skull_MeshPart2
+    2300026: Dispholidus typus ZMB 5879 skull_MeshPart20
+    2300028: Dispholidus typus ZMB 5879 skull_MeshPart21
+    2300030: Dispholidus typus ZMB 5879 skull_MeshPart22
+    2300032: Dispholidus typus ZMB 5879 skull_MeshPart23
+    2300034: Dispholidus typus ZMB 5879 skull_MeshPart24
+    2300036: Dispholidus typus ZMB 5879 skull_MeshPart25
+    2300038: Dispholidus typus ZMB 5879 skull_MeshPart26
+    2300040: Dispholidus typus ZMB 5879 skull_MeshPart27
+    2300042: Dispholidus typus ZMB 5879 skull_MeshPart28
+    2300044: Dispholidus typus ZMB 5879 skull_MeshPart29
+    2300046: Dispholidus typus ZMB 5879 skull_MeshPart3
+    2300048: Dispholidus typus ZMB 5879 skull_MeshPart30
+    2300050: Dispholidus typus ZMB 5879 skull_MeshPart31
+    2300052: Dispholidus typus ZMB 5879 skull_MeshPart32
+    2300054: Dispholidus typus ZMB 5879 skull_MeshPart33
+    2300056: Dispholidus typus ZMB 5879 skull_MeshPart34
+    2300058: Dispholidus typus ZMB 5879 skull_MeshPart35
+    2300060: Dispholidus typus ZMB 5879 skull_MeshPart36
+    2300062: Dispholidus typus ZMB 5879 skull_MeshPart37
+    2300064: Dispholidus typus ZMB 5879 skull_MeshPart38
+    2300066: Dispholidus typus ZMB 5879 skull_MeshPart39
+    2300068: Dispholidus typus ZMB 5879 skull_MeshPart4
+    2300070: Dispholidus typus ZMB 5879 skull_MeshPart40
+    2300072: Dispholidus typus ZMB 5879 skull_MeshPart41
+    2300074: Dispholidus typus ZMB 5879 skull_MeshPart42
+    2300076: Dispholidus typus ZMB 5879 skull_MeshPart43
+    2300078: Dispholidus typus ZMB 5879 skull_MeshPart44
+    2300080: Dispholidus typus ZMB 5879 skull_MeshPart45
+    2300082: Dispholidus typus ZMB 5879 skull_MeshPart46
+    2300084: Dispholidus typus ZMB 5879 skull_MeshPart47
+    2300086: Dispholidus typus ZMB 5879 skull_MeshPart48
+    2300088: Dispholidus typus ZMB 5879 skull_MeshPart49
+    2300090: Dispholidus typus ZMB 5879 skull_MeshPart5
+    2300092: Dispholidus typus ZMB 5879 skull_MeshPart50
+    2300094: Dispholidus typus ZMB 5879 skull_MeshPart51
+    2300096: Dispholidus typus ZMB 5879 skull_MeshPart52
+    2300098: Dispholidus typus ZMB 5879 skull_MeshPart53
+    2300100: Dispholidus typus ZMB 5879 skull_MeshPart54
+    2300102: Dispholidus typus ZMB 5879 skull_MeshPart55
+    2300104: Dispholidus typus ZMB 5879 skull_MeshPart56
+    2300106: Dispholidus typus ZMB 5879 skull_MeshPart57
+    2300108: Dispholidus typus ZMB 5879 skull_MeshPart58
+    2300110: Dispholidus typus ZMB 5879 skull_MeshPart59
+    2300112: Dispholidus typus ZMB 5879 skull_MeshPart6
+    2300114: Dispholidus typus ZMB 5879 skull_MeshPart60
+    2300116: Dispholidus typus ZMB 5879 skull_MeshPart61
+    2300118: Dispholidus typus ZMB 5879 skull_MeshPart62
+    2300120: Dispholidus typus ZMB 5879 skull_MeshPart63
+    2300122: Dispholidus typus ZMB 5879 skull_MeshPart64
+    2300124: Dispholidus typus ZMB 5879 skull_MeshPart65
+    2300126: Dispholidus typus ZMB 5879 skull_MeshPart66
+    2300128: Dispholidus typus ZMB 5879 skull_MeshPart67
+    2300130: Dispholidus typus ZMB 5879 skull_MeshPart68
+    2300132: Dispholidus typus ZMB 5879 skull_MeshPart69
+    2300134: Dispholidus typus ZMB 5879 skull_MeshPart7
+    2300136: Dispholidus typus ZMB 5879 skull_MeshPart70
+    2300138: Dispholidus typus ZMB 5879 skull_MeshPart71
+    2300140: Dispholidus typus ZMB 5879 skull_MeshPart72
+    2300142: Dispholidus typus ZMB 5879 skull_MeshPart73
+    2300144: Dispholidus typus ZMB 5879 skull_MeshPart74
+    2300146: Dispholidus typus ZMB 5879 skull_MeshPart75
+    2300148: Dispholidus typus ZMB 5879 skull_MeshPart76
+    2300150: Dispholidus typus ZMB 5879 skull_MeshPart77
+    2300152: Dispholidus typus ZMB 5879 skull_MeshPart78
+    2300154: Dispholidus typus ZMB 5879 skull_MeshPart79
+    2300156: Dispholidus typus ZMB 5879 skull_MeshPart8
+    2300158: Dispholidus typus ZMB 5879 skull_MeshPart80
+    2300160: Dispholidus typus ZMB 5879 skull_MeshPart81
+    2300162: Dispholidus typus ZMB 5879 skull_MeshPart82
+    2300164: Dispholidus typus ZMB 5879 skull_MeshPart9
+    3300000: Dispholidus typus ZMB 5879 skull_MeshPart0
+    3300002: Dispholidus typus ZMB 5879 skull_MeshPart1
+    3300004: Dispholidus typus ZMB 5879 skull_MeshPart10
+    3300006: Dispholidus typus ZMB 5879 skull_MeshPart11
+    3300008: Dispholidus typus ZMB 5879 skull_MeshPart12
+    3300010: Dispholidus typus ZMB 5879 skull_MeshPart13
+    3300012: Dispholidus typus ZMB 5879 skull_MeshPart14
+    3300014: Dispholidus typus ZMB 5879 skull_MeshPart15
+    3300016: Dispholidus typus ZMB 5879 skull_MeshPart16
+    3300018: Dispholidus typus ZMB 5879 skull_MeshPart17
+    3300020: Dispholidus typus ZMB 5879 skull_MeshPart18
+    3300022: Dispholidus typus ZMB 5879 skull_MeshPart19
+    3300024: Dispholidus typus ZMB 5879 skull_MeshPart2
+    3300026: Dispholidus typus ZMB 5879 skull_MeshPart20
+    3300028: Dispholidus typus ZMB 5879 skull_MeshPart21
+    3300030: Dispholidus typus ZMB 5879 skull_MeshPart22
+    3300032: Dispholidus typus ZMB 5879 skull_MeshPart23
+    3300034: Dispholidus typus ZMB 5879 skull_MeshPart24
+    3300036: Dispholidus typus ZMB 5879 skull_MeshPart25
+    3300038: Dispholidus typus ZMB 5879 skull_MeshPart26
+    3300040: Dispholidus typus ZMB 5879 skull_MeshPart27
+    3300042: Dispholidus typus ZMB 5879 skull_MeshPart28
+    3300044: Dispholidus typus ZMB 5879 skull_MeshPart29
+    3300046: Dispholidus typus ZMB 5879 skull_MeshPart3
+    3300048: Dispholidus typus ZMB 5879 skull_MeshPart30
+    3300050: Dispholidus typus ZMB 5879 skull_MeshPart31
+    3300052: Dispholidus typus ZMB 5879 skull_MeshPart32
+    3300054: Dispholidus typus ZMB 5879 skull_MeshPart33
+    3300056: Dispholidus typus ZMB 5879 skull_MeshPart34
+    3300058: Dispholidus typus ZMB 5879 skull_MeshPart35
+    3300060: Dispholidus typus ZMB 5879 skull_MeshPart36
+    3300062: Dispholidus typus ZMB 5879 skull_MeshPart37
+    3300064: Dispholidus typus ZMB 5879 skull_MeshPart38
+    3300066: Dispholidus typus ZMB 5879 skull_MeshPart39
+    3300068: Dispholidus typus ZMB 5879 skull_MeshPart4
+    3300070: Dispholidus typus ZMB 5879 skull_MeshPart40
+    3300072: Dispholidus typus ZMB 5879 skull_MeshPart41
+    3300074: Dispholidus typus ZMB 5879 skull_MeshPart42
+    3300076: Dispholidus typus ZMB 5879 skull_MeshPart43
+    3300078: Dispholidus typus ZMB 5879 skull_MeshPart44
+    3300080: Dispholidus typus ZMB 5879 skull_MeshPart45
+    3300082: Dispholidus typus ZMB 5879 skull_MeshPart46
+    3300084: Dispholidus typus ZMB 5879 skull_MeshPart47
+    3300086: Dispholidus typus ZMB 5879 skull_MeshPart48
+    3300088: Dispholidus typus ZMB 5879 skull_MeshPart49
+    3300090: Dispholidus typus ZMB 5879 skull_MeshPart5
+    3300092: Dispholidus typus ZMB 5879 skull_MeshPart50
+    3300094: Dispholidus typus ZMB 5879 skull_MeshPart51
+    3300096: Dispholidus typus ZMB 5879 skull_MeshPart52
+    3300098: Dispholidus typus ZMB 5879 skull_MeshPart53
+    3300100: Dispholidus typus ZMB 5879 skull_MeshPart54
+    3300102: Dispholidus typus ZMB 5879 skull_MeshPart55
+    3300104: Dispholidus typus ZMB 5879 skull_MeshPart56
+    3300106: Dispholidus typus ZMB 5879 skull_MeshPart57
+    3300108: Dispholidus typus ZMB 5879 skull_MeshPart58
+    3300110: Dispholidus typus ZMB 5879 skull_MeshPart59
+    3300112: Dispholidus typus ZMB 5879 skull_MeshPart6
+    3300114: Dispholidus typus ZMB 5879 skull_MeshPart60
+    3300116: Dispholidus typus ZMB 5879 skull_MeshPart61
+    3300118: Dispholidus typus ZMB 5879 skull_MeshPart62
+    3300120: Dispholidus typus ZMB 5879 skull_MeshPart63
+    3300122: Dispholidus typus ZMB 5879 skull_MeshPart64
+    3300124: Dispholidus typus ZMB 5879 skull_MeshPart65
+    3300126: Dispholidus typus ZMB 5879 skull_MeshPart66
+    3300128: Dispholidus typus ZMB 5879 skull_MeshPart67
+    3300130: Dispholidus typus ZMB 5879 skull_MeshPart68
+    3300132: Dispholidus typus ZMB 5879 skull_MeshPart69
+    3300134: Dispholidus typus ZMB 5879 skull_MeshPart7
+    3300136: Dispholidus typus ZMB 5879 skull_MeshPart70
+    3300138: Dispholidus typus ZMB 5879 skull_MeshPart71
+    3300140: Dispholidus typus ZMB 5879 skull_MeshPart72
+    3300142: Dispholidus typus ZMB 5879 skull_MeshPart73
+    3300144: Dispholidus typus ZMB 5879 skull_MeshPart74
+    3300146: Dispholidus typus ZMB 5879 skull_MeshPart75
+    3300148: Dispholidus typus ZMB 5879 skull_MeshPart76
+    3300150: Dispholidus typus ZMB 5879 skull_MeshPart77
+    3300152: Dispholidus typus ZMB 5879 skull_MeshPart78
+    3300154: Dispholidus typus ZMB 5879 skull_MeshPart79
+    3300156: Dispholidus typus ZMB 5879 skull_MeshPart8
+    3300158: Dispholidus typus ZMB 5879 skull_MeshPart80
+    3300160: Dispholidus typus ZMB 5879 skull_MeshPart81
+    3300162: Dispholidus typus ZMB 5879 skull_MeshPart82
+    3300164: Dispholidus typus ZMB 5879 skull_MeshPart9
+    4300000: Dispholidus typus ZMB 5879 skull_MeshPart0
+    4300002: Dispholidus typus ZMB 5879 skull_MeshPart1
+    4300004: Dispholidus typus ZMB 5879 skull_MeshPart2
+    4300006: Dispholidus typus ZMB 5879 skull_MeshPart3
+    4300008: Dispholidus typus ZMB 5879 skull_MeshPart4
+    4300010: Dispholidus typus ZMB 5879 skull_MeshPart5
+    4300012: Dispholidus typus ZMB 5879 skull_MeshPart6
+    4300014: Dispholidus typus ZMB 5879 skull_MeshPart7
+    4300016: Dispholidus typus ZMB 5879 skull_MeshPart8
+    4300018: Dispholidus typus ZMB 5879 skull_MeshPart9
+    4300020: Dispholidus typus ZMB 5879 skull_MeshPart10
+    4300022: Dispholidus typus ZMB 5879 skull_MeshPart11
+    4300024: Dispholidus typus ZMB 5879 skull_MeshPart12
+    4300026: Dispholidus typus ZMB 5879 skull_MeshPart13
+    4300028: Dispholidus typus ZMB 5879 skull_MeshPart14
+    4300030: Dispholidus typus ZMB 5879 skull_MeshPart15
+    4300032: Dispholidus typus ZMB 5879 skull_MeshPart16
+    4300034: Dispholidus typus ZMB 5879 skull_MeshPart17
+    4300036: Dispholidus typus ZMB 5879 skull_MeshPart18
+    4300038: Dispholidus typus ZMB 5879 skull_MeshPart19
+    4300040: Dispholidus typus ZMB 5879 skull_MeshPart20
+    4300042: Dispholidus typus ZMB 5879 skull_MeshPart21
+    4300044: Dispholidus typus ZMB 5879 skull_MeshPart22
+    4300046: Dispholidus typus ZMB 5879 skull_MeshPart23
+    4300048: Dispholidus typus ZMB 5879 skull_MeshPart24
+    4300050: Dispholidus typus ZMB 5879 skull_MeshPart25
+    4300052: Dispholidus typus ZMB 5879 skull_MeshPart26
+    4300054: Dispholidus typus ZMB 5879 skull_MeshPart27
+    4300056: Dispholidus typus ZMB 5879 skull_MeshPart28
+    4300058: Dispholidus typus ZMB 5879 skull_MeshPart29
+    4300060: Dispholidus typus ZMB 5879 skull_MeshPart30
+    4300062: Dispholidus typus ZMB 5879 skull_MeshPart31
+    4300064: Dispholidus typus ZMB 5879 skull_MeshPart32
+    4300066: Dispholidus typus ZMB 5879 skull_MeshPart33
+    4300068: Dispholidus typus ZMB 5879 skull_MeshPart34
+    4300070: Dispholidus typus ZMB 5879 skull_MeshPart35
+    4300072: Dispholidus typus ZMB 5879 skull_MeshPart36
+    4300074: Dispholidus typus ZMB 5879 skull_MeshPart37
+    4300076: Dispholidus typus ZMB 5879 skull_MeshPart38
+    4300078: Dispholidus typus ZMB 5879 skull_MeshPart39
+    4300080: Dispholidus typus ZMB 5879 skull_MeshPart40
+    4300082: Dispholidus typus ZMB 5879 skull_MeshPart41
+    4300084: Dispholidus typus ZMB 5879 skull_MeshPart42
+    4300086: Dispholidus typus ZMB 5879 skull_MeshPart43
+    4300088: Dispholidus typus ZMB 5879 skull_MeshPart44
+    4300090: Dispholidus typus ZMB 5879 skull_MeshPart45
+    4300092: Dispholidus typus ZMB 5879 skull_MeshPart46
+    4300094: Dispholidus typus ZMB 5879 skull_MeshPart47
+    4300096: Dispholidus typus ZMB 5879 skull_MeshPart48
+    4300098: Dispholidus typus ZMB 5879 skull_MeshPart49
+    4300100: Dispholidus typus ZMB 5879 skull_MeshPart50
+    4300102: Dispholidus typus ZMB 5879 skull_MeshPart51
+    4300104: Dispholidus typus ZMB 5879 skull_MeshPart52
+    4300106: Dispholidus typus ZMB 5879 skull_MeshPart53
+    4300108: Dispholidus typus ZMB 5879 skull_MeshPart54
+    4300110: Dispholidus typus ZMB 5879 skull_MeshPart55
+    4300112: Dispholidus typus ZMB 5879 skull_MeshPart56
+    4300114: Dispholidus typus ZMB 5879 skull_MeshPart57
+    4300116: Dispholidus typus ZMB 5879 skull_MeshPart58
+    4300118: Dispholidus typus ZMB 5879 skull_MeshPart59
+    4300120: Dispholidus typus ZMB 5879 skull_MeshPart60
+    4300122: Dispholidus typus ZMB 5879 skull_MeshPart61
+    4300124: Dispholidus typus ZMB 5879 skull_MeshPart62
+    4300126: Dispholidus typus ZMB 5879 skull_MeshPart63
+    4300128: Dispholidus typus ZMB 5879 skull_MeshPart64
+    4300130: Dispholidus typus ZMB 5879 skull_MeshPart65
+    4300132: Dispholidus typus ZMB 5879 skull_MeshPart66
+    4300134: Dispholidus typus ZMB 5879 skull_MeshPart67
+    4300136: Dispholidus typus ZMB 5879 skull_MeshPart68
+    4300138: Dispholidus typus ZMB 5879 skull_MeshPart69
+    4300140: Dispholidus typus ZMB 5879 skull_MeshPart70
+    4300142: Dispholidus typus ZMB 5879 skull_MeshPart71
+    4300144: Dispholidus typus ZMB 5879 skull_MeshPart72
+    4300146: Dispholidus typus ZMB 5879 skull_MeshPart73
+    4300148: Dispholidus typus ZMB 5879 skull_MeshPart74
+    4300150: Dispholidus typus ZMB 5879 skull_MeshPart75
+    4300152: Dispholidus typus ZMB 5879 skull_MeshPart76
+    4300154: Dispholidus typus ZMB 5879 skull_MeshPart77
+    4300156: Dispholidus typus ZMB 5879 skull_MeshPart78
+    4300158: Dispholidus typus ZMB 5879 skull_MeshPart79
+    4300160: Dispholidus typus ZMB 5879 skull_MeshPart80
+    4300162: Dispholidus typus ZMB 5879 skull_MeshPart81
+    4300164: Dispholidus typus ZMB 5879 skull_MeshPart82
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: b8cd0f06ac05d204a8c9fc0362c11820, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

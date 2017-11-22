@@ -20,23 +20,31 @@ public class DragBasedOnCollision : MonoBehaviour
     {
         _controller = GetComponent<SteamVR_TrackedController>();
 
-        _controller.TriggerClicked += (sender, args) =>
-        {
-            _dragging = true;
-            _activeCollider.transform.parent = gameObject.transform;
-        };
+        _controller.TriggerClicked += (sender, args) => StartDragging();
+        _controller.PadClicked += (sender, args) => StartDragging();
 
-        _controller.TriggerUnclicked += (sender, args) =>
-        {
-            _dragging = false;
-            _activeCollider.transform.parent = Model.transform;
-        };
+        _controller.TriggerUnclicked += (sender, args) => StopDragging();
+        _controller.PadUnclicked += (sender, args) => StopDragging();
 
-        _controller.PadClicked += (sender, args) =>
+        /*_controller.PadClicked += (sender, args) =>
         {
             _activeCollider.transform.position = Model.transform.position;
             _activeCollider.transform.rotation = Model.transform.rotation * Quaternion.Euler(new Vector3(-90, 0, 0));
-        };
+        };*/
+    }
+
+    void StartDragging()
+    {
+        _dragging = true;
+        if (_activeCollider != null)
+            _activeCollider.transform.parent = gameObject.transform;
+    }
+
+    void StopDragging()
+    {
+        _dragging = false;
+        if (_activeCollider != null)
+            _activeCollider.transform.parent = Model.transform;
     }
 	
 	// Update is called once per frame
@@ -51,13 +59,11 @@ public class DragBasedOnCollision : MonoBehaviour
             return;
 
         if (_activeCollider != null)
-        {
-            setMaterial(_activeCollider, IdleMaterial);
-        }
+            setMaterial(_activeCollider, false);
 
         _activeCollider = parentForCollision(col);
 
-        setMaterial(_activeCollider, CollisionMaterial);
+        setMaterial(_activeCollider, true);
     }
 
     void OnCollisionExit(Collision col)
@@ -66,7 +72,7 @@ public class DragBasedOnCollision : MonoBehaviour
             return;
         if (_activeCollider == parentForCollision(col))
         {
-            setMaterial(parentForCollision(col), IdleMaterial);
+            setMaterial(parentForCollision(col), false);
             _activeCollider = null;
         }
     }
@@ -76,11 +82,23 @@ public class DragBasedOnCollision : MonoBehaviour
         return col.collider.gameObject.transform.parent.gameObject;
     }
 
-    void setMaterial(GameObject obj, Material material)
+    void setMaterial(GameObject obj, bool collision)
     {
-        foreach (var meshRenderer in obj.GetComponentsInChildren<MeshRenderer>())
+        var material = collision ? CollisionMaterial : IdleMaterial;
+
+        foreach (var meshRenderer in obj.transform.GetChild(0).gameObject.GetComponentsInChildren<MeshRenderer>())
         {
             meshRenderer.material = material;
         }
+        var tm = obj.transform.GetChild(2).GetComponent<TextMesh>();
+        var c = tm.color;
+
+        var collisionColor = new Color(255f/255f, 0f, 122/255f);
+        var idleColor = Color.white;
+
+        var textColor = collision ? collisionColor : idleColor;
+        textColor.a = c.a;
+
+        tm.color = textColor;
     }
 }

@@ -1,0 +1,447 @@
+fileFormatVersion: 2
+guid: 132e21b9275043041a2041b2f8d29d33
+timeCreated: 1510585383
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Naja melanoleuca ZMB 24446_MeshPart0
+    100002: Naja melanoleuca ZMB 24446_MeshPart1
+    100004: Naja melanoleuca ZMB 24446_MeshPart10
+    100006: Naja melanoleuca ZMB 24446_MeshPart11
+    100008: Naja melanoleuca ZMB 24446_MeshPart12
+    100010: Naja melanoleuca ZMB 24446_MeshPart13
+    100012: Naja melanoleuca ZMB 24446_MeshPart14
+    100014: Naja melanoleuca ZMB 24446_MeshPart15
+    100016: Naja melanoleuca ZMB 24446_MeshPart16
+    100018: Naja melanoleuca ZMB 24446_MeshPart17
+    100020: Naja melanoleuca ZMB 24446_MeshPart18
+    100022: Naja melanoleuca ZMB 24446_MeshPart19
+    100024: Naja melanoleuca ZMB 24446_MeshPart2
+    100026: Naja melanoleuca ZMB 24446_MeshPart20
+    100028: Naja melanoleuca ZMB 24446_MeshPart21
+    100030: Naja melanoleuca ZMB 24446_MeshPart22
+    100032: Naja melanoleuca ZMB 24446_MeshPart23
+    100034: Naja melanoleuca ZMB 24446_MeshPart24
+    100036: Naja melanoleuca ZMB 24446_MeshPart25
+    100038: Naja melanoleuca ZMB 24446_MeshPart26
+    100040: Naja melanoleuca ZMB 24446_MeshPart27
+    100042: Naja melanoleuca ZMB 24446_MeshPart28
+    100044: Naja melanoleuca ZMB 24446_MeshPart29
+    100046: Naja melanoleuca ZMB 24446_MeshPart3
+    100048: Naja melanoleuca ZMB 24446_MeshPart30
+    100050: Naja melanoleuca ZMB 24446_MeshPart31
+    100052: Naja melanoleuca ZMB 24446_MeshPart32
+    100054: Naja melanoleuca ZMB 24446_MeshPart33
+    100056: Naja melanoleuca ZMB 24446_MeshPart34
+    100058: Naja melanoleuca ZMB 24446_MeshPart35
+    100060: Naja melanoleuca ZMB 24446_MeshPart36
+    100062: Naja melanoleuca ZMB 24446_MeshPart37
+    100064: Naja melanoleuca ZMB 24446_MeshPart38
+    100066: Naja melanoleuca ZMB 24446_MeshPart39
+    100068: Naja melanoleuca ZMB 24446_MeshPart4
+    100070: Naja melanoleuca ZMB 24446_MeshPart40
+    100072: Naja melanoleuca ZMB 24446_MeshPart41
+    100074: Naja melanoleuca ZMB 24446_MeshPart42
+    100076: Naja melanoleuca ZMB 24446_MeshPart43
+    100078: Naja melanoleuca ZMB 24446_MeshPart44
+    100080: Naja melanoleuca ZMB 24446_MeshPart45
+    100082: Naja melanoleuca ZMB 24446_MeshPart46
+    100084: Naja melanoleuca ZMB 24446_MeshPart47
+    100086: Naja melanoleuca ZMB 24446_MeshPart48
+    100088: Naja melanoleuca ZMB 24446_MeshPart49
+    100090: Naja melanoleuca ZMB 24446_MeshPart5
+    100092: Naja melanoleuca ZMB 24446_MeshPart50
+    100094: Naja melanoleuca ZMB 24446_MeshPart51
+    100096: Naja melanoleuca ZMB 24446_MeshPart52
+    100098: Naja melanoleuca ZMB 24446_MeshPart53
+    100100: Naja melanoleuca ZMB 24446_MeshPart54
+    100102: Naja melanoleuca ZMB 24446_MeshPart55
+    100104: Naja melanoleuca ZMB 24446_MeshPart56
+    100106: Naja melanoleuca ZMB 24446_MeshPart57
+    100108: Naja melanoleuca ZMB 24446_MeshPart58
+    100110: Naja melanoleuca ZMB 24446_MeshPart59
+    100112: Naja melanoleuca ZMB 24446_MeshPart6
+    100114: Naja melanoleuca ZMB 24446_MeshPart60
+    100116: Naja melanoleuca ZMB 24446_MeshPart61
+    100118: Naja melanoleuca ZMB 24446_MeshPart62
+    100120: Naja melanoleuca ZMB 24446_MeshPart63
+    100122: Naja melanoleuca ZMB 24446_MeshPart64
+    100124: Naja melanoleuca ZMB 24446_MeshPart65
+    100126: Naja melanoleuca ZMB 24446_MeshPart66
+    100128: Naja melanoleuca ZMB 24446_MeshPart67
+    100130: Naja melanoleuca ZMB 24446_MeshPart68
+    100132: Naja melanoleuca ZMB 24446_MeshPart69
+    100134: Naja melanoleuca ZMB 24446_MeshPart7
+    100136: Naja melanoleuca ZMB 24446_MeshPart70
+    100138: Naja melanoleuca ZMB 24446_MeshPart8
+    100140: Naja melanoleuca ZMB 24446_MeshPart9
+    100142: //RootNode
+    400000: Naja melanoleuca ZMB 24446_MeshPart0
+    400002: Naja melanoleuca ZMB 24446_MeshPart1
+    400004: Naja melanoleuca ZMB 24446_MeshPart10
+    400006: Naja melanoleuca ZMB 24446_MeshPart11
+    400008: Naja melanoleuca ZMB 24446_MeshPart12
+    400010: Naja melanoleuca ZMB 24446_MeshPart13
+    400012: Naja melanoleuca ZMB 24446_MeshPart14
+    400014: Naja melanoleuca ZMB 24446_MeshPart15
+    400016: Naja melanoleuca ZMB 24446_MeshPart16
+    400018: Naja melanoleuca ZMB 24446_MeshPart17
+    400020: Naja melanoleuca ZMB 24446_MeshPart18
+    400022: Naja melanoleuca ZMB 24446_MeshPart19
+    400024: Naja melanoleuca ZMB 24446_MeshPart2
+    400026: Naja melanoleuca ZMB 24446_MeshPart20
+    400028: Naja melanoleuca ZMB 24446_MeshPart21
+    400030: Naja melanoleuca ZMB 24446_MeshPart22
+    400032: Naja melanoleuca ZMB 24446_MeshPart23
+    400034: Naja melanoleuca ZMB 24446_MeshPart24
+    400036: Naja melanoleuca ZMB 24446_MeshPart25
+    400038: Naja melanoleuca ZMB 24446_MeshPart26
+    400040: Naja melanoleuca ZMB 24446_MeshPart27
+    400042: Naja melanoleuca ZMB 24446_MeshPart28
+    400044: Naja melanoleuca ZMB 24446_MeshPart29
+    400046: Naja melanoleuca ZMB 24446_MeshPart3
+    400048: Naja melanoleuca ZMB 24446_MeshPart30
+    400050: Naja melanoleuca ZMB 24446_MeshPart31
+    400052: Naja melanoleuca ZMB 24446_MeshPart32
+    400054: Naja melanoleuca ZMB 24446_MeshPart33
+    400056: Naja melanoleuca ZMB 24446_MeshPart34
+    400058: Naja melanoleuca ZMB 24446_MeshPart35
+    400060: Naja melanoleuca ZMB 24446_MeshPart36
+    400062: Naja melanoleuca ZMB 24446_MeshPart37
+    400064: Naja melanoleuca ZMB 24446_MeshPart38
+    400066: Naja melanoleuca ZMB 24446_MeshPart39
+    400068: Naja melanoleuca ZMB 24446_MeshPart4
+    400070: Naja melanoleuca ZMB 24446_MeshPart40
+    400072: Naja melanoleuca ZMB 24446_MeshPart41
+    400074: Naja melanoleuca ZMB 24446_MeshPart42
+    400076: Naja melanoleuca ZMB 24446_MeshPart43
+    400078: Naja melanoleuca ZMB 24446_MeshPart44
+    400080: Naja melanoleuca ZMB 24446_MeshPart45
+    400082: Naja melanoleuca ZMB 24446_MeshPart46
+    400084: Naja melanoleuca ZMB 24446_MeshPart47
+    400086: Naja melanoleuca ZMB 24446_MeshPart48
+    400088: Naja melanoleuca ZMB 24446_MeshPart49
+    400090: Naja melanoleuca ZMB 24446_MeshPart5
+    400092: Naja melanoleuca ZMB 24446_MeshPart50
+    400094: Naja melanoleuca ZMB 24446_MeshPart51
+    400096: Naja melanoleuca ZMB 24446_MeshPart52
+    400098: Naja melanoleuca ZMB 24446_MeshPart53
+    400100: Naja melanoleuca ZMB 24446_MeshPart54
+    400102: Naja melanoleuca ZMB 24446_MeshPart55
+    400104: Naja melanoleuca ZMB 24446_MeshPart56
+    400106: Naja melanoleuca ZMB 24446_MeshPart57
+    400108: Naja melanoleuca ZMB 24446_MeshPart58
+    400110: Naja melanoleuca ZMB 24446_MeshPart59
+    400112: Naja melanoleuca ZMB 24446_MeshPart6
+    400114: Naja melanoleuca ZMB 24446_MeshPart60
+    400116: Naja melanoleuca ZMB 24446_MeshPart61
+    400118: Naja melanoleuca ZMB 24446_MeshPart62
+    400120: Naja melanoleuca ZMB 24446_MeshPart63
+    400122: Naja melanoleuca ZMB 24446_MeshPart64
+    400124: Naja melanoleuca ZMB 24446_MeshPart65
+    400126: Naja melanoleuca ZMB 24446_MeshPart66
+    400128: Naja melanoleuca ZMB 24446_MeshPart67
+    400130: Naja melanoleuca ZMB 24446_MeshPart68
+    400132: Naja melanoleuca ZMB 24446_MeshPart69
+    400134: Naja melanoleuca ZMB 24446_MeshPart7
+    400136: Naja melanoleuca ZMB 24446_MeshPart70
+    400138: Naja melanoleuca ZMB 24446_MeshPart8
+    400140: Naja melanoleuca ZMB 24446_MeshPart9
+    400142: //RootNode
+    2300000: Naja melanoleuca ZMB 24446_MeshPart0
+    2300002: Naja melanoleuca ZMB 24446_MeshPart1
+    2300004: Naja melanoleuca ZMB 24446_MeshPart10
+    2300006: Naja melanoleuca ZMB 24446_MeshPart11
+    2300008: Naja melanoleuca ZMB 24446_MeshPart12
+    2300010: Naja melanoleuca ZMB 24446_MeshPart13
+    2300012: Naja melanoleuca ZMB 24446_MeshPart14
+    2300014: Naja melanoleuca ZMB 24446_MeshPart15
+    2300016: Naja melanoleuca ZMB 24446_MeshPart16
+    2300018: Naja melanoleuca ZMB 24446_MeshPart17
+    2300020: Naja melanoleuca ZMB 24446_MeshPart18
+    2300022: Naja melanoleuca ZMB 24446_MeshPart19
+    2300024: Naja melanoleuca ZMB 24446_MeshPart2
+    2300026: Naja melanoleuca ZMB 24446_MeshPart20
+    2300028: Naja melanoleuca ZMB 24446_MeshPart21
+    2300030: Naja melanoleuca ZMB 24446_MeshPart22
+    2300032: Naja melanoleuca ZMB 24446_MeshPart23
+    2300034: Naja melanoleuca ZMB 24446_MeshPart24
+    2300036: Naja melanoleuca ZMB 24446_MeshPart25
+    2300038: Naja melanoleuca ZMB 24446_MeshPart26
+    2300040: Naja melanoleuca ZMB 24446_MeshPart27
+    2300042: Naja melanoleuca ZMB 24446_MeshPart28
+    2300044: Naja melanoleuca ZMB 24446_MeshPart29
+    2300046: Naja melanoleuca ZMB 24446_MeshPart3
+    2300048: Naja melanoleuca ZMB 24446_MeshPart30
+    2300050: Naja melanoleuca ZMB 24446_MeshPart31
+    2300052: Naja melanoleuca ZMB 24446_MeshPart32
+    2300054: Naja melanoleuca ZMB 24446_MeshPart33
+    2300056: Naja melanoleuca ZMB 24446_MeshPart34
+    2300058: Naja melanoleuca ZMB 24446_MeshPart35
+    2300060: Naja melanoleuca ZMB 24446_MeshPart36
+    2300062: Naja melanoleuca ZMB 24446_MeshPart37
+    2300064: Naja melanoleuca ZMB 24446_MeshPart38
+    2300066: Naja melanoleuca ZMB 24446_MeshPart39
+    2300068: Naja melanoleuca ZMB 24446_MeshPart4
+    2300070: Naja melanoleuca ZMB 24446_MeshPart40
+    2300072: Naja melanoleuca ZMB 24446_MeshPart41
+    2300074: Naja melanoleuca ZMB 24446_MeshPart42
+    2300076: Naja melanoleuca ZMB 24446_MeshPart43
+    2300078: Naja melanoleuca ZMB 24446_MeshPart44
+    2300080: Naja melanoleuca ZMB 24446_MeshPart45
+    2300082: Naja melanoleuca ZMB 24446_MeshPart46
+    2300084: Naja melanoleuca ZMB 24446_MeshPart47
+    2300086: Naja melanoleuca ZMB 24446_MeshPart48
+    2300088: Naja melanoleuca ZMB 24446_MeshPart49
+    2300090: Naja melanoleuca ZMB 24446_MeshPart5
+    2300092: Naja melanoleuca ZMB 24446_MeshPart50
+    2300094: Naja melanoleuca ZMB 24446_MeshPart51
+    2300096: Naja melanoleuca ZMB 24446_MeshPart52
+    2300098: Naja melanoleuca ZMB 24446_MeshPart53
+    2300100: Naja melanoleuca ZMB 24446_MeshPart54
+    2300102: Naja melanoleuca ZMB 24446_MeshPart55
+    2300104: Naja melanoleuca ZMB 24446_MeshPart56
+    2300106: Naja melanoleuca ZMB 24446_MeshPart57
+    2300108: Naja melanoleuca ZMB 24446_MeshPart58
+    2300110: Naja melanoleuca ZMB 24446_MeshPart59
+    2300112: Naja melanoleuca ZMB 24446_MeshPart6
+    2300114: Naja melanoleuca ZMB 24446_MeshPart60
+    2300116: Naja melanoleuca ZMB 24446_MeshPart61
+    2300118: Naja melanoleuca ZMB 24446_MeshPart62
+    2300120: Naja melanoleuca ZMB 24446_MeshPart63
+    2300122: Naja melanoleuca ZMB 24446_MeshPart64
+    2300124: Naja melanoleuca ZMB 24446_MeshPart65
+    2300126: Naja melanoleuca ZMB 24446_MeshPart66
+    2300128: Naja melanoleuca ZMB 24446_MeshPart67
+    2300130: Naja melanoleuca ZMB 24446_MeshPart68
+    2300132: Naja melanoleuca ZMB 24446_MeshPart69
+    2300134: Naja melanoleuca ZMB 24446_MeshPart7
+    2300136: Naja melanoleuca ZMB 24446_MeshPart70
+    2300138: Naja melanoleuca ZMB 24446_MeshPart8
+    2300140: Naja melanoleuca ZMB 24446_MeshPart9
+    3300000: Naja melanoleuca ZMB 24446_MeshPart0
+    3300002: Naja melanoleuca ZMB 24446_MeshPart1
+    3300004: Naja melanoleuca ZMB 24446_MeshPart10
+    3300006: Naja melanoleuca ZMB 24446_MeshPart11
+    3300008: Naja melanoleuca ZMB 24446_MeshPart12
+    3300010: Naja melanoleuca ZMB 24446_MeshPart13
+    3300012: Naja melanoleuca ZMB 24446_MeshPart14
+    3300014: Naja melanoleuca ZMB 24446_MeshPart15
+    3300016: Naja melanoleuca ZMB 24446_MeshPart16
+    3300018: Naja melanoleuca ZMB 24446_MeshPart17
+    3300020: Naja melanoleuca ZMB 24446_MeshPart18
+    3300022: Naja melanoleuca ZMB 24446_MeshPart19
+    3300024: Naja melanoleuca ZMB 24446_MeshPart2
+    3300026: Naja melanoleuca ZMB 24446_MeshPart20
+    3300028: Naja melanoleuca ZMB 24446_MeshPart21
+    3300030: Naja melanoleuca ZMB 24446_MeshPart22
+    3300032: Naja melanoleuca ZMB 24446_MeshPart23
+    3300034: Naja melanoleuca ZMB 24446_MeshPart24
+    3300036: Naja melanoleuca ZMB 24446_MeshPart25
+    3300038: Naja melanoleuca ZMB 24446_MeshPart26
+    3300040: Naja melanoleuca ZMB 24446_MeshPart27
+    3300042: Naja melanoleuca ZMB 24446_MeshPart28
+    3300044: Naja melanoleuca ZMB 24446_MeshPart29
+    3300046: Naja melanoleuca ZMB 24446_MeshPart3
+    3300048: Naja melanoleuca ZMB 24446_MeshPart30
+    3300050: Naja melanoleuca ZMB 24446_MeshPart31
+    3300052: Naja melanoleuca ZMB 24446_MeshPart32
+    3300054: Naja melanoleuca ZMB 24446_MeshPart33
+    3300056: Naja melanoleuca ZMB 24446_MeshPart34
+    3300058: Naja melanoleuca ZMB 24446_MeshPart35
+    3300060: Naja melanoleuca ZMB 24446_MeshPart36
+    3300062: Naja melanoleuca ZMB 24446_MeshPart37
+    3300064: Naja melanoleuca ZMB 24446_MeshPart38
+    3300066: Naja melanoleuca ZMB 24446_MeshPart39
+    3300068: Naja melanoleuca ZMB 24446_MeshPart4
+    3300070: Naja melanoleuca ZMB 24446_MeshPart40
+    3300072: Naja melanoleuca ZMB 24446_MeshPart41
+    3300074: Naja melanoleuca ZMB 24446_MeshPart42
+    3300076: Naja melanoleuca ZMB 24446_MeshPart43
+    3300078: Naja melanoleuca ZMB 24446_MeshPart44
+    3300080: Naja melanoleuca ZMB 24446_MeshPart45
+    3300082: Naja melanoleuca ZMB 24446_MeshPart46
+    3300084: Naja melanoleuca ZMB 24446_MeshPart47
+    3300086: Naja melanoleuca ZMB 24446_MeshPart48
+    3300088: Naja melanoleuca ZMB 24446_MeshPart49
+    3300090: Naja melanoleuca ZMB 24446_MeshPart5
+    3300092: Naja melanoleuca ZMB 24446_MeshPart50
+    3300094: Naja melanoleuca ZMB 24446_MeshPart51
+    3300096: Naja melanoleuca ZMB 24446_MeshPart52
+    3300098: Naja melanoleuca ZMB 24446_MeshPart53
+    3300100: Naja melanoleuca ZMB 24446_MeshPart54
+    3300102: Naja melanoleuca ZMB 24446_MeshPart55
+    3300104: Naja melanoleuca ZMB 24446_MeshPart56
+    3300106: Naja melanoleuca ZMB 24446_MeshPart57
+    3300108: Naja melanoleuca ZMB 24446_MeshPart58
+    3300110: Naja melanoleuca ZMB 24446_MeshPart59
+    3300112: Naja melanoleuca ZMB 24446_MeshPart6
+    3300114: Naja melanoleuca ZMB 24446_MeshPart60
+    3300116: Naja melanoleuca ZMB 24446_MeshPart61
+    3300118: Naja melanoleuca ZMB 24446_MeshPart62
+    3300120: Naja melanoleuca ZMB 24446_MeshPart63
+    3300122: Naja melanoleuca ZMB 24446_MeshPart64
+    3300124: Naja melanoleuca ZMB 24446_MeshPart65
+    3300126: Naja melanoleuca ZMB 24446_MeshPart66
+    3300128: Naja melanoleuca ZMB 24446_MeshPart67
+    3300130: Naja melanoleuca ZMB 24446_MeshPart68
+    3300132: Naja melanoleuca ZMB 24446_MeshPart69
+    3300134: Naja melanoleuca ZMB 24446_MeshPart7
+    3300136: Naja melanoleuca ZMB 24446_MeshPart70
+    3300138: Naja melanoleuca ZMB 24446_MeshPart8
+    3300140: Naja melanoleuca ZMB 24446_MeshPart9
+    4300000: Naja melanoleuca ZMB 24446_MeshPart0
+    4300002: Naja melanoleuca ZMB 24446_MeshPart1
+    4300004: Naja melanoleuca ZMB 24446_MeshPart2
+    4300006: Naja melanoleuca ZMB 24446_MeshPart3
+    4300008: Naja melanoleuca ZMB 24446_MeshPart4
+    4300010: Naja melanoleuca ZMB 24446_MeshPart5
+    4300012: Naja melanoleuca ZMB 24446_MeshPart6
+    4300014: Naja melanoleuca ZMB 24446_MeshPart7
+    4300016: Naja melanoleuca ZMB 24446_MeshPart8
+    4300018: Naja melanoleuca ZMB 24446_MeshPart9
+    4300020: Naja melanoleuca ZMB 24446_MeshPart10
+    4300022: Naja melanoleuca ZMB 24446_MeshPart11
+    4300024: Naja melanoleuca ZMB 24446_MeshPart12
+    4300026: Naja melanoleuca ZMB 24446_MeshPart13
+    4300028: Naja melanoleuca ZMB 24446_MeshPart14
+    4300030: Naja melanoleuca ZMB 24446_MeshPart15
+    4300032: Naja melanoleuca ZMB 24446_MeshPart16
+    4300034: Naja melanoleuca ZMB 24446_MeshPart17
+    4300036: Naja melanoleuca ZMB 24446_MeshPart18
+    4300038: Naja melanoleuca ZMB 24446_MeshPart19
+    4300040: Naja melanoleuca ZMB 24446_MeshPart20
+    4300042: Naja melanoleuca ZMB 24446_MeshPart21
+    4300044: Naja melanoleuca ZMB 24446_MeshPart22
+    4300046: Naja melanoleuca ZMB 24446_MeshPart23
+    4300048: Naja melanoleuca ZMB 24446_MeshPart24
+    4300050: Naja melanoleuca ZMB 24446_MeshPart25
+    4300052: Naja melanoleuca ZMB 24446_MeshPart26
+    4300054: Naja melanoleuca ZMB 24446_MeshPart27
+    4300056: Naja melanoleuca ZMB 24446_MeshPart28
+    4300058: Naja melanoleuca ZMB 24446_MeshPart29
+    4300060: Naja melanoleuca ZMB 24446_MeshPart30
+    4300062: Naja melanoleuca ZMB 24446_MeshPart31
+    4300064: Naja melanoleuca ZMB 24446_MeshPart32
+    4300066: Naja melanoleuca ZMB 24446_MeshPart33
+    4300068: Naja melanoleuca ZMB 24446_MeshPart34
+    4300070: Naja melanoleuca ZMB 24446_MeshPart35
+    4300072: Naja melanoleuca ZMB 24446_MeshPart36
+    4300074: Naja melanoleuca ZMB 24446_MeshPart37
+    4300076: Naja melanoleuca ZMB 24446_MeshPart38
+    4300078: Naja melanoleuca ZMB 24446_MeshPart39
+    4300080: Naja melanoleuca ZMB 24446_MeshPart40
+    4300082: Naja melanoleuca ZMB 24446_MeshPart41
+    4300084: Naja melanoleuca ZMB 24446_MeshPart42
+    4300086: Naja melanoleuca ZMB 24446_MeshPart43
+    4300088: Naja melanoleuca ZMB 24446_MeshPart44
+    4300090: Naja melanoleuca ZMB 24446_MeshPart45
+    4300092: Naja melanoleuca ZMB 24446_MeshPart46
+    4300094: Naja melanoleuca ZMB 24446_MeshPart47
+    4300096: Naja melanoleuca ZMB 24446_MeshPart48
+    4300098: Naja melanoleuca ZMB 24446_MeshPart49
+    4300100: Naja melanoleuca ZMB 24446_MeshPart50
+    4300102: Naja melanoleuca ZMB 24446_MeshPart51
+    4300104: Naja melanoleuca ZMB 24446_MeshPart52
+    4300106: Naja melanoleuca ZMB 24446_MeshPart53
+    4300108: Naja melanoleuca ZMB 24446_MeshPart54
+    4300110: Naja melanoleuca ZMB 24446_MeshPart55
+    4300112: Naja melanoleuca ZMB 24446_MeshPart56
+    4300114: Naja melanoleuca ZMB 24446_MeshPart57
+    4300116: Naja melanoleuca ZMB 24446_MeshPart58
+    4300118: Naja melanoleuca ZMB 24446_MeshPart59
+    4300120: Naja melanoleuca ZMB 24446_MeshPart60
+    4300122: Naja melanoleuca ZMB 24446_MeshPart61
+    4300124: Naja melanoleuca ZMB 24446_MeshPart62
+    4300126: Naja melanoleuca ZMB 24446_MeshPart63
+    4300128: Naja melanoleuca ZMB 24446_MeshPart64
+    4300130: Naja melanoleuca ZMB 24446_MeshPart65
+    4300132: Naja melanoleuca ZMB 24446_MeshPart66
+    4300134: Naja melanoleuca ZMB 24446_MeshPart67
+    4300136: Naja melanoleuca ZMB 24446_MeshPart68
+    4300138: Naja melanoleuca ZMB 24446_MeshPart69
+    4300140: Naja melanoleuca ZMB 24446_MeshPart70
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: b8cd0f06ac05d204a8c9fc0362c11820, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

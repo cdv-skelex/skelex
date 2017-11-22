@@ -141,7 +141,7 @@ Shader "Valve/VR/Silhouette"
 		{
 			Tags { "LightMode" = "Always" }
 			ColorMask 0
-			Cull Off
+			Cull On
 			ZWrite Off
 			Stencil
 			{
@@ -163,7 +163,7 @@ Shader "Valve/VR/Silhouette"
 		Pass
 		{
 			Tags { "LightMode" = "Always" }
-			Cull Off
+			Cull On
 			ZWrite On
 			Stencil
 			{
