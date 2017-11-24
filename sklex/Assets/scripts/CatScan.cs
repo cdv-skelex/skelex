@@ -24,7 +24,9 @@ public class CatScan : MonoBehaviour
 	        if (args.padY > Math.Abs(args.padX) && args.padX > 0f)
                 Toggle();
 	    };
-	    ReferencePlane.GetComponent<MeshRenderer>().enabled = _active;
+        ReferencePlane.GetComponent<MeshRenderer>().enabled = _active;
+        /*Toggle();
+        Toggle();*/
 
 	    _camera = StudioCamera.GetComponent<Camera>();
 
@@ -70,6 +72,9 @@ public class CatScan : MonoBehaviour
     {
         _active = !_active;
         ReferencePlane.GetComponent<MeshRenderer>().enabled = _active;
+
+        var bgColor = _active ? Color.black : Color.clear;
+        StudioCamera.GetComponent<Camera>().backgroundColor = bgColor;
 
         if (!_active)
         {
