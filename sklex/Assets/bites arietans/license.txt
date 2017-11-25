@@ -1,0 +1,16 @@
+# Videmo VR
+
+## Anwendungsfälle
+
+- Reha:
+	- Prüfung von Bewegungsabläufen
+- Training:
+	- z.B. Wartung von Equipment:
+		- Training an seltenem/teurem Equipment
+		- Techniker für seltenes Equipment trainieren, ohne, dass jemand ein Ersatzteil zum training hinschicken müsste
+	- Medizin (OPs...)
+	- Tanzen, Sport -> Bewegungsabläufe
+- Spaß:
+	- wiederbeleben guter Szenen von anderen
+	- Tutorials?
+		- -> simpler zu erstellen als herkömmliche Tutorials
