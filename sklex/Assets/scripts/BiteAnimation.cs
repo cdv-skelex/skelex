@@ -53,8 +53,10 @@ public class BiteAnimation : MonoBehaviour
 
     void StartAnimation()
     {
-        Mouse.GetComponent<MeshRenderer>().enabled = true;
-
+        foreach (var renderer in Mouse.GetComponentsInChildren<MeshRenderer>())
+        {
+            renderer.enabled = true;
+        }
         TopGroup.transform.rotation = _skull.transform.rotation;
         BottomGroup.transform.rotation = _skull.transform.rotation;
 
@@ -70,7 +72,10 @@ public class BiteAnimation : MonoBehaviour
 
     void StopAnimation()
     {
-        Mouse.GetComponent<MeshRenderer>().enabled = false;
+        foreach (var renderer in Mouse.GetComponentsInChildren<MeshRenderer>())
+        {
+            renderer.enabled = false;
+        }
 
         foreach (var bone in Top)
         {
