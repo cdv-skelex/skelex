@@ -13,7 +13,7 @@ public class ImageSwitcher : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		Controller.MenuButtonClicked += (sender, args) => {
-			Next()
+			Next();
 		};
 	}
 	

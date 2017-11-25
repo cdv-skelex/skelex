@@ -1,16 +1,51 @@
 fileFormatVersion: 2
 guid: 239535e117d99e948b2330e1fdc8d9a3
-timeCreated: 1511092081
+timeCreated: 1511564833
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
+    100002: basemesh
+    100004: Plane.000
+    100006: Plane.001
+    100008: Plane.002
+    100010: Plane.003
+    100012: Plane.004
+    100014: Plane.005
     400000: //RootNode
+    400002: basemesh
+    400004: Plane.000
+    400006: Plane.001
+    400008: Plane.002
+    400010: Plane.003
+    400012: Plane.004
+    400014: Plane.005
     2300000: //RootNode
+    2300002: basemesh
+    2300004: Plane.000
+    2300006: Plane.001
+    2300008: Plane.002
+    2300010: Plane.003
+    2300012: Plane.004
+    2300014: Plane.005
     3300000: //RootNode
+    3300002: basemesh
+    3300004: Plane.000
+    3300006: Plane.001
+    3300008: Plane.002
+    3300010: Plane.003
+    3300012: Plane.004
+    3300014: Plane.005
     4300000: root
     4300002: node_id6
+    4300004: Plane.005
+    4300006: Plane.004
+    4300008: Plane.003
+    4300010: Plane.002
+    4300012: Plane.000
+    4300014: Plane.001
+    4300016: basemesh
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -22,11 +57,31 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Material_54
     second: {fileID: 2100000, guid: 277a9d21466baa946bc670b7286c7cf0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black
+    second: {fileID: 2100000, guid: c2f37daea92d3a44091f5cc74fd9ede7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: default
+    second: {fileID: 2100000, guid: 8dc2f487df58ca54482d91a14459c1d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pink
+    second: {fileID: 2100000, guid: c3e80bedaf3071748b796073c1a5b881, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white
+    second: {fileID: 2100000, guid: 2ce16a74ec989bb439093c1114dc6839, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
