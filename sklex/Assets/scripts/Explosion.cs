@@ -25,7 +25,7 @@ public class Explosion : MonoBehaviour
 	    _center = new Vector3[transform.childCount];
         _label = new TextMesh[transform.childCount];
 
-	    for (int i = 0; i < transform.childCount - 3 /* - 2 because of top and bottom */; i++)
+	    for (int i = 0; i < transform.childCount - 3 /* - 3 because of top and bottom and muose target */; i++)
 	    {
 	        _children[i] = transform.GetChild(i).gameObject;
 	        _label[i] = _children[i].GetComponentInChildren<TextMesh>();
@@ -58,10 +58,11 @@ public class Explosion : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-	    for (int i = 0; i < transform.childCount; i++)
+	    for (var i = 0; i < transform.childCount - 3; i++)
 	    {
 	        Explode(i);
 	        //_label[i].transform.rotation = Quaternion.LookRotation(_children[i].transform.position - HMD.transform.position);
+
 	        _label[i].gameObject.transform.rotation =
 	            Quaternion.LookRotation(_label[i].gameObject.transform.position - HMD.transform.position);
 
