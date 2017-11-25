@@ -58,7 +58,7 @@ public class Explosion : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-	    for (int i = 0; i < transform.childCount - 3; i++)
+	    for (var i = 0; i < transform.childCount - 3; i++)
 	    {
 	        Explode(i);
 	        //_label[i].transform.rotation = Quaternion.LookRotation(_children[i].transform.position - HMD.transform.position);
