@@ -18,6 +18,8 @@ public class MeasureTape : MonoBehaviour
     private MeshRenderer _meshRenderer;
     private Material _material;
 
+    public GameObject HMD;
+
 
 	// Use this for initialization
 	void Start ()
@@ -47,8 +49,9 @@ public class MeasureTape : MonoBehaviour
 	    var left = ControllerLeft.transform.position;
 	    var right = ControllerRight.transform.position;
         TapeContainer.transform.position = (left + right) / 2;
-	    var rotation = Quaternion.LookRotation(right - left);
-	    gameObject.transform.rotation = rotation;
+	    var hmdRot = Quaternion.LookRotation(TapeContainer.transform.position - HMD.transform.position);
+        var rotation = Quaternion.LookRotation(right - left);
+	    gameObject.transform.rotation = Quaternion.Euler(-hmdRot.eulerAngles.x, 0, 0) * rotation;
 	    var scale = Vector3.Distance(left, right);
 	    gameObject.transform.localScale = new Vector3(0.0001f, 0.02f, scale);
 
