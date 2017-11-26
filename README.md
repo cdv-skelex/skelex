@@ -30,6 +30,8 @@ Als Highlight für die jüngeren Besucher des Museums ermöglicht die Anwendung 
 
 Zusätzlich werden an einer Wand durch einen virtuellen Projektor weitere Informationen zur Gattung eingeblendet oder auch der CAT-Scan angezeigt.
 
+______________________________________________________________________________
+
 The MIT License
 
 Copyright (c) 2017 Joana Bergsiek, Lisa Ihde and Sebastian Schulz
