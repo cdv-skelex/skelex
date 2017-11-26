@@ -1,9 +1,9 @@
-sklex/[Ll]ibrary/
-sklex/[Tt]emp/
-sklex/[Oo]bj/
-sklex/[Bb]uild/
-sklex/[Bb]uilds/
-sklex/Assets/AssetStoreTools*
+skelex/[Ll]ibrary/
+skelex/[Tt]emp/
+skelex/[Oo]bj/
+skelex/[Bb]uild/
+skelex/[Bb]uilds/
+skelex/Assets/AssetStoreTools*
 
 # Visual Studio 2015 cache directory
 sklex/.vs/
@@ -36,4 +36,3 @@ sysinfo.txt
 # Own Stuff
 *.stl
 *.blend
-sklex/Assets/ZED
