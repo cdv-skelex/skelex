@@ -27,8 +27,9 @@ public class MeasureTape : MonoBehaviour
 	    _textMesh = Text.GetComponent<TextMesh>();
 	    Text.transform.parent = ControllerLeft.transform;
 	    Text.transform.position = ControllerLeft.transform.position + new Vector3(0.05f, 0f, 0.05f);
+	    Text.transform.rotation = ControllerLeft.transform.rotation * Quaternion.Euler(90, 0, 0);
 
-	    _meshRenderer = GetComponent<MeshRenderer>();
+        _meshRenderer = GetComponent<MeshRenderer>();
 	    _material = _meshRenderer.material;
 
 	    _trackedLeftController = ControllerLeft.GetComponent<SteamVR_TrackedController>();
@@ -51,7 +52,7 @@ public class MeasureTape : MonoBehaviour
         TapeContainer.transform.position = (left + right) / 2;
 	    var hmdRot = Quaternion.LookRotation(TapeContainer.transform.position - HMD.transform.position);
         var rotation = Quaternion.LookRotation(right - left);
-	    gameObject.transform.rotation = Quaternion.Euler(-hmdRot.eulerAngles.x, 0, 0) * rotation;
+	    gameObject.transform.rotation = Quaternion.Euler(/*-hmdRot.eulerAngles.x*/0, 0, 0) * rotation;
 	    var scale = Vector3.Distance(left, right);
 	    gameObject.transform.localScale = new Vector3(0.0001f, 0.02f, scale);
 
